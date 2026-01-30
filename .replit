@@ -1,0 +1,30 @@
+modules = ["python-3.11"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["gitFull", "playwright-driver", "nspr", "nss", "xorg.libX11", "xorg.libxcb", "xorg.libXcomposite", "xorg.libXdamage", "xorg.libXext", "xorg.libXfixes", "xorg.libXrandr", "xorg.libxshmfence", "mesa", "expat", "alsa-lib", "at-spi2-atk", "cups", "dbus", "libdrm", "libxkbcommon", "pango", "cairo", "glib", "gdk-pixbuf", "gtk3", "chromium"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Circadia Scraper"
+
+[[workflows.workflow]]
+name = "Circadia Scraper"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python circadia_store_scraper.py"
+
+[workflows.workflow.metadata]
+outputType = "console"
