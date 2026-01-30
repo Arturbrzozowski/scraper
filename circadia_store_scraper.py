@@ -39,7 +39,7 @@ class CircadiaStoreScraper:
     URL = "https://circadia.com/pages/store-locator"
     OUTPUT_FILE = "circadia_stores.csv"
 
-    def __init__(self, headless: bool = True, timeout: int = 30000):
+    def __init__(self, headless: bool = True, timeout: int = 60000):
         """
         Initialize the scraper.
 
@@ -74,7 +74,7 @@ class CircadiaStoreScraper:
 
             try:
                 print(f"Loading page: {self.URL}")
-                await page.goto(self.URL, wait_until="networkidle", timeout=self.timeout)
+                await page.goto(self.URL, wait_until="domcontentloaded", timeout=self.timeout)
 
                 # Wait for potential dynamic content to load
                 await page.wait_for_timeout(3000)
