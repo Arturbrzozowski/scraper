@@ -6,6 +6,9 @@ This scraper extracts store location data from the Circadia store locator page
 and saves it to a CSV file with the following columns:
 - store_name
 - address
+- city
+- state
+- zip_code
 - phone_number
 - email
 - website
@@ -29,6 +32,9 @@ class StoreLocation:
     """Represents a store location with its details."""
     store_name: str
     address: str
+    city: str
+    state: str
+    zip_code: str
     phone_number: str
     email: str
     website: str
@@ -649,8 +655,24 @@ class CircadiaStoreScraper:
             # Extract address
             address = await self._find_text(element, [
                 ".address", ".store-address", ".location-address",
-                "[data-address]", ".street", ".city"
+                "[data-address]", ".street"
             ]) or self._extract_address_from_text(text_content)
+
+            # Extract city
+            city = await self._find_text(element, [
+                ".city", "[data-city]", ".locality"
+            ]) or ""
+
+            # Extract state
+            state = await self._find_text(element, [
+                ".state", "[data-state]", ".region", ".province"
+            ]) or ""
+
+            # Extract zip code
+            zip_code = await self._find_text(element, [
+                ".zip", ".zipcode", ".zip-code", "[data-zip]",
+                ".postal-code", ".postcode"
+            ]) or ""
 
             # Extract phone
             phone = await self._find_text(element, [
@@ -668,10 +690,13 @@ class CircadiaStoreScraper:
                 ".website", ".url", "a.external", "[data-website]"
             ]) or self._extract_website_from_html(inner_html)
 
-            if name != "Unknown Store" or address:
+            if name != "Unknown Store" or address or city:
                 return StoreLocation(
                     store_name=name.strip(),
                     address=address.strip() if address else "",
+                    city=city.strip() if city else "",
+                    state=state.strip() if state else "",
+                    zip_code=zip_code.strip() if zip_code else "",
                     phone_number=phone.strip() if phone else "",
                     email=email.strip() if email else "",
                     website=website.strip() if website else ""
@@ -774,6 +799,10 @@ class CircadiaStoreScraper:
                        'Name', 'StoreName', 'company', 'Company', 'dealer_name', 'retailer_name']
         address_fields = ['address', 'full_address', 'street', 'location', 'Address',
                           'formatted_address', 'address1', 'street_address']
+        city_fields = ['city', 'City', 'town', 'Town', 'locality']
+        state_fields = ['state', 'State', 'province', 'Province', 'region', 'Region']
+        zip_fields = ['zip', 'zipcode', 'zip_code', 'postal_code', 'postalCode',
+                      'Zip', 'ZipCode', 'PostalCode', 'postcode']
         phone_fields = ['phone', 'telephone', 'tel', 'phone_number', 'phoneNumber',
                         'Phone', 'contact_phone', 'mobile']
         email_fields = ['email', 'mail', 'email_address', 'emailAddress', 'Email', 'contact_email']
@@ -781,6 +810,9 @@ class CircadiaStoreScraper:
 
         name = self._get_first_value(data, name_fields) or "Unknown Store"
         address = self._get_first_value(data, address_fields) or ""
+        city = self._get_first_value(data, city_fields) or ""
+        state = self._get_first_value(data, state_fields) or ""
+        zip_code = self._get_first_value(data, zip_fields) or ""
         phone = self._get_first_value(data, phone_fields) or ""
         email = self._get_first_value(data, email_fields) or ""
         website = self._get_first_value(data, website_fields) or ""
@@ -788,17 +820,18 @@ class CircadiaStoreScraper:
         # Build address from components if not found
         if not address:
             parts = []
-            for field in ['street', 'street1', 'street2', 'address1', 'address2',
-                          'city', 'City', 'state', 'State', 'province',
-                          'zip', 'zipcode', 'postal_code', 'postalCode', 'country', 'Country']:
+            for field in ['street', 'street1', 'street2', 'address1', 'address2']:
                 if field in data and data[field]:
                     parts.append(str(data[field]))
             address = ", ".join(parts)
 
-        if name != "Unknown Store" or address:
+        if name != "Unknown Store" or address or city:
             return StoreLocation(
                 store_name=str(name).strip(),
                 address=str(address).strip(),
+                city=str(city).strip(),
+                state=str(state).strip(),
+                zip_code=str(zip_code).strip(),
                 phone_number=str(phone).strip(),
                 email=str(email).strip(),
                 website=str(website).strip()
@@ -895,6 +928,7 @@ class CircadiaStoreScraper:
             return None
 
         address = self._extract_address_from_text(text)
+        city, state, zip_code = self._extract_city_state_zip_from_text(text)
         phone = self._extract_phone_from_text(text)
         email = self._extract_email_from_text(text)
         website = self._extract_website_from_html(html)
@@ -913,12 +947,40 @@ class CircadiaStoreScraper:
             return StoreLocation(
                 store_name=name or "Unknown Store",
                 address=address or "",
+                city=city or "",
+                state=state or "",
+                zip_code=zip_code or "",
                 phone_number=phone or "",
                 email=email or "",
                 website=website or ""
             )
 
         return None
+
+    def _extract_city_state_zip_from_text(self, text: str) -> tuple[str, str, str]:
+        """Extract city, state, and zip code from text."""
+        city, state, zip_code = "", "", ""
+
+        # Pattern: City, ST 12345 or City, State 12345
+        pattern = r'([A-Za-z\s]+),\s*([A-Z]{2})\s+(\d{5}(?:-\d{4})?)'
+        match = re.search(pattern, text)
+        if match:
+            city = match.group(1).strip()
+            state = match.group(2).strip()
+            zip_code = match.group(3).strip()
+            return city, state, zip_code
+
+        # Try just zip code
+        zip_match = re.search(r'\b(\d{5}(?:-\d{4})?)\b', text)
+        if zip_match:
+            zip_code = zip_match.group(1)
+
+        # Try state abbreviation
+        state_match = re.search(r'\b([A-Z]{2})\b', text)
+        if state_match:
+            state = state_match.group(1)
+
+        return city, state, zip_code
 
     def _extract_address_from_text(self, text: str) -> str:
         """Extract an address from text using patterns."""
@@ -975,7 +1037,8 @@ class CircadiaStoreScraper:
 
         with open(output_file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=[
-                'store_name', 'address', 'phone_number', 'email', 'website'
+                'store_name', 'address', 'city', 'state', 'zip_code',
+                'phone_number', 'email', 'website'
             ])
             writer.writeheader()
 
