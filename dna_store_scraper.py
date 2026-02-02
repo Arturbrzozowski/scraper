@@ -323,19 +323,24 @@ class DNAStoreScraper:
         if not isinstance(data, dict):
             return None
 
-        # Blipstar field mapping based on fieldOrder:
-        # ['distance','icon','logo','name','address','country','phone','website','email','opening','misc1','misc2','misc3','misc4','tags','thumb','social']
+        # Skip metadata entries (first item in response)
+        if 'fulltotal' in data or 'total' in data:
+            return None
 
-        name = data.get('name', '') or data.get('title', '') or ''
-        address = data.get('address', '') or data.get('street', '') or ''
-        phone = data.get('phone', '') or data.get('telephone', '') or ''
-        email = data.get('email', '') or ''
-        website = data.get('website', '') or data.get('url', '') or ''
+        # Blipstar API field mapping (abbreviated):
+        # n=name, ad=full address, a=address with HTML, s=state, sfull=state full,
+        # pc=postal code, p=phone, e=email, w=website
 
-        # Extract city, state, zip from address if not separate fields
+        name = data.get('n', '') or data.get('name', '') or data.get('title', '') or ''
+        address = data.get('ad', '') or data.get('address', '') or data.get('a', '') or ''
+        phone = data.get('p', '') or data.get('phone', '') or data.get('telephone', '') or ''
+        email = data.get('e', '') or data.get('email', '') or ''
+        website = data.get('w', '') or data.get('website', '') or data.get('url', '') or ''
+
+        # Extract city, state, zip from address or separate fields
         city = data.get('city', '') or ''
-        state = data.get('state', '') or data.get('province', '') or ''
-        zip_code = data.get('zip', '') or data.get('zipcode', '') or data.get('postal_code', '') or ''
+        state = data.get('s', '') or data.get('state', '') or data.get('province', '') or ''
+        zip_code = data.get('pc', '') or data.get('zip', '') or data.get('zipcode', '') or data.get('postal_code', '') or ''
 
         # If city/state/zip not separate, try to parse from address
         if address and (not city or not state or not zip_code):
