@@ -45,7 +45,65 @@ class DNAStoreScraper:
 
     # Blipstar map widget URL
     URL = "https://viewer.blipstar.com/map?uid=4734573&width=auto"
+    # Blipstar API endpoint for searching locations
+    API_URL = "https://viewer.blipstar.com/searchdbnew"
+    UID = "4734573"
     OUTPUT_FILE = "dna_stores.csv"
+
+    # Major US cities by state (largest city per state) with coordinates
+    # Format: (city_name, state, latitude, longitude)
+    US_CITIES = [
+        ("New York", "NY", 40.7128, -74.0060),
+        ("Los Angeles", "CA", 34.0522, -118.2437),
+        ("Chicago", "IL", 41.8781, -87.6298),
+        ("Houston", "TX", 29.7604, -95.3698),
+        ("Phoenix", "AZ", 33.4484, -112.0740),
+        ("Philadelphia", "PA", 39.9526, -75.1652),
+        ("Jacksonville", "FL", 30.3322, -81.6557),
+        ("Columbus", "OH", 39.9612, -82.9988),
+        ("Charlotte", "NC", 35.2271, -80.8431),
+        ("Indianapolis", "IN", 39.7684, -86.1581),
+        ("Seattle", "WA", 47.6062, -122.3321),
+        ("Denver", "CO", 39.7392, -104.9903),
+        ("Boston", "MA", 42.3601, -71.0589),
+        ("Nashville", "TN", 36.1627, -86.7816),
+        ("Detroit", "MI", 42.3314, -83.0458),
+        ("Portland", "OR", 45.5152, -122.6784),
+        ("Las Vegas", "NV", 36.1699, -115.1398),
+        ("Memphis", "TN", 35.1495, -90.0490),
+        ("Louisville", "KY", 38.2527, -85.7585),
+        ("Baltimore", "MD", 39.2904, -76.6122),
+        ("Milwaukee", "WI", 43.0389, -87.9065),
+        ("Albuquerque", "NM", 35.0844, -106.6504),
+        ("Atlanta", "GA", 33.7490, -84.3880),
+        ("Omaha", "NE", 41.2565, -95.9345),
+        ("Miami", "FL", 25.7617, -80.1918),
+        ("Minneapolis", "MN", 44.9778, -93.2650),
+        ("New Orleans", "LA", 29.9511, -90.0715),
+        ("Honolulu", "HI", 21.3069, -157.8583),
+        ("Anchorage", "AK", 61.2181, -149.9003),
+        ("Kansas City", "MO", 39.0997, -94.5786),
+        ("Salt Lake City", "UT", 40.7608, -111.8910),
+        ("Birmingham", "AL", 33.5207, -86.8025),
+        ("Oklahoma City", "OK", 35.4676, -97.5164),
+        ("Wichita", "KS", 37.6872, -97.3301),
+        ("Little Rock", "AR", 34.7465, -92.2896),
+        ("Des Moines", "IA", 41.5868, -93.6250),
+        ("Boise", "ID", 43.6150, -116.2023),
+        ("Richmond", "VA", 37.5407, -77.4360),
+        ("Charleston", "WV", 38.3498, -81.6326),
+        ("Jackson", "MS", 32.2988, -90.1848),
+        ("Hartford", "CT", 41.7658, -72.6734),
+        ("Manchester", "NH", 42.9956, -71.4548),
+        ("Providence", "RI", 41.8240, -71.4128),
+        ("Wilmington", "DE", 39.7391, -75.5398),
+        ("Billings", "MT", 45.7833, -108.5007),
+        ("Sioux Falls", "SD", 43.5446, -96.7311),
+        ("Fargo", "ND", 46.8772, -96.7898),
+        ("Cheyenne", "WY", 41.1400, -104.8202),
+        ("Burlington", "VT", 44.4759, -73.2121),
+        ("Portland", "ME", 43.6591, -70.2568),
+    ]
 
     def __init__(self, headless: bool = True, timeout: int = 60000, debug: bool = False):
         """
@@ -187,33 +245,14 @@ class DNAStoreScraper:
 
                 # Wait for the map to initialize
                 print("Waiting for Blipstar widget to initialize...")
-                await page.wait_for_timeout(5000)
+                await page.wait_for_timeout(3000)
 
-                # Try to extract stores from Blipstar widget
+                # Extract stores from Blipstar widget via multi-city API search
                 stores = await self._extract_from_blipstar(page)
 
                 # Save debug files if requested
                 if self.debug:
                     await self._save_debug_files(page)
-
-                if not stores:
-                    # Try to extract from captured API responses
-                    stores = self._extract_from_api_responses()
-
-                if not stores:
-                    # Try standard extraction methods
-                    stores = await self._extract_stores(page)
-
-                if not stores:
-                    print("Attempting alternative extraction methods...")
-                    stores = await self._extract_from_scripts(page)
-
-                if not stores:
-                    stores = await self._extract_from_map_markers(page)
-
-                if not stores:
-                    # Try clicking on map elements to reveal store info
-                    stores = await self._interact_with_map(page)
 
                 self.stores = stores
 
@@ -226,92 +265,58 @@ class DNAStoreScraper:
         return self.stores
 
     async def _extract_from_blipstar(self, page: Page) -> list[StoreLocation]:
-        """Extract stores from the Blipstar map widget."""
-        stores = []
-        print("Extracting from Blipstar widget...")
+        """Extract stores from the Blipstar map widget by searching each major US city."""
+        all_stores = []
+        seen_stores = set()  # For deduplication (name + address)
 
-        try:
-            # Blipstar uses a search form - we need to trigger a search to load locations
-            # First, check if there's a search input and trigger a broad search
-            search_input = await page.query_selector('input[name="q"], input[type="text"], #searchInput, .search-input')
+        print("Extracting from Blipstar widget via multi-city API search...")
+        print(f"  Searching {len(self.US_CITIES)} major US cities...")
 
-            if search_input:
-                # Search for "USA" or use a central US location to get all stores
-                print("  Triggering search for all US locations...")
-                await search_input.fill("United States")
-                await page.wait_for_timeout(1000)
+        # Search each major city to get comprehensive coverage
+        for i, (city_name, state, lat, lng) in enumerate(self.US_CITIES):
+            try:
+                # Build the API URL with higher result limit
+                api_url = f"{self.API_URL}?uid={self.UID}&lat={lat}&lng={lng}&type=all&value=100&keyword="
 
-                # Try to submit the form or press Enter
-                await search_input.press("Enter")
-                await page.wait_for_timeout(5000)
+                print(f"  [{i+1}/{len(self.US_CITIES)}] Searching near {city_name}, {state}...")
 
-            # Try to extract location data from JavaScript variables
-            store_data = await page.evaluate("""
-                () => {
-                    const results = [];
+                # Use page.evaluate to make fetch request (to use browser's session/cookies)
+                response_data = await page.evaluate(f"""
+                    async () => {{
+                        try {{
+                            const response = await fetch("{api_url}");
+                            const data = await response.json();
+                            return data;
+                        }} catch (e) {{
+                            return null;
+                        }}
+                    }}
+                """)
 
-                    // Look for Blipstar-specific data structures
-                    // Blipstar typically stores data in window.locations or similar
-                    const checkVars = ['locations', 'markers', 'storeData', 'locData',
-                                       'allLocations', 'mapData', 'locationData', 'results'];
+                if response_data and isinstance(response_data, list):
+                    new_count = 0
+                    for item in response_data:
+                        store = self._parse_blipstar_location(item)
+                        if store:
+                            # Create a unique key for deduplication
+                            store_key = (store.store_name.lower().strip(), store.address.lower().strip())
+                            if store_key not in seen_stores:
+                                seen_stores.add(store_key)
+                                all_stores.append(store)
+                                new_count += 1
 
-                    for (const varName of checkVars) {
-                        if (window[varName] && Array.isArray(window[varName])) {
-                            return window[varName];
-                        }
-                    }
+                    if new_count > 0:
+                        print(f"       Found {len(response_data)} results, {new_count} new unique stores")
 
-                    // Check for Leaflet layers with location data
-                    if (window.map && window.map._layers) {
-                        const layers = Object.values(window.map._layers);
-                        for (const layer of layers) {
-                            if (layer.options && layer.options.locations) {
-                                return layer.options.locations;
-                            }
-                            // Check for marker clusters
-                            if (layer._markers && Array.isArray(layer._markers)) {
-                                return layer._markers.map(m => m.options || m);
-                            }
-                        }
-                    }
+                # Small delay to avoid rate limiting
+                await page.wait_for_timeout(300)
 
-                    // Look for data in global scope
-                    for (const key of Object.keys(window)) {
-                        if (key.startsWith('_') || key === 'window') continue;
-                        try {
-                            const val = window[key];
-                            if (Array.isArray(val) && val.length > 0 && val.length < 10000) {
-                                const first = val[0];
-                                if (first && typeof first === 'object') {
-                                    const keys = Object.keys(first).join(',').toLowerCase();
-                                    if (keys.includes('name') || keys.includes('address') ||
-                                        keys.includes('lat') || keys.includes('lng')) {
-                                        return val;
-                                    }
-                                }
-                            }
-                        } catch (e) {}
-                    }
+            except Exception as e:
+                print(f"       Error searching {city_name}: {e}")
+                continue
 
-                    return results;
-                }
-            """)
-
-            if store_data and isinstance(store_data, list) and len(store_data) > 0:
-                print(f"  Found {len(store_data)} locations in Blipstar widget")
-                for item in store_data:
-                    store = self._parse_blipstar_location(item)
-                    if store:
-                        stores.append(store)
-
-            # Also try to extract from the results list in the DOM
-            if not stores:
-                stores = await self._extract_blipstar_from_dom(page)
-
-        except Exception as e:
-            print(f"  Error extracting from Blipstar widget: {e}")
-
-        return stores
+        print(f"\n  Total unique stores found: {len(all_stores)}")
+        return all_stores
 
     def _parse_blipstar_location(self, data: dict) -> Optional[StoreLocation]:
         """Parse a Blipstar location object into StoreLocation."""
