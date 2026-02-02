@@ -18,6 +18,10 @@ author = "agent"
 task = "workflow.run"
 args = "Circadia Scraper"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Skinbetter Scraper"
+
 [[workflows.workflow]]
 name = "Circadia Scraper"
 author = "agent"
@@ -25,6 +29,17 @@ author = "agent"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python circadia_store_scraper.py"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow]]
+name = "Skinbetter Scraper"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python skinbetter_store_scraper.py"
 
 [workflows.workflow.metadata]
 outputType = "console"
