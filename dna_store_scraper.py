@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Circadia Store Locator Scraper
+DNA Store Locator Scraper
 
-This scraper extracts store location data from the Circadia store locator page
-and saves it to a CSV file with the following columns:
+This scraper extracts store location data from the DNA store locator page
+(Blipstar widget) and saves it to a CSV file with the following columns:
 - store_name
 - address
 - city
@@ -40,13 +40,12 @@ class StoreLocation:
     website: str
 
 
-class CircadiaStoreScraper:
-    """Scraper for Circadia store locator page."""
+class DNAStoreScraper:
+    """Scraper for DNA store locator page (Blipstar widget)."""
 
-    URL = "https://circadia.com/pages/store-locator"
-    # Direct widget URL (Progus Commerce store locator)
-    WIDGET_URL = "https://sl-widget.proguscommerce.com/main?shop=bfe493.myshopify.com&lang=en&tags="
-    OUTPUT_FILE = "circadia_stores.csv"
+    # Blipstar map widget URL
+    URL = "https://viewer.blipstar.com/map?uid=4734573&width=auto"
+    OUTPUT_FILE = "dna_stores.csv"
 
     def __init__(self, headless: bool = True, timeout: int = 60000, debug: bool = False):
         """
@@ -95,12 +94,12 @@ class CircadiaStoreScraper:
         content_type = response.headers.get("content-type", "")
 
         # Look for JSON responses that might contain store data
-        keywords = ["store", "location", "marker", "dealer", "retailer", "pin", "branch", "api", "json", "progus"]
+        keywords = ["store", "location", "marker", "dealer", "retailer", "pin", "branch", "api", "json", "blipstar", "search", "data"]
         is_json = "application/json" in content_type
-        is_progus = "progus" in url.lower()
+        is_blipstar = "blipstar" in url.lower()
         has_keyword = any(kw in url.lower() for kw in keywords)
 
-        if is_json or is_progus or has_keyword:
+        if is_json or is_blipstar or has_keyword:
             try:
                 if response.status == 200:
                     body = await response.text()
@@ -114,9 +113,20 @@ class CircadiaStoreScraper:
                                 "data": data
                             })
                         except json.JSONDecodeError:
-                            # Not JSON, but might still be useful for Progus
-                            if is_progus and "locations" in body.lower():
-                                print(f"  [API Capture] Found potential data in: {url[:100]}")
+                            # Check for JSONP or other formats
+                            if is_blipstar and ("name" in body.lower() or "address" in body.lower()):
+                                print(f"  [API Capture] Found potential Blipstar data in: {url[:100]}")
+                                # Try to extract JSON from JSONP callback
+                                jsonp_match = re.search(r'\w+\s*\(\s*(\[[\s\S]*\]|\{[\s\S]*\})\s*\)', body)
+                                if jsonp_match:
+                                    try:
+                                        data = json.loads(jsonp_match.group(1))
+                                        self.captured_api_responses.append({
+                                            "url": url,
+                                            "data": data
+                                        })
+                                    except json.JSONDecodeError:
+                                        pass
             except Exception:
                 pass
 
@@ -171,24 +181,20 @@ class CircadiaStoreScraper:
             page.on("response", self._handle_response)
 
             try:
-                # Try the main Circadia page first
+                # Load the Blipstar map widget
                 print(f"Loading page: {self.URL}")
                 await page.goto(self.URL, wait_until="domcontentloaded", timeout=self.timeout)
 
-                # Wait for potential dynamic content to load
-                print("Waiting for dynamic content...")
-                await page.wait_for_timeout(8000)
+                # Wait for the map to initialize
+                print("Waiting for Blipstar widget to initialize...")
+                await page.wait_for_timeout(5000)
+
+                # Try to extract stores from Blipstar widget
+                stores = await self._extract_from_blipstar(page)
 
                 # Save debug files if requested
                 if self.debug:
                     await self._save_debug_files(page)
-
-                # Check for iframes that might contain the store locator (Progus widget)
-                stores = await self._extract_from_iframes(page)
-
-                if not stores:
-                    # Try to extract from the Progus Commerce widget if loaded
-                    stores = await self._extract_from_progus_widget(page)
 
                 if not stores:
                     # Try to extract from captured API responses
@@ -218,6 +224,161 @@ class CircadiaStoreScraper:
                 await browser.close()
 
         return self.stores
+
+    async def _extract_from_blipstar(self, page: Page) -> list[StoreLocation]:
+        """Extract stores from the Blipstar map widget."""
+        stores = []
+        print("Extracting from Blipstar widget...")
+
+        try:
+            # Blipstar uses a search form - we need to trigger a search to load locations
+            # First, check if there's a search input and trigger a broad search
+            search_input = await page.query_selector('input[name="q"], input[type="text"], #searchInput, .search-input')
+
+            if search_input:
+                # Search for "USA" or use a central US location to get all stores
+                print("  Triggering search for all US locations...")
+                await search_input.fill("United States")
+                await page.wait_for_timeout(1000)
+
+                # Try to submit the form or press Enter
+                await search_input.press("Enter")
+                await page.wait_for_timeout(5000)
+
+            # Try to extract location data from JavaScript variables
+            store_data = await page.evaluate("""
+                () => {
+                    const results = [];
+
+                    // Look for Blipstar-specific data structures
+                    // Blipstar typically stores data in window.locations or similar
+                    const checkVars = ['locations', 'markers', 'storeData', 'locData',
+                                       'allLocations', 'mapData', 'locationData', 'results'];
+
+                    for (const varName of checkVars) {
+                        if (window[varName] && Array.isArray(window[varName])) {
+                            return window[varName];
+                        }
+                    }
+
+                    // Check for Leaflet layers with location data
+                    if (window.map && window.map._layers) {
+                        const layers = Object.values(window.map._layers);
+                        for (const layer of layers) {
+                            if (layer.options && layer.options.locations) {
+                                return layer.options.locations;
+                            }
+                            // Check for marker clusters
+                            if (layer._markers && Array.isArray(layer._markers)) {
+                                return layer._markers.map(m => m.options || m);
+                            }
+                        }
+                    }
+
+                    // Look for data in global scope
+                    for (const key of Object.keys(window)) {
+                        if (key.startsWith('_') || key === 'window') continue;
+                        try {
+                            const val = window[key];
+                            if (Array.isArray(val) && val.length > 0 && val.length < 10000) {
+                                const first = val[0];
+                                if (first && typeof first === 'object') {
+                                    const keys = Object.keys(first).join(',').toLowerCase();
+                                    if (keys.includes('name') || keys.includes('address') ||
+                                        keys.includes('lat') || keys.includes('lng')) {
+                                        return val;
+                                    }
+                                }
+                            }
+                        } catch (e) {}
+                    }
+
+                    return results;
+                }
+            """)
+
+            if store_data and isinstance(store_data, list) and len(store_data) > 0:
+                print(f"  Found {len(store_data)} locations in Blipstar widget")
+                for item in store_data:
+                    store = self._parse_blipstar_location(item)
+                    if store:
+                        stores.append(store)
+
+            # Also try to extract from the results list in the DOM
+            if not stores:
+                stores = await self._extract_blipstar_from_dom(page)
+
+        except Exception as e:
+            print(f"  Error extracting from Blipstar widget: {e}")
+
+        return stores
+
+    def _parse_blipstar_location(self, data: dict) -> Optional[StoreLocation]:
+        """Parse a Blipstar location object into StoreLocation."""
+        if not isinstance(data, dict):
+            return None
+
+        # Blipstar field mapping based on fieldOrder:
+        # ['distance','icon','logo','name','address','country','phone','website','email','opening','misc1','misc2','misc3','misc4','tags','thumb','social']
+
+        name = data.get('name', '') or data.get('title', '') or ''
+        address = data.get('address', '') or data.get('street', '') or ''
+        phone = data.get('phone', '') or data.get('telephone', '') or ''
+        email = data.get('email', '') or ''
+        website = data.get('website', '') or data.get('url', '') or ''
+
+        # Extract city, state, zip from address if not separate fields
+        city = data.get('city', '') or ''
+        state = data.get('state', '') or data.get('province', '') or ''
+        zip_code = data.get('zip', '') or data.get('zipcode', '') or data.get('postal_code', '') or ''
+
+        # If city/state/zip not separate, try to parse from address
+        if address and (not city or not state or not zip_code):
+            parsed_city, parsed_state, parsed_zip = self._extract_city_state_zip_from_text(address)
+            if not city:
+                city = parsed_city
+            if not state:
+                state = parsed_state
+            if not zip_code:
+                zip_code = parsed_zip
+
+        if name or address:
+            return StoreLocation(
+                store_name=str(name).strip(),
+                address=str(address).strip(),
+                city=str(city).strip(),
+                state=str(state).strip(),
+                zip_code=str(zip_code).strip(),
+                phone_number=str(phone).strip(),
+                email=str(email).strip(),
+                website=str(website).strip()
+            )
+
+        return None
+
+    async def _extract_blipstar_from_dom(self, page: Page) -> list[StoreLocation]:
+        """Extract store data from Blipstar DOM elements."""
+        stores = []
+
+        # Common Blipstar result selectors
+        selectors = [
+            ".location-result", ".store-result", ".result-item",
+            ".leaflet-popup-content", "[data-location]",
+            ".location-details", ".store-info"
+        ]
+
+        for selector in selectors:
+            elements = await page.query_selector_all(selector)
+            if elements:
+                print(f"  Found {len(elements)} DOM elements: {selector}")
+                for el in elements:
+                    store = await self._parse_store_element(el)
+                    if store:
+                        stores.append(store)
+                if stores:
+                    break
+
+        return stores
 
     async def _extract_from_progus_widget(self, page: Page) -> list[StoreLocation]:
         """Extract stores from the Progus Commerce store locator widget."""
@@ -1052,7 +1213,7 @@ class CircadiaStoreScraper:
 async def main():
     """Main entry point."""
     print("=" * 60)
-    print("Circadia Store Locator Scraper")
+    print("DNA Store Locator Scraper")
     print("=" * 60)
 
     # Check for command-line flags
@@ -1062,7 +1223,7 @@ async def main():
     if debug:
         print("Debug mode enabled - will save screenshot and HTML")
 
-    scraper = CircadiaStoreScraper(headless=headless, debug=debug)
+    scraper = DNAStoreScraper(headless=headless, debug=debug)
 
     try:
         stores = await scraper.scrape()
@@ -1078,6 +1239,8 @@ async def main():
                 print(f"\n{i+1}. {store.store_name}")
                 if store.address:
                     print(f"   Address: {store.address}")
+                if store.city or store.state or store.zip_code:
+                    print(f"   Location: {store.city}, {store.state} {store.zip_code}".strip())
                 if store.phone_number:
                     print(f"   Phone: {store.phone_number}")
                 if store.email:
