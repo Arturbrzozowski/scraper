@@ -43,6 +43,9 @@ BUSINESS_PATTERNS = [
     r'^medjuv.*', r'^medispa.*', r'^rejuve.*',
 ]
 
+# Title prefixes that may appear before names in emails (e.g., "drandrea" = dr + andrea)
+TITLE_PREFIXES = ['dr', 'mr', 'mrs', 'ms', 'miss', 'prof', 'doc']
+
 # Comprehensive list of common first names (US Census + popular names)
 # This enables detection of names in concatenated emails like "ambersentamu@gmail.com"
 COMMON_FIRST_NAMES = {
@@ -162,9 +165,23 @@ COMMON_FIRST_NAMES = {
 def find_name_in_string(text):
     """
     Try to find a known first name at the beginning of a concatenated string.
+    Also handles title prefixes like "dr", "mr", etc. (e.g., "drandrea" -> "andrea")
     Returns the name if found, otherwise empty string.
     """
     text_lower = text.lower()
+
+    # First, check if the string starts with a title prefix (dr, mr, mrs, etc.)
+    for prefix in TITLE_PREFIXES:
+        if text_lower.startswith(prefix) and len(text_lower) > len(prefix):
+            # Try to find a name after the title prefix
+            remainder = text_lower[len(prefix):]
+            # Check if the remainder starts with a known name
+            for length in range(min(12, len(remainder)), 1, -1):
+                name_candidate = remainder[:length]
+                if name_candidate in COMMON_FIRST_NAMES:
+                    remaining_after_name = remainder[length:]
+                    if remaining_after_name and len(remaining_after_name) >= 2:
+                        return name_candidate
 
     # Try progressively longer prefixes to find a match
     # Start from longer names to prefer longer matches (e.g., "christina" over "chris")
