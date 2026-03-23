@@ -12,6 +12,8 @@ API_URL = "https://admin-aizm.onrender.com/providers"
 OUTPUT_FILE = "epicutis_providers.csv"
 
 COLUMNS = [
+    "_id",
+    "shopifyGID",
     "name",
     "providerCode",
     "phoneNumber",
@@ -23,6 +25,7 @@ COLUMNS = [
     "zipCode",
     "country",
     "status",
+    "addedBy",
     "latitude",
     "longitude",
     "createdAt",
