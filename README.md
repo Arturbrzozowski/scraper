@@ -68,19 +68,24 @@ principal provider) for the clinic leads in
 concurrently so the full 838-row file finishes in minutes rather than the
 ~800 minutes a manual "search each clinic by hand" loop would take.
 
-It runs four tiers, each only handling rows the previous tiers left empty:
+The **website crawl is the primary engine**; registry and email extraction
+are fallbacks:
 
-1. **Email local-part** — personal business emails (`jane@clinic.com`),
-   precision-filtered against a known-first-name dictionary (`first_names.json`)
-   so business names (`bellezaspa.llc@`) and role accounts (`ap@`, `info@`) are
-   rejected.
-2. **NPI registry** — the free CMS NPPES API; takes the authorized-official
-   name for clinics registered as medical organizations. Highest yield.
-3. **Website crawl** — derives the clinic domain from its email, fetches
-   About/Team pages with plain concurrent HTTP (no browser), and extracts the
-   owner via schema.org JSON-LD + heuristics (titles and accreditation-board
-   names are filtered out).
-4. **DuckDuckGo HTML search** — keyless fallback for whatever remains.
+1. **Website crawl** -- every lead with a website (from the `website` column
+   or derived from a clinic-domain email) gets a deep-but-cheap crawl: the
+   homepage is fetched, the site's real About/Team/Meet-the-doctor links are
+   discovered from its navigation, and owner candidates are extracted with
+   context-scored patterns ("founded by X" > "owner: X" > "medical director X"
+   > "Dr. X Y") plus schema.org JSON-LD, validated against a 5,212-entry
+   first-name dictionary (`first_names.json`) and a surname blocklist that
+   rejects brand/CTA text ("Bella Derma", "Beau Request").
+2. **Website discovery** -- leads with no site get likely domains guessed from
+   the business name (Mon Amie Aesthetics LLC -> monamieaesthetics.com); a
+   candidate is accepted only if the lead's phone number or name+city appears
+   on the page, then crawled as above. (Search engines block automated
+   queries from this environment, so discovery does not rely on them.)
+3. **NPI registry fallback** -- free CMS NPPES API, authorized-official name.
+4. **Email local-part fallback** -- dictionary-verified personal names only.
 
 ```bash
 python find_owner_first_names.py            # full file
@@ -89,14 +94,13 @@ python find_owner_first_names.py --limit=25 # quick test on first 25 rows
 
 Output: `alastin 800 leads test names search_with_first_names.csv` (same `;`
 format, original columns plus filled `first_name`, `owner_full_name`, and
-`first_name_source` = email / npi / website / search). Network responses are
-cached under `./cache` so reruns are free.
+`first_name_source` = website / npi / email). Network responses are cached
+under `./cache` so reruns are fast and free.
 
-**Coverage is honest, not padded.** On this file it fills ~28% (NPI ~223,
-website ~14, email ~1); rows where no free source exposes an owner name are
-left blank rather than guessed. Many small aesthetic businesses simply don't
-publish an owner name anywhere free — reaching 80%+ would require paid
-enrichment APIs (Apollo, Clearbit, People Data Labs).
+**Coverage is honest, not padded.** On this file it fills **432/838 (51%)**:
+website 317 (incl. 34 from discovered sites), NPI 107, email 8. Rows where no
+free source exposes an owner name are left blank rather than guessed. Reaching
+80%+ would require paid enrichment APIs (Apollo, Clearbit, People Data Labs).
 
 ## Notes
 

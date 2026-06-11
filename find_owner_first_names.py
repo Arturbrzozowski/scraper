@@ -107,6 +107,10 @@ SURNAME_BLOCKLIST = {
     # function words / credentials that slip through as "surnames"
     "by", "of", "at", "in", "on", "to", "for", "from", "are", "you", "she",
     "he", "his", "her", "md", "do", "np", "pa", "rn", "llc", "inc",
+    # brand/CTA words seen as fake surnames in the wild ("Bella Derma",
+    # "Beau Request", "Chase Botox", "Roman Family")
+    "derma", "family", "request", "botox", "filler", "injectables",
+    "consultation", "appointment", "peel", "facials", "practice",
 }
 
 SUFFIX_RE = re.compile(
