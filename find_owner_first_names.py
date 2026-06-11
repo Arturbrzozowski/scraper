@@ -182,8 +182,8 @@ def name_from_email(email):
             pref = known_prefix(first)            # e.g. "jenniferbryce" -> jennifer
             if pref:
                 return title_name(pref), None
-            if 3 <= len(first) <= 10 and first.isalpha():
-                return title_name(first), None     # plausible clean token
+            # No loose "any clean token" fallback: it accepts business names
+            # like bellezaspa.llc -> "Bellezaspa". Precision over recall here.
             return None
     # single token: accept only an exact known first name (e.g. tina@...)
     if local in FIRST_NAMES:
@@ -267,9 +267,12 @@ def owner_from_website(domain):
             if not nm and blk.startswith('"'):
                 nm = [blk.strip('"')]
             if nm:
-                first = nm[0].split()[0]
-                if first.lower() in FIRST_NAMES or first.istitle():
-                    return title_name(first), nm[0].strip(), "website-jsonld"
+                full = re.sub(r'^(dr|mr|mrs|ms|miss|prof)\.?\s+', '', nm[0].strip(), flags=re.I)
+                first = (full.split() or [""])[0].strip(".,")
+                # Require a real first name: rejects org/board names like
+                # "American Board of Plastic Surgery" and bare titles.
+                if first.lower() in FIRST_NAMES:
+                    return title_name(first), full, "website-jsonld"
         # heuristic text
         txt = strip_html(html)
         for pat in OWNER_PATTERNS:

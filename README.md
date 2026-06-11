@@ -60,6 +60,44 @@ Output columns (~2,900 worldwide locations): `id`, `name`, `contact_name`
 `postal_code`, `country`, `phone`, `landline`, `email`, `website`,
 `short_address`, `hair_treatments`, `latitude`, `longitude`.
 
+## Owner first-name finder (Alastin leads)
+
+`find_owner_first_names.py` fills the `first_name` column (owner / founder /
+principal provider) for the clinic leads in
+`alastin 800 leads test names search.csv` using **only free sources**, run
+concurrently so the full 838-row file finishes in minutes rather than the
+~800 minutes a manual "search each clinic by hand" loop would take.
+
+It runs four tiers, each only handling rows the previous tiers left empty:
+
+1. **Email local-part** — personal business emails (`jane@clinic.com`),
+   precision-filtered against a known-first-name dictionary (`first_names.json`)
+   so business names (`bellezaspa.llc@`) and role accounts (`ap@`, `info@`) are
+   rejected.
+2. **NPI registry** — the free CMS NPPES API; takes the authorized-official
+   name for clinics registered as medical organizations. Highest yield.
+3. **Website crawl** — derives the clinic domain from its email, fetches
+   About/Team pages with plain concurrent HTTP (no browser), and extracts the
+   owner via schema.org JSON-LD + heuristics (titles and accreditation-board
+   names are filtered out).
+4. **DuckDuckGo HTML search** — keyless fallback for whatever remains.
+
+```bash
+python find_owner_first_names.py            # full file
+python find_owner_first_names.py --limit=25 # quick test on first 25 rows
+```
+
+Output: `alastin 800 leads test names search_with_first_names.csv` (same `;`
+format, original columns plus filled `first_name`, `owner_full_name`, and
+`first_name_source` = email / npi / website / search). Network responses are
+cached under `./cache` so reruns are free.
+
+**Coverage is honest, not padded.** On this file it fills ~28% (NPI ~223,
+website ~14, email ~1); rows where no free source exposes an owner name are
+left blank rather than guessed. Many small aesthetic businesses simply don't
+publish an owner name anywhere free — reaching 80%+ would require paid
+enrichment APIs (Apollo, Clearbit, People Data Labs).
+
 ## Notes
 
 - Not every field is populated for every location — the scrapers write
