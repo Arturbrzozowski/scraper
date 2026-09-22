@@ -321,6 +321,36 @@ The sweep takes a few minutes at the default 0.25 s delay between requests.
 `distance` and `distance_units` appear on search responses but are artifacts of
 the query point, not properties of the store, so they are not written out.
 
+### There are no email addresses here, and no way to get them from the API
+
+This was checked properly rather than assumed, because the obvious guess —
+that `/locations/search` returns a reduced record and the emails are hidden
+behind the disabled full-dump endpoint — turns out to be wrong.
+
+The controlled test: CALECIM's account has **both** endpoints enabled. Take a
+CALECIM record whose `/locations/all` entry has an email, then look up that
+same record through `/locations/search`. The email comes back. So `search`
+does not strip the field, and Pavise's nulls are the stored values.
+
+Everything else was ruled out too:
+
+| Checked | Result |
+| --- | --- |
+| `/locations/all` | HTTP 400, `{"error": "Method not allowed."}` |
+| `/locations/search` | works; returns `email: null` on all 1274 records |
+| `/locations/overview.js` | geohash pin index only, no attributes |
+| `/api/v1/{tag}/widget` | config only; the string `email` appears zero times |
+| `locations`, `filters`, `categories`, `location_fixtures`, `settings`, `export`, `locations.csv`, `locations/export`, `/api/v2/...` | all HTTP 404 |
+| `custom_fields` on this map | configured as `[]`, so no extra attributes exist |
+| A second locator elsewhere on pavise.com | only `/pages/partner-page`, which has no widget |
+| Joining against the CALECIM emails by name and by coordinates | only 29 of 1274 match (2.3%) |
+
+The merchant simply never entered emails into Stockist. No form of API access
+will produce data that was never stored. Getting these addresses means going
+outside this API — either asking Pavise directly, or resolving each clinic's
+own website, which is a different job from scraping this locator and is not
+something these scrapers do.
+
 ### Data quality notes
 
 - **Contact data is nearly absent**, as with Sente: 59 phone numbers and no
