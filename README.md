@@ -1,49 +1,85 @@
-# Circadia Store Locator Scraper
+# Store / Provider Locator Scrapers
 
-A Python scraper that extracts store location data from the Circadia store locator page and saves it to a CSV file.
+Python scrapers that extract location data from vendor store-locator pages and
+save it to CSV.
 
-## Features
+| Scraper | Source | Output |
+| --- | --- | --- |
+| `cyspera_provider_scraper.py` | [cyspera.com/pages/find-a-provider](https://cyspera.com/pages/find-a-provider) | `cyspera_providers.csv` |
+| `dna_store_scraper.py` | DNA store locator (Blipstar widget) | `dna_stores.csv` |
 
-- Uses Playwright for browser automation to handle dynamic JavaScript content
-- Multiple extraction strategies for different page structures
-- Extracts: store name, address, phone number, email, website
-- Outputs data to CSV format
+## Cyspera provider locator
 
-## Installation
+The Cyspera map has **no search API**. Its inline page script loads the entire
+provider dataset in one request from a static JSON file on Shopify's CDN, then
+filters and renders it client-side. So the scraper needs no browser automation
+and no per-city search loop — it just reads the page, extracts the current data
+URL, and downloads the file.
 
-1. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+The JSON URL carries a version query parameter that changes whenever the
+dataset is re-uploaded in Shopify, so the scraper re-reads it from the page on
+every run instead of hard-coding it (a hard-coded URL is kept only as a
+fallback).
 
-2. Install Playwright browsers:
-   ```bash
-   playwright install chromium
-   ```
+Run it:
 
-## Usage
-
-Run the scraper:
 ```bash
-python circadia_store_scraper.py
+python cyspera_provider_scraper.py
 ```
 
-Run with visible browser (for debugging):
+Only the standard library is needed for this one.
+
+### Fields available per clinic
+
+Everything the map has is in the JSON; there is no richer record behind it.
+
+| Column | Coverage (1237 records) |
+| --- | --- |
+| `name` | 1237 |
+| `address` | 1237 |
+| `lat` / `lng` | 1236 |
+| `country` | 1218 |
+| `phone` | 1202 |
+| `description` | 1123 |
+| `website` | 811 |
+| `email` | 252 |
+
+Coverage figures are from the September 2026 snapshot and will drift as Cyspera
+updates the file.
+
+### Data quality notes
+
+- `description` is a duplicate of `name` in 178 records; it is not a
+  specialty or service description.
+- `address` is a single free-text field. It is not split into city / state /
+  ZIP, and its contents are inconsistent — some records include the city and
+  region, others stop at the street line. 10 records contain embedded
+  newlines (quoted correctly in the CSV, so the file has more physical lines
+  than records).
+- `country` is empty on 19 records and is not normalised: values include
+  `Saudi Arabia - المملكة العربية السعودية`, `Viet Nam - Tiếng Việt` and
+  `West indies`.
+- One record has `lat`/`lng` of `null`, so it never renders on the map.
+- No record IDs, opening hours, or service/product fields exist in the source.
+
+## DNA store locator
+
+Scrapes a Blipstar map widget, which *does* expose a search endpoint
+(`searchdbnew`) that returns results near a coordinate. Because that endpoint
+is radius-based rather than a full dump, the scraper sweeps a list of major US
+cities and de-duplicates the results.
+
+Requires Playwright:
+
 ```bash
-python circadia_store_scraper.py --no-headless
+pip install -r requirements.txt
+playwright install chromium
 ```
 
-## Output
+```bash
+python dna_store_scraper.py
+python dna_store_scraper.py --no-headless   # visible browser, for debugging
+```
 
-The scraper creates a `circadia_stores.csv` file with the following columns:
-- `store_name` - Name of the store/location
-- `address` - Full address
-- `phone_number` - Contact phone number
-- `email` - Email address
-- `website` - Store website URL
-
-## Notes
-
-- The Circadia store locator page may require professional verification to access full store data
-- If no stores are found, try running with `--no-headless` to see what the browser is loading
-- The scraper includes multiple extraction strategies to handle different page structures
+Columns: `store_name`, `address`, `city`, `state`, `zip_code`, `phone_number`,
+`email`, `website`.
