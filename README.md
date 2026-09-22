@@ -7,12 +7,15 @@ save it to CSV.
 | --- | --- | --- | --- |
 | `cyspera_provider_scraper.py` | [cyspera.com/pages/find-a-provider](https://cyspera.com/pages/find-a-provider) | static JSON on Shopify CDN | `cyspera_providers.csv` |
 | `sente_store_scraper.py` | [sentelabs.com/pages/store-locator](https://sentelabs.com/pages/store-locator) | Closeby embed API | `sente_stores.csv` |
-| `calecim_directory_scraper.py` | [calecimprofessional.com/pages/pro-directory](https://calecimprofessional.com/pages/pro-directory) | Stockist.co API | `calecim_directory.csv` |
+| `calecim_directory_scraper.py` | [calecimprofessional.com/pages/pro-directory](https://calecimprofessional.com/pages/pro-directory) | Stockist.co, full dump | `calecim_directory.csv` |
+| `pavise_store_scraper.py` | [pavise.com/pages/store-locator](https://pavise.com/pages/store-locator) | Stockist.co, geohash sweep | `pavise_stores.csv` |
 | `dna_store_scraper.py` | DNA store locator | Blipstar widget | `dna_stores.csv` |
 
-Four sites, four different locator backends, and none of them needs a browser
-or an API key. Three dump their whole dataset in a single request; only the
-Blipstar one requires a search sweep.
+`stockist_scraper.py` is the shared module behind the two Stockist sites: both
+fetch strategies, the field normalisation, and the CSV writer. The two
+per-site scripts are thin wrappers over it.
+
+None of these needs a browser or an API key.
 
 ## Cyspera provider locator
 
@@ -169,7 +172,8 @@ publishes a documented full-dump endpoint:
 GET https://stockist.co/api/v1/{widget_tag}/locations/all
 ```
 
-One unauthenticated request returns all 2995 records. The widget's other two
+One unauthenticated request returns all 2995 records — this account has the
+full-dump endpoint enabled, unlike Pavise's below. The widget's other two
 endpoints add nothing: `/locations/search` returns the same records plus a
 `distance` relative to a query point, and `/locations/overview.js` is a geohash
 index used to place map pins. The widget tag is read from the page on each run
@@ -254,6 +258,89 @@ current snapshot:
   exclude them from the Australian and Canadian sets, so a Western Australia
   record with a blank country may be labelled United States. This affects a
   small number of records and is the one repair rule that can be wrong.
+
+## Pavise store locator
+
+Also Stockist, **but do not assume that means it behaves like CALECIM.** This
+account has the full-dump endpoint disabled:
+
+```
+GET https://stockist.co/api/v1/u19167/locations/all
+-> HTTP 400  {"error": "Method not allowed."}
+```
+
+`/locations/search` still works, but it caps at **100 results per request
+regardless of the `distance` parameter** — asking for a 10000-mile radius
+returns the same 100 records as a 100-mile one. So the whole dataset cannot be
+pulled in one shot, and a blind city sweep would silently miss anything far
+from a chosen city.
+
+### How the sweep gets complete coverage
+
+`/locations/overview.js` is still enabled, and it is the map's pin index: a
+9-character geohash (~5 m precision) for **every** location. That turns an
+open-ended search problem into an enumeration:
+
+1. Fetch the overview and decode every geohash to a coordinate.
+2. Search at each uncovered coordinate, starting at a 25-mile radius.
+3. If a response comes back at the 100-result cap, retry that point at 10, 4,
+   then 1 mile, so dense metros are not truncated.
+4. Re-encode each returned record's own coordinates to a geohash and mark it
+   covered, so one search in a dense area retires many pending points.
+5. De-duplicate by location id.
+
+On the current snapshot this recovers **1274 unique locations from 1274
+overview pins with zero geohashes left uncovered, in 258 requests**. The
+scraper prints both numbers at the end, so an incomplete run is visible rather
+than silent, and warns if any point stays at the cap down to a 1-mile radius.
+
+```bash
+python pavise_store_scraper.py
+python pavise_store_scraper.py --raw-json pavise_raw.json
+python pavise_store_scraper.py --force-sweep   # skip the full-dump attempt
+```
+
+The sweep takes a few minutes at the default 0.25 s delay between requests.
+
+### Fields available per store
+
+| Column | Coverage (1274 records) | Notes |
+| --- | --- | --- |
+| `id`, `name`, `city`, `state`, `latitude`, `longitude` | 1274 | |
+| `postal_code` | 1274 | after repair |
+| `country` | 1273 | derived; only 151 in the source |
+| `address_line_1` | 1271 | |
+| `address_line_2` | 366 | |
+| `category` | 233 | only one value exists: `⟡ Pavise Diamond Partner ⟡` |
+| `priority` | 232 | `50` on the Diamond Partner records, blank otherwise |
+| `website` | 110 | |
+| `phone` | **59** | |
+| `email` | **0** | |
+| `description`, `image_url`, `full_address` | **0** | in the schema, null everywhere |
+
+`distance` and `distance_units` appear on search responses but are artifacts of
+the query point, not properties of the store, so they are not written out.
+
+### Data quality notes
+
+- **Contact data is nearly absent**, as with Sente: 59 phone numbers and no
+  email addresses at all across 1274 records. Only 110 records have a website.
+  What this source is genuinely good for is **locations** — `city`, `state` and
+  `postal_code` are complete, which is better structured than any of the other
+  three.
+- `category` is not a taxonomy. The single filter is a partner tier, so it
+  splits the file into 233 Diamond Partners and 1041 unlabelled records; it
+  does not distinguish clinics from salons.
+- The **same ZIP-in-the-country-field column shift** seen on the CALECIM map
+  appears here on 6 records, which suggests a defect in Stockist's import path
+  rather than in one merchant's spreadsheet. The shared normaliser repairs it.
+- 1128 records had no country and were inferred from their US state code; 145
+  more were normalised from `United States of America`. One record is Canadian
+  and one could not be resolved.
+- 35 names carry leading or trailing whitespace. Names also contain decorative
+  `⟡` characters, which are left as-is because they are part of how the brand
+  presents these partners.
+- 14 exact name+address duplicates remain, un-merged.
 
 ## DNA store locator
 

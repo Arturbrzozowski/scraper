@@ -1,0 +1,1275 @@
+id,name,category,address_line_1,address_line_2,city,state,postal_code,country,country_raw,phone,email,website,latitude,longitude,priority,data_flags
+33278409,615 Aesthetics LLC,,"99 Seaboard Lane, Suite 800",,Brentwood,TN,37027,United States,United States of America,16157877121,,,35.96400602,-86.81899604,,country_normalized
+161127775,740 Park Plastic Surgery,,740 Park Avenue,,New York,NY,10021,United States,,,,,40.77072281,-73.96441922,,country_inferred
+147596775,828 Aesthetics,,2105 Devon Drive,,Freehold,NJ,07728,United States,,,,,40.21988216,-74.26725071,,country_inferred
+50627254,A-Class Aesthetics,,1091 W Sunset Ln,,Greenfield,WI,53228,United States,,,,,43.02011220,-88.04916550,,country_inferred
+41482892,AB Health & Beauty,,10255 Commerce Dr.,Suite 128,Carmel,IN,46032,United States,,,,,39.93567998,-86.22910200,,country_inferred
+106971608,Abel Garduno Jr,,9925 Gillespie Drive,Suite 1300,Plano,TX,75025,United States,,,,,33.11364886,-96.76025163,,country_inferred
+110252179,ABLEH Anne Bates Leach Eye Hospital,,"900 NW 17th St, Bascom Palmer 450M",,Miami,FL,33136-1119,United States,,,,,25.79101234,-80.21069729,,country_inferred
+30447750,Ablon Skin Institute,,1600 Rosecrans Ave Building 4B,,Manhattan Beach,CA,90266,United States,United States of America,,,,33.90155601,-118.38395996,,country_normalized
+147596773,Abode Skin and Wellness,,4177 S Columbia Rd Unit 101,,Grand Forks,ND,58201,United States,,,,,47.87953580,-97.06553077,,country_inferred
+32127386,About Faces Cosmetic Surgery and Medspa,,5940 N. La Cholla Blvd,,Tucson,AZ,85704,United States,United States of America,,,,32.31443209,-111.01092905,,country_normalized
+27217144,"Adelglass, Jeffrey",,6020 W Parker Rd,STE 400,Plano,TX,75093,United States,,,,,33.04387000,-96.83188200,,country_inferred
+139664063,Admire Medical Aesthetics,,3100 NW Bucklin Hill Rd Suite 201,,Silverdale,WA,98383,United States,,,,,47.65132181,-122.69116603,,country_inferred
+101071914,Advanced Anti-Aging Center of Excellence,,5401 Vogel Rd. Suite 630,,Evansville,IN,47715,United States,,,,,37.98707173,-87.48559907,,country_inferred
+94547618,ADVANCED DERMASURGERY ASSOCIATES - DALLAS,,12222 COIT RD,SUITE 102,Dallas,TX,75251,United States,,,,,32.91544707,-96.76851359,,country_inferred
+27217126,Advanced Dermatology,,7658 Poplar Pike,,Germantown,TN,38138,United States,,,,,35.08345748,-89.80721471,,country_inferred
+84758979,Advanced Dermatology & Cosmetic,,28212 Kelly Johnson Parkway Suite 245,,Valencia,CA,91355,United States,,,,,34.44858500,-118.57901196,,country_inferred
+34891945,"Advanced Dermatology - Madison Avenue, NYC",,21 E. 87th St,,New York,NY,10128,United States,United States of America,,,,40.78172158,-73.95848685,,country_normalized
+34891946,Advanced Dermatology - Norwalk,,13 Park St,,Norwalk,CT,06851,United States,United States of America,,,,41.12006398,-73.40879996,,country_normalized
+52661975,Advanced Skin Fitness,,2928 Oak Lawn Ave,,Dallas,TX,75219,United States,United States of America,,,,32.80788298,-96.80931301,,country_normalized
+34891865,Advanced Wellness Corp,,14274 Sundial Place,,Lakewood Ranch,FL,34202,United States,United States of America,,,,27.42156098,-82.39804704,,country_normalized
+27616558,"Advanced Wellness, LLC",,3168 Campus Dr.,,San Mateo,CA,94403,United States,,,,,37.53355820,-122.32776680,,country_inferred
+145959465,AEDIT Cosmetic Wellness,,8302A Melrose Ave,,Los Angeles,CA,90069,United States,,,,,34.08345618,-118.37045621,,country_inferred
+152198340,Aesteem Aesthetics,,4925 Greenville Ave Ste 550,,Dallas,TX,75206,United States,,,,,32.84710447,-96.77058183,,country_inferred
+27217103,Aesthete Suite,,27 Kennedy Park,Apt 102,Lebanon,TN,37090,United States,,,,,36.17991593,-86.39639142,,country_inferred
+159767429,Aesthetic Alchemy Med Spa,,10905 Quaker Ave,,Lubbock,TX,79424,United States,,,,,33.49498187,-101.90454722,,country_inferred
+152198338,Aesthetic Alchemy Med Spa,,10905 Quaker Ave,,Lubbock,TX,79424,United States,,,,,33.49498187,-101.90454722,,country_inferred
+80077387,Aesthetic by Nevette,,3000 NE 2nd Ave,apartment 717,Miami,FL,33137,United States,,,,,25.80538899,-80.19165603,,country_inferred
+54177260,Aesthetic Element,,"2893 Executive Park Dr, Suite 304",,Weston,FL,33331,United States,,,,,26.08279100,-80.37206401,,country_inferred
+94547343,Aesthetic Enhancement Solutions,,25 N Orono Orchards Rd,,Orono,MN,55356,United States,,,,,44.97892699,-93.56316426,,country_inferred
+131530644,Aesthetic Med Lounge,,29 Joseph Street,,New Hyde,NY,11040,United States,,,,,40.75237927,-73.69722712,,country_inferred
+27616568,Aesthetic Surgery & Dermatology,,3300 E 1ST AVE SUITE,#230,Denver,CO,80206,United States,,,,,39.71746400,-104.94788098,,country_inferred
+93554003,Aesthetic With Z,,757 Lake Carolyn Parkway,Apt 3252,Irving,TX,75035,United States,,,,,32.86409810,-96.92867734,,country_inferred
+56722077,Aesthetics 2 a T,,5801 Long Prairie Rd,#600,Flower Mound,TX,75028,United States,,,,,33.06455002,-97.08384003,,country_inferred
+54100104,Aesthetics and Skincare by Keri,,3115 E. Indian School Road #5,,Phoenix,AZ,85016,United States,,,,,33.49434585,-112.01475341,,country_inferred
+141281991,Aesthetics by Alyssa,,"1001 W 15th St., Unit 133",,Chicago,IL,60608,United States,,,,,41.86138288,-87.65287739,,country_inferred
+159764376,Aesthetics by Amber,,1707 E Carson St,,San Antonio,TX,78208,United States,,,,,29.44177416,-98.45257800,,country_inferred
+152198348,Aesthetics by Lydia Symmetry Medical Aesthetics,,14444 Excelsior Blvd Ste 4,,Minnetonka,MN,55345,United States,,,,,44.90658878,-93.46373662,,country_inferred
+136972696,Aesthetics by Rodoula,,1600 Mexico Ave,,Tarpon Springs,FL,34689,United States,,,,,28.14674053,-82.78221975,,country_inferred
+158283792,Aesthetics with E,,2626 NE 2nd street Suite 75,,Minneapolis,MN,55418,United States,,,,,45.01555859,-93.26683775,,country_inferred
+48698343,Aesthetics21,,425 Second Avenue,,New York,NY,10010,United States,,,,,40.73881902,-73.98046436,,country_inferred
+28823426,Aeternum Aesthetics and Wellness,,"534 Nautical Drive, Ste 3",,Clover,SC,29710,United States,,803-866-322,,,35.05044999,-81.05809303,,country_inferred
+52491242,Ageless Aesthetics,,"111 N Washington St, Ste 7",,Moscow,ID,83843,United States,,,,,46.73390599,-117.00046297,,country_inferred
+73779452,Ageless Energetics,,3848 FAU Blvd,Unit 210,Boca Raton,FL,33431,United States,,,,,26.38380099,-80.09721403,,country_inferred
+45953013,Ageless Energetics Medical Spa,,1 W Camino Real,suite 216,Boca Raton,FL,33432,United States,,,,,26.38380099,-80.09721403,,country_inferred
+124829685,Ageless Skin and Lasers,,660 Woodbury-Glassboro Road,Suite 26A,Sewell,NJ,08080,United States,,,,,39.76484938,-75.13485930,,country_inferred
+152193172,Agent Rx,,1819 Union Street,Gate Code C1968,San Francisco,CA,94123,United States,,,,,37.79775928,-122.42934555,,country_inferred
+163919394,Aguilar Aesthetics,,2820 NE 214th Street Office #905,,Aventura,FL,33180,United States,,,,,25.97308895,-80.14484269,,country_inferred
+128791541,Alchemy Skin Med Spa,,14 Oak Circle,,Hickory Creek,TX,75065,United States,,,,,33.11023483,-97.02109051,,country_inferred
+34891949,Ali Vafa,,110 Greene St #605,,New York,NY,10012,United States,United States of America,,,,40.72451315,-73.99967295,,country_normalized
+71810915,All Beauty Med Spa,,13550 Southwest 88th Street,suite 230,Miami,FL,33186,United States,,,,,25.68475500,-80.41418802,,country_inferred
+32454514,Allure Aesthetics FL,,"4700 NW 2nd Ave, Ste 103",,Boca Raton,FL,33431,United States,United States of America,15614092791,,,26.39116801,-80.08337400,,country_normalized
+138511148,Allure Aesthetics Lounge,,5740 Trotter Rd,,Clarksville,MD,21029,United States,,,,,39.21345321,-76.92089107,,country_inferred
+150599371,Alluring Image Medspa and Wellness,,90 SE 4th Ave #2,,Delray Beach,FL,33483,United States,,,,,26.46000393,-80.06919241,,country_inferred
+54099731,Ally 4 Health,,2136 Lula Rd,,Clermont,FL,34715,United States,,,,,28.58807699,-81.73537796,,name_whitespace; country_inferred
+69024394,Aloupis Dermatology,,2141 Alt A1A #430,,Jupiter,FL,33477,United States,,,,,26.91518557,-80.09342558,,country_inferred
+141282024,Alpenglow Aesthetics,,403 E Second St Suite 103,,Whitefish,MT,59937,United States,,,,,48.41042380,-114.33798018,,country_inferred
+105590885,Alpha Aesthetics Partners,,993 Governor Drive,#101,El Dorado Hills,CA,95762,United States,,,,,38.68643859,-121.08030876,,country_inferred
+95593087,Alpha Wellness MedSpa,,7740 Nova Dr A4,,Davie,FL,33324,United States,,,,,26.09053882,-80.25146586,,country_inferred
+27217172,"Altman, R Gil",,570 SYLVAN AVE,2nd Floor,Englewood Cliffs,NJ,07632,United States,,,,,40.88506699,-73.94781212,,country_inferred
+135654940,AlyneMD,,108 Town Center Dr,,Warren,NJ,07059,United States,,,,,40.61765775,-74.49854225,,country_inferred
+35659749,AM Skin Health and Aesthetic Medicine,,6525 Secor Rd,,Lambertville,MI,48144,United States,,,,,41.73384699,-83.62542002,,country_inferred
+139664068,Amazin Aesthetics,,"1777 S Bellaire St, Ste 102",,Denver,CO,80222,United States,,,,,39.68435096,-104.93780107,,country_inferred
+39233646,"Amazing Face, Inc.",,"1 Trowbridge Road,",Suite 322,Borne,MA,02532,United States,,,,https://amazingface.org,41.74077672,-70.59797626,,country_inferred
+83440558,Amazing U,,"500 NE Spanish River Blvd., BLDG 28",Suite 110,Boca Raton,FL,33431,United States,,,,,26.38547900,-80.07817202,,country_inferred
+69024396,Amber Preston Aesthetics,,7308 Loch Dunne Pl,,Dublin,OH,43016,United States,,,,,40.11768861,-83.10128922,,country_inferred
+121249919,Amoris Aesthetic,,71 Buttonwood Dr,,Piscataway,NJ,08854,United States,,,,,40.54487612,-74.50208411,,country_inferred
+136972698,Amoura Skin and Body,,17933 NW EVERGREEN PLACE #285,,BEAVERTON,OR,97006,United States,,,,,45.53756973,-122.85963608,,country_inferred
+40514271,Ana Csere Skincare,,7001 N Federal Hgwy #6,,Boca Raton,FL,33487,United States,,,,,26.41230600,-80.07645901,,country_inferred
+155305013,Ana Maria Aesthetics & Wellness,,816 Hills Creek Dr,,McKinney,TX,75072,United States,,,,,33.18788344,-96.67933995,,country_inferred
+40399171,Anastacia Aesthetics,,3202 Belmont Blvd,,Nashville,TN,37212,United States,,,,,36.11690400,-86.79733100,,country_inferred
+90262768,Andres Sarraga MD - Plastic Surgery,,21110 Biscayne Blvd,Ste 103,Aventura,FL,33180,United States,,,,,25.97051499,-80.14463934,,country_inferred
+118764927,Angela's Aesthetics,,612 Carpenter Street,,Philadelphia,PA,19147,United States,,,,,39.93637115,-75.15407456,,country_inferred
+29803945,Angliee Medspa,,7255 Carson Blvd. Phenix Suite 118,,Long Beach,CA,90808,United States,United States of America,,,,33.82990399,-118.08962901,,country_normalized
+56722065,"Ann Shippy, MD",,6836 Bee Caves Rd.,Ste 114,Austin,TX,78746,United States,,,,,30.29991151,-97.83832440,,country_inferred
+110251720,Apres Beauty and Wellness,,74 Woodport Road,Unit 1,Sparta,NJ,07871,United States,,,,,41.03088992,-74.63782660,,country_inferred
+47389823,Aqua Marine Aesthetics,,115 Harbor Drive,,Key Biscayne,FL,33149,United States,,,,,25.69905398,-80.16488700,,country_inferred
+152193029,Aqua Marine Aesthetics 57th Ave,,"7600 SW 57th Ave, Suite 114",,Miami,FL,33143,United States,,,,,25.70031089,-80.28567425,,country_inferred
+92433078,Aqua Plastic Surgery,,641 University Blvd,Suite 103,Jupiter,FL,33458,United States,33458,,,,26.89168175,-80.10646304,,zip_recovered_from_country; country_inferred
+105591369,Aqua Restore Wellness,,376 Old Country Rd,S,Wellington,FL,33414,United States,,,,,26.67152951,-80.23482745,,country_inferred
+152349622,Aqueous,,2919 Oshields ct sw,,Marietta,GA,30060,United States,,,,,33.88227889,-84.55770550,,country_inferred
+89136136,ARBRA Plastic Surgery,,"3901 Parkway Cir, Ste 100",,Springdale,AR,72762,United States,,,,,36.15101797,-94.18897945,,country_inferred
+89136176,Archetype Aesthetics,,1000 Sawgrass Corporate Pkwy Suite 500A,,Sunrise,FL,33323,United States,,,,,26.13314101,-80.33191302,,country_inferred
+44449421,Arizona Medical Specialty Group,,5590 E. River Rd Suite 150,,Tucson,AZ,85750,United States,,,,,32.27296828,-110.87317004,,country_inferred
+135654892,ARTE Aesthetics,,1615 Woodcrest Ln,,Carrollton,TX,75006,United States,,,,,32.98143578,-96.89539239,,country_inferred
+159769216,Artisan Beaute',,3150 Roswell Rd Suite B1,,Atlanta,GA,30305,United States,,,,,33.84075587,-84.37977211,,country_inferred
+85854090,Ashley Cormier Aesthetics,,3154 Lin Rd,,Idaho Falls,ID,83401,United States,,,,,43.50048400,-111.97103600,,country_inferred
+28518255,Aspire Aesthetics,,109 Hazel Path,Suite 1,Hendersonville,TN,37075,United States,,,,,36.30523301,-86.60771902,,country_inferred
+75738606,Associated Plastic Surgeons,,11501 Granada Street,,Leawood,KS,66211,United States,,,,,38.90975440,-94.63843500,,country_inferred
+118764929,Atelier Aesthetics & Infusions,,11539 Summerfield Rd,,Frisco,TX,75035,United States,,,,,33.20295079,-96.77807391,,country_inferred
+29803952,Athena Clinic,,1319 Punahou St. #1070,,Honolulu,HI,96826,United States,United States of America,,,,21.29991801,-157.83359303,,country_normalized
+139664061,Atomic Beauty Med Spa,,3140 Legacy Dr,Ste 220,Frisco,TX,75034,United States,,,,,33.10426398,-96.83987309,,country_inferred
+141279970,ATTN: Beverly NTPS SL,,415 E Southlake Blvd Unit 100,,Southlake,TX,76092,United States,,,,,32.94052572,-97.14501167,,country_inferred
+27217118,Aura Medspa,,8601 Westwood Center Dr.,Suite 100,Vienna,VA,22182,United States,,,,,38.92932000,-77.24330000,,country_inferred
+141282027,Auralis,,9857 Crestbrook St,,Bellflower,CA,90706,United States,,,,,33.90484281,-118.12325553,,country_inferred
+82459819,Aurum Health,,4300 North Central Expressway,ste 110,Dallas,TX,75206,United States,,,,,32.81724800,-96.78783396,,country_inferred
+35339675,Austex Wellness & Medical Spa,,2009 Main Street #200,,Lakeway,TX,78734,United States,,,,http://Austexwellness.com,30.34608902,-97.96632301,,country_inferred
+162440496,Austin Aesthetics Club,,301 West Ave Unit 2208,,Austin,TX,78701,United States,,,,,30.26775804,-97.75093727,,country_inferred
+122452345,Austin Face & Body,,7004 Bee Caves Rd,Blg 2 Ste 100,Austin,TX,78746,United States,,,,,30.30257575,-97.83906275,,country_inferred
+30625199,Austin Medspa,,1611 W 6th St,,AUSTIN,TX,78703,United States,United States of America,,,,30.27501098,-97.76363501,,country_normalized
+70908721,Austin Plastic Surgeon - San Antonio,,325 E Sonterra Blvd,suite 220,San Antonio,TX,78258,United States,,,,,29.61694471,-98.48993983,,country_inferred
+135619407,Austin Plastic Surgeon-Bee Cave,,"4613-A Bee Caves Rd, Suite 105",,Austin,TX,78746,United States,,,,,30.28697960,-97.81593330,,country_inferred
+118764930,Austin Plastic Surgery Institute,,4701 Bee Caves Rd Suite 202,,Austin,TX,78746,United States,,,,,30.28772352,-97.81645986,,country_inferred
+133936135,Avenue Beauty,,96 Webster St,,Hanover,MA,02339,United States,,,,,42.15643023,-70.85095198,,country_inferred
+163919996,Azul Cosmetic Surgery,,13470 Parker Commons Blvd E,#101,Fort Myers,FL,33912,United States,,,,,26.54916844,-81.82257750,,country_inferred
+161128416,Azul Cosmetic Surgery and Medical Spa Fort Myers,,15810 Briarcliff Lane,,Fort Myers,FL,33912,United States,,,,,26.51264802,-81.84902802,,country_inferred
+139664066,Balance Aesthetics,,301 State St. Suite 260 Rm 209,,Southlake,TX,76092,United States,,,,,32.94400186,-97.13196339,,country_inferred
+38558223,Baltic Beauty Centre,,2861 E Commercial Blvd,,Fort Lauderdale,FL,33308,United States,,,,http://balticbeautycentre.com,26.19029600,-80.10801998,,country_inferred
+27217169,Banis Plastic Surgery,,2507 Bush Ridge Drive,Suite B,Louisville,KY,40245,United States,,,,,38.27296271,-85.48861401,,country_inferred
+31243862,Barbarino Surgical Arts,,6836 Bee Cave Rd Suite I-180,,Austin,TX,78746,United States,United States of America,,,,30.29982933,-97.83823113,,country_normalized
+44292631,Bare Beauty,,6335 Mount Eden Ave,,Las Vegas,NV,89139,United States,,,,,36.04114799,-115.23071204,,country_inferred
+82459788,Baremae,,9005 Taborfield Ave,,Orlando,FL,32836,United States,,,,,28.43449198,-81.55869499,,country_inferred
+82459787,Basilica Studios,,3 Alexandra Drive,,New Fairfield,CT,06812,United States,,,,,41.50164300,-73.48764400,,country_inferred
+37039063,Bauman Medical,,1450 South Dixie Highway,,Boca Raton,FL,33432,United States,,,,,26.33679800,-80.08953696,,country_inferred
+34891866,Baumann Cosmetic Dermatology,,4500 Biscayne Blvd #101,,Miami,FL,33137,United States,United States of America,,,http://www.dermnet.com,25.81761998,-80.18876998,,country_normalized
+122452336,Bay Aesthetics,,1110 FM 1189,Suite 101,Brock,TX,76066,United States,,,,,32.68956965,-97.94919006,,country_inferred
+109129116,Bay Med Aesthetics,,200 Central Ave,Suite 810,St. Petersburg,FL,33701,United States,,,,,27.77182198,-82.63484301,,country_inferred
+64794770,BBUN Beauty,,10213 West Oberlin Way,,Peoria,AZ,85383,United States,,,,,33.73572848,-112.27961450,,country_inferred
+83440572,Beaute Paris LLC,,11701 Bee Caves Rd.,Suite 130,Austin,TX,78738,United States,,,,,30.30860301,-97.91847098,,country_inferred
+80077412,Beautiful Aesthetics,,400 Stonebrook Pkwy,#104,Frisco,TX,75036,United States,,,,,33.14671999,-96.88896296,,country_inferred
+32124773,Beauty + Wellness Co,,133 State Hwy 174,,Republic,MO,65738,United States,United States of America,14175908200,,,37.12666501,-93.48103100,,country_normalized
+132826898,Beauty and Fly,,"25 Parkview Ave., Suite 4L",,Bronxville,NY,10708,United States,,,,,40.94250166,-73.83945494,,country_inferred
+30238440,Beauty and Health by Liz,,6600 N Oracle Rd #100,,Tucson,AZ,85704,United States,United States of America,,,,32.32671334,-110.97538475,,country_normalized
+28029280,Beauty at the Bay,,831 N. Harbor Dr.,,Redondo Beach,CA,90277,United States,,,,,33.84940101,-118.39577764,,country_inferred
+29803942,Beauty Bar LA,,8527 W Sunset Blvd,,Los Angeles,CA,90069,United States,United States of America,,,,34.09382771,-118.37743614,,country_normalized
+128791380,Beauty Brew MedSpa,,1709 Mountain Top Road,,Bridgewater,NJ,08807,United States,,,,,40.59747352,-74.59317486,,country_inferred
+159769213,Beauty by ACQ,,5817 1/2 Kavanaugh Blvd,,Little Rock,AR,72207,United States,,,,,34.76991242,-92.33913717,,country_inferred
+124460291,Beauty By Balinger,,841 Yale St.,Suite 300,Houston,TX,77007,United States,,,,,29.78682158,-95.39922108,,country_inferred
+27217115,Beauty Cult,,1312 Aviation Blvd,Suite 103,Redondo Beach,CA,90278,United States,,,,,33.86615549,-118.38541940,,country_inferred
+123588206,Beauty Fix Aesthetics & Wellness,,6021 Morris Rd Ste 112,,Flowermound,TX,75028,United States,,,,,33.06709665,-97.06292819,,country_inferred
+110251684,Beauty Glam Studio,,303 S Federal Hwy,,Boca Raton,FL,33432,United States,,,,,26.34675583,-80.08659801,,country_inferred
+83440574,Beauty ICU,,10062 NW. 129th Terrace,,Hialeah Gardens,FL,33018,United States,,,,,25.89052301,-80.36251904,,country_inferred
+162443117,Beauty Solutions by Bre,,2060 W. Whispering Wind Dr. Suite 164,,Phoenix,AZ,85085,United States,,,,,33.71133526,-112.10380266,,country_inferred
+92451465,Beauty Studio by Veronica,,"11985 US Hwy 1, Suite 103",,Palm Beach Gardens,FL,33408,United States,,,,,26.85227432,-80.05943679,,country_inferred
+51856754,Beauty Therapy by Devon,,1550 Tiburon Blvd,,Tiburon,CA,94920,United States,,,,,37.87517399,-122.46003798,,country_inferred
+40732726,BeautyFix MedSpa-Flat Iron,,18W 23rd St Floor 2,,New York,NY,10010,United States,,,,,40.74174820,-73.99043657,,country_inferred
+40732723,BeautyFix MedSpa-Upper East Side,,"201 E 69th St, #2C",,New York,NY,10021,United States,,,,,40.76773043,-73.96156653,,country_inferred
+40732721,BeautyFix MedSpa-Westchester,,1885 Palmer Ave,,Larchmont,NY,10538,United States,,,,,40.93369773,-73.75846371,,country_inferred
+48236924,Begin Anew,,"337 E. Indiantown Rd, Ste E-13",,Jupiter,FL,33477,United States,,,,,26.93694298,-80.08817096,,country_inferred
+27217124,Bella Medical Spa,,2151 Wilma Rudolph Boulevard,,Clarksville,TN,37040,United States,,,,,36.56479100,-87.30941900,,country_inferred
+152193034,Bella Nova Palm Beach,,1261 S Congress Ave,,West Palm Beach,FL,33406,United States,,,,,26.65808620,-80.08858796,,country_inferred
+61102214,Bella Reina Spa,,815 George Bush Blvd.,,Delray Beach,FL,33483,United States,,,,,26.47441087,-80.06464665,,country_inferred
+30238439,Bella Rose Medical Aesthetics and Wellness,,2 Chester Plaza,,Chester,MD,21619,United States,United States of America,,,,38.97670401,-76.28836600,,country_normalized
+136973294,Betsy Glick Skincare Studio,,6904 Jackson Trail Rd,,Hoschton,GA,30548,United States,,,,,34.07179892,-83.70549167,,country_inferred
+27217106,Better You Medical Day Spa,,211 Indian Lake Blvd,Suite C,Hendersonville,TN,37075,United States,,,,,36.32015951,-86.60071419,,country_inferred
+27217136,Beverly Hills Aesthetic Medic,,420 S Beverly Dr,#100,Beverly Hills,CA,90212,United States,,,,,34.05875580,-118.39751940,,country_inferred
+27217117,Beverly Hills Rejuvenation Dominion,,23110 W IH 10 Frontage Rd,#203,San Antonio,TX,78257,United States,,,,,29.65714859,-98.62491616,,country_inferred
+27217170,Beyond Beautiful,,6213 Chapel Hill Blvd,Ste A,Plano,TX,75093,United States,,,,,33.03285412,-96.83521587,,country_inferred
+96700885,Beyond The Needle,,21166 Placerita Canyon Road,,Newhall,CA,91321,United States,,,,,34.37975746,-118.50780610,,country_inferred
+128791112,BHRC City Centre,,797 Sorella Ct #104,,Houston,TX,77024,United States,,,,,29.77921906,-95.56176554,,country_inferred
+161127791,BILU Skin Lab,,2131 Hollywood Blvd. Suite 308,,Hollywood,FL,33020,United States,,,,,26.01160036,-80.15087531,,country_inferred
+156828066,Bio Aesthetics,,599 Ninrht St. N Suite 300,,Naples,FL,34102,United States,,,,,26.15357820,-81.79675220,,country_inferred
+142911083,Bix Beauty - Barrington,,23276 Coyote Trail,,Lake Barrington,IL,60010,United States,,,,,42.20216713,-88.17889512,,country_inferred
+145959417,Black Velvet Spa,,620 S Main St,,McAlester,OK,74501,United States,,,,,34.92496024,-95.77102747,,country_inferred
+128791179,Blended Aesthetics,,484 Lone Spur Road,,Folsom,CA,95630,United States,,,,,38.65468570,-121.08967812,,country_inferred
+145959419,Blessed Aesthetics,,3860 Plainview Road,,Midlothian,TX,76065,United States,,,,,32.44099442,-96.96200656,,country_inferred
+144462619,Blink South Jersey,,635 Kingsley Drive,,Ventnor,NJ,08406,United States,,,,,39.34171724,-74.49516033,,country_inferred
+131530643,Bloom Aesthetics Baytown,,40285 South Heron Heights Way,,Magnolia,TX,77354,United States,,,,,30.22308685,-95.70384836,,country_inferred
+138513662,Blue Sky Laser & Tox,,1560 Wilson Blvd #850,,Arlington,VA,22209,United States,,,,,38.89403330,-77.07640689,,country_inferred
+83440580,Blue Water Spa,,21 W. Main St,,Oyster Bay,NY,11771,United States,,,,,40.87198278,-73.53146132,,country_inferred
+44381478,Blush Aesthetics,,7997 Mosaic Harbor Ave.,,Las Vegas,NV,89117,United States,,,,,36.13509001,-115.26529100,,country_inferred
+44292632,Blush Aesthetics,,7997 Mosaic Harbor Ave.,,Las Vegas,NV,89117,United States,,,,,36.13509001,-115.26529100,,country_inferred
+78999470,Boost Med Spa & Wellness,,11019 Cottontail Ln,,Parker,CO,80138,United States,,,,,39.52360701,-104.72684802,,country_inferred
+33949850,Botanical Laser & Esthetics,,725 N Highway A1A D104,,Jupiter,FL,33477,United States,United States of America,15613016127,,http://www.botanicallaser.com,26.94069401,-80.07742503,,country_normalized
+89136175,Cake Skincare,,1424 11th Avenue,Suite G,Seattle,WA,98122,United States,,,,,47.61365416,-122.31781620,,country_inferred
+163920231,"Cal Dermatology, PC",,2323 De La Vina St,Ste 101,Santa Barbara,CA,93105,United States,,,,,34.43191750,-119.72139227,,country_inferred
+156828457,Cardiovascular Experts of PA,,3040 Market Street,,Camp Hill,PA,17011,United States,,,,,40.24023065,-76.93311381,,country_inferred
+52244285,Carroll Dermatology,,"120 S. Olive Ave, Unit 116",,West Palm Beach,FL,33401,United States,,,,,26.71251702,-80.05169300,,country_inferred
+144461704,Casablanca Dermatology,,840 E. 25th Street,,Hialeah,FL,33013,United States,,,,,25.84489486,-80.26517698,,country_inferred
+37039065,Cassis Dermatology & Aesthetics Center,,"9301 Dayflower Street,",Suite 100,Prospect,KY,40059,United States,,,,,38.32162399,-85.56663602,,country_inferred
+36114127,Center for Advanced Dermatology Lakewood,,3455 S Yarrow St,,Lakewood,CO,80227,United States,,,,https://www.usdermatologypartners.com/locations/colorado/lakewood/3455-south-yarrow-st/,39.65348800,-105.08356799,,country_inferred
+99941946,Center for Dermatology & Plastic Surgery,,"15215 S. 48th St, Ste 120",E-Commerce,Phoenix,AZ,85044,United States,,,,,33.30792289,-111.97840159,,country_inferred
+27217158,Center Med Spa,,320 E Main Street,Suite 110,Chattanooga,TN,37408,United States,,,,,35.03445740,-85.30371398,,country_inferred
+27217120,Chantilly Medical Center,,14016-C Sullyfield Cir,C,Chantilly,VA,20151,United States,,,,,38.89333700,-77.43350900,,country_inferred
+29327203,"Chapas, Anne",,19 UNION SQUARE WEST 5TH FLOOR,,NEW YORK,NY,10003,United States,United States of America,,,,40.73609469,-73.99122899,,country_normalized
+28451117,Charity Medical Aesthetics,,36600 N. Pima Rd,,Carefree,AZ,85377,United States,,,,,33.81751893,-111.89139569,,country_inferred
+88020423,Charleston House Gynecology,,3611 Swiss Ave,Suite 201,Dallas,TX,75204,United States,,,,,32.79280398,-96.78147000,,country_inferred
+29803936,Chase Plastic Surgery & Aesthetics,,2449 Spring Creek Blvd.,,Cleveland,TN,37311,United States,United States of America,,,,35.17566200,-84.85809597,,country_normalized
+91293378,Childs Dermatology Clinic,,1605 Rock Prarie Rd ste 312,,College Station,TX,77845,United States,,,,,30.58320900,-96.29067101,,country_inferred
+103279598,Christina Guzman,,12458 Challendon Drive,,Rancho Cucamonga,CA,91739,United States,,,,,34.14802688,-117.53297500,,country_inferred
+152193028,Christine Hamori's Cosmetic Surgery and Skin Spa,,113 Tremont St,,Duxbury,MA,02332,United States,,,,,42.01457683,-70.71832002,,country_inferred
+55526073,CKing Aesthetics,,11940 US Hgwy 1,Suite #205 Studio 106,Palm Beach Gardens,FL,33408,United States,,,,,26.85166701,-80.05771901,,country_inferred
+27217141,Clarity Medical Aesthetics,,1205 Boston Post Rd,,Guilford,CT,06437,United States,,,,,41.28786765,-72.68981191,,country_inferred
+139664062,Clean Slate Esthetics,,313 S. Friendswood Dr.,#105,Friendswood,TX,77546,United States,,,,,29.51047962,-95.17721480,,country_inferred
+156828454,Clear Allergy Immunology Laser Center,,5904 Chapel Hill Blvd Ste 103,,Plano,TX,75093,United States,,,,,33.03446301,-96.82792502,,country_inferred
+139664067,Clear Dermatology,,"7125 E Lincoln Dr, Suite A101",,Scottsdale,AZ,85253,United States,,,,,33.53075043,-111.92823590,,country_inferred
+144462615,Clearly by Parella,,11875 E Ridgeview Drive,,Davie,FL,33330,United States,,,,,26.07125948,-80.30798864,,country_inferred
+145959454,Clinic Ellena Health + Wellness,,125 SE Main St Suite 235,,Minneapolis,MN,55414,United States,,,,,44.98460301,-93.25532915,,country_inferred
+54100092,Clinica Las Americas,,Suite 401 Ave. Roosevelt,# 400,Hato Rey,PR,00918,United States,00918,,,,18.42036701,-66.06937596,,zip_recovered_from_country; country_inferred
+142911144,Commonwealth Plastic Surgery,,715 Shaker Drive,Suite 100,Lexington,KY,40504,United States,,,,,38.03235399,-84.52965495,,country_inferred
+33949856,Complexions Skin Care,,500 Ala Moana Blvd. Ste. 5i,,Honolulu,HI,96813,United States,,,,http://complexions808.com,21.30068000,-157.86274596,,country_inferred
+69994848,Concierge HRS,,21510 Halstead Drive,,Boca Raton,FL,33428,United States,,,,,26.35553306,-80.24529368,,country_inferred
+28029218,Connecticut Medical Aesthetics,,5 Davis Rd East,,Old Lyme,CT,06371,United States,,,,,41.32540401,-72.33550799,,country_inferred
+163920228,Consona Plastic Surgery and Aesthetics,,19 Crossroads Ct Ste 201,,Delafield,WI,53018,United States,,,,,43.05467538,-88.37825232,,country_inferred
+27217145,Contoured Medspa,,100 Ridge Rd,#17,Chadds Ford,PA,19317,United States,,,,,39.86646532,-75.54541238,,country_inferred
+126130293,Cooper Clinic Dermatology,,12200 Preston Rd Ste 101,,Dallas,TX,75230,United States,,,,,32.91476373,-96.80237212,,country_inferred
+46793493,Coronado Advanced Wellness,,4000 Coronado Bay Rd,,Coronado,CA,92118,United States,,,,,32.63141999,-117.13498698,,country_inferred
+141278991,Cortina Reserve Dermatology,,4515 Harding Pike #310,,Nashville,TN,37205,United States,,,,,36.12380956,-86.84810111,,country_inferred
+127409479,Cosiderma,,9321 Cherokee Lane,,Beverly Hills,CA,90210,United States,,,,,34.11186262,-118.39731015,,country_inferred
+28451112,Cosmedica Injections,,480 Maplewood Drive #4,,Jupiter,FL,33458,United States,,,,,26.93038598,-80.12501898,,country_inferred
+155305007,Cosmetic Physician Partners,,"9225 Ward Parkway, Ste 110",,Kansas City,MO,64114,United States,,,,,38.96108488,-94.59942382,,country_inferred
+110252123,Couture Aesthetics (Moxie),,21199 Old Gate Court,,Riverside,CA,92507,United States,,,,,34.00261583,-117.29196519,,country_inferred
+97705478,Couture Med Spa,,1155 N Orange Ave,Suite 2,Winter Park,FL,32789,United States,,,,,28.58896283,-81.36184876,,country_inferred
+94792114,Couture Med Spa - Lake Mary,,1109 International Pkwy,,Lake Mary,FL,32746,United States,,,,,28.78182447,-81.35688366,,country_inferred
+97705474,Couture Med Spa - Lake Mary,,1109 International Pkwy,,Lake Mary,FL,32746,United States,,,,,28.78182447,-81.35688366,,country_inferred
+120218805,Couture Med Spa - Nashua,,449 Amherst Street,,Nashua,NH,03063,United States,,,,,42.78970536,-71.51582298,,country_inferred
+94792112,Couture Med Spa - Oviedo,,21 Alafaya Woods Boulevard,,Oviedo,FL,32765,United States,,,,,28.65199474,-81.20614359,,country_inferred
+97705476,Couture Med Spa - Oviedo,,21 Alafaya Woods Boulevard,,Oviedo,FL,32765,United States,,,,,28.65199474,-81.20614359,,country_inferred
+94792109,Couture Med Spa - Winter Park,,1155 N Orange Ave,Suite 2,Winter Park,FL,32789,United States,,,,,28.58896283,-81.36184876,,country_inferred
+44381479,Cove Crafted Beauty,,115 North Broadway,,De Pere,WI,54115,United States,,,,,44.44941899,-88.06082403,,country_inferred
+28818843,Crystal Valley Medical Aesthetics,,216 Hemlock Ave,STE 104B,South Windsor,CT,06074,United States,,,,,41.81508992,-72.55425118,,country_inferred
+115296373,CULT Aesthetics - Atlanta,,1 Concourse Pkwy,Suite 620,Atlanta,GA,30328,United States,,,,,33.91621223,-84.35348948,,country_inferred
+43982826,Curate Skin Studio Lab,,3940 Sunnyside Rd,,Edina,MN,55424,United States,,,,,44.92140761,-93.33050954,,country_inferred
+145959425,Curated Skin & Wellness,,51147 Battonwood Dr,,Macomb Twp,MI,48042,United States,,,,,42.67334296,-82.92891991,,country_inferred
+33585858,"Curtis Dermatology, P.A.",,10817 S Jog Rd Suite 236,,Boynton Beach,FL,33437,United States,United States of America,,,,26.51495799,-80.14952398,,country_normalized
+48698342,Custom Beauty Med Studio,,600 Pennsylvania Ave SE Ste 103,,Washington,DC,20003,United States,,,,,38.88568190,-76.99770836,,country_inferred
+80077411,Cute Looks Medispa,,5601 North Federal Hwy,Ste 7,BOCA RATON,FL,33487,United States,,,,,26.39959798,-80.07666596,,country_inferred
+44449420,Cynsational Aesthetics,,9220 Primera Court,,Elk Grove,CA,95758,United States,,,,,38.42183145,-121.42940068,,country_inferred
+141278999,Dakotah Tyrene Esthetics,,5817 238th St SE,Unit 2,Woodinville,WA,98072,United States,,,,,47.78243543,-122.15445240,,country_inferred
+39369082,dangene,,711 5th Ave;,16th Floor,New York,NY,10022,United States,,,,,40.76181490,-73.97459804,,country_inferred
+152198350,Dangskyn,,9451 LBJ FWY Frontage Rd Ste 206,,Dallas,TX,75243,United States,,,,,32.91201262,-96.73295521,,country_inferred
+28029282,Davishire Dermatology,,1900 Patterson Street,,Nashville,TN,37203,United States,,,,,36.15637099,-86.80115499,,country_inferred
+47389809,Definite Wellness,,875 Union Street,,Shelbyville,TN,37160,United States,,,,,35.49575599,-86.47424300,,country_inferred
+61878774,Delray Dermatology + Cosmetic Center,,550 SE 6th Ave,,Delray Beach,FL,33483,United States,,,,,26.45271725,-80.06718569,,country_inferred
+60369675,Delray Med Spa,,301 W Atlantic Ave,STE R5,Delray Beach,FL,33444,United States,,,,,26.46185830,-80.07668281,,country_inferred
+123588222,Delray Medical & Dental,,"4765 W Atlantic Ave,",,Delray Beach,FL,33445,United States,,,,,26.45899961,-80.11903958,,country_inferred
+128791375,Delray Skin Studio,,"1120 S Federal Hwy., Ste 103",,Delray Beach,FL,33483,United States,,,,,26.44535383,-80.06784032,,country_inferred
+33278422,Derma Beauty Aesthetics & Wellness,,"3140 Red Hill Ave, #170",,Costa Mesa,CA,92626,United States,United States of America,19493068591,,,33.67792298,-117.87539704,,country_normalized
+162443118,DermaSpalogy,,8517 SW 136th St,,Pinecrest,FL,33156,United States,,,,,25.64447673,-80.33117390,,country_inferred
+49452448,Dermatology & Cosmetic Center,,"5097 Miller Rd, Ste 1",,Flint,MI,48507,United States,,,,,42.97448299,-83.77557502,,country_inferred
+132826906,Dermatology & Laser Surgery Center,,1802 Binz St Suite 500,,Houston,TX,77004,United States,,,,,29.72135095,-95.38282465,,country_inferred
+111398427,Dermatology Associates of Central NJ,,3548 ROUTE 9 S,Suite 2,Old Bridge,NJ,08857,United States,,,,,40.38083024,-74.30898635,,country_inferred
+27217173,Dermatology Associates of Eastern CT,,622 Hebron Ave,Suite 107,Glastonbury,CT,06033,United States,,,,,41.71376834,-72.58931189,,country_inferred
+54100095,Dermatology Associates of West Texas,,2202 Ithaca Ave,,Lubbock,TX,79410,United States,,,,,33.57389602,-101.88940004,,country_inferred
+152193162,Dermatology Care of Charlotte-Ballantyne,,"15830 Ballantyne Medical Place, Suite 100",,Charlotte,NC,28277,United States,,,,,35.05715471,-80.85454740,,country_inferred
+158283796,Dermatology Duluth,,4316 Rice Lake Rd Suite 101,,Duluth,MN,55811,United States,,,,,46.82603899,-92.13274371,,country_inferred
+66819220,Dermatology Specialists Of Gainesvi,,13575 NW 1st Ln,Suite 10,Newberry,FL,32669,United States,,,,,29.65554274,-82.48738706,,country_inferred
+28819981,DermWorks,,7000 W Palmetto Park Rd,Ste 105,Boca Raton,FL,33433,United States,,,,,26.34930099,-80.15473199,,country_inferred
+37393096,Des'nu Esthetics,,1150 Douglas Ave,Suite 2090,Altamonte Springs,FL,32714,United States,,,,,28.58995399,-81.36995004,,country_inferred
+72862995,Designer Aesthetics,,950 Brickell Bay Drive,#5003,Miami,FL,33131,United States,,,,,25.76501399,-80.19018501,,country_inferred
+33278440,Dew Skincare,,3280 Howell Mill Rd NW Suite 342,,Atlanta,GA,30327,United States,United States of America,16785806355,,,33.84344600,-84.42891202,,country_normalized
+99940997,DFW Concierge MD,,710 Hunnington Dr,,Dallas,TX,75234,United States,,,,,32.97601504,-96.76269896,,country_inferred
+28825995,Diamante Medical Skin Care,,263 US-1,,Tequesta,FL,33469,United States,,,,,26.95791702,-80.08414396,,country_inferred
+108164393,Diamond Aesthetics,,129 Thomas Ave,,Emerson,NJ,07630,United States,,,,,40.97433269,-74.02466113,,country_inferred
+133934857,Disappearing Act Medical Aesthetics,,2143 Airpark Drive,,Redding,CA,96001,United States,,,,,40.57448029,-122.40436186,,country_inferred
+142911141,Disappearing Act Medical Spa OR,,500 A St,,Ashland,OR,97520,United States,,,,,42.19807957,-122.70694672,,country_inferred
+32454516,DLux MED SPA,,2171 Pine Ridge Rd East,,Naples,FL,34109,United States,United States of America,,,http://www.dluxmedspa.com,26.21211899,-81.77505102,,country_normalized
+98765130,Dominque Cross,,22814 Serra Drive,,Carson,CA,90745,United States,,,,,33.81875731,-118.26399372,,country_inferred
+33949858,Donna Curry Esthetics,,"1133 W Mill Rd, suite 103",,Evansville,IN,47710,United States,United States of America,,,http://8124831208,38.02190700,-87.57947304,,country_normalized
+133939392,Dr. Alan Rosenbach,,2080 Century Park East #1704,#1704,Los Angeles,CA,90067,United States,,,,,34.05942300,-118.41128102,,country_inferred
+35608991,Dr. Diane Berson,,211 E 53rd St #3,,New York,NY,10022,United States,,,,,40.75749415,-73.96858939,,country_inferred
+47389821,Dr. Edmund Farris MD,,179 Sprain Road,,Scarsdale,NY,10583,United States,,,,,41.00522352,-73.83297589,,country_inferred
+127409481,Dr. Hilmi Esthetics,,12035 Great Elm Drive,,Potomac,MD,20854,United States,,,,,39.04876713,-77.24542763,,country_inferred
+145959460,Dr. Lady Dy,,"1452 Waukegan Rd,",,Glenview,IL,60025,United States,,,,,42.08189319,-87.79974702,,country_inferred
+128791180,Dr. Lady Dy,,"1452 Waukegan Rd,",,Glenview,IL,60025,United States,,,,,42.08189319,-87.79974702,,country_inferred
+46465203,Dr. Lex Aesthetics,,1515 S. Federal Hwy #200,,Boca Raton,FL,33432,United States,,,,,26.33589401,-80.08871998,,country_inferred
+33949845,Dr. Rommie Fakhoury,,10601 Church St. #105,,Rancho Cucamonga,CA,91730,United States,United States of America,19099897100,,http://www.drrommiefakhoury.com,34.11270198,-117.57209100,,country_normalized
+34891953,Dr.'s Dori and Jeffrey Katz,,"95 Church St, STE 304",,White Plains,NY,10601,United States,United States of America,,,,41.03432763,-73.76776008,,country_normalized
+142911085,Duchess Med Spa,,10617 N Hayden Rd,Ste B-109,Scottsdale,AZ,85260,United States,,,,,33.58442604,-111.90686574,,country_inferred
+92433084,DUEC Brier Creek,,10207 Cerny Street,Suite 106 - 1ST FLOOR,Raleigh,NC,27617,United States,,,,,35.90178757,-78.80114457,,country_inferred
+45953019,E-Luxe Aesthetics and Wellness,,8034 NW 198th Terrace,,Hialeah,FL,33015,United States,,,,,25.95355899,-80.33298699,,country_inferred
+74714617,E-Luxe Aesthetics/AM Beauty,,16251 NW 57th Ave,#110,Miami Lakes,FL,33014,United States,,,,,25.92034800,-80.29247801,,country_inferred
+111394646,Echoes Aesthetic Clinic,,750 Swift Blvd,Ste 6,Richland,WA,99352,United States,,,,,46.28062101,-119.27820903,,country_inferred
+126130279,Ecrin,,1111 King St,,Charleston,SC,29403,United States,,,,,32.80706499,-79.95109298,,country_inferred
+34891950,Elan Skin,,3750 Hillsboro Pike,,Nashville,TN,37215,United States,United States of America,,,,36.10933859,-86.81170546,,country_normalized
+34891951,Elan Skin,,3750 Hillsboro Pike,,Nashville,TN,37215,United States,,,,,36.10933859,-86.81170546,,country_inferred
+156828456,Elect Dermatology,,2154 Gabriels Pl #103,,New Braunfels,TX,78130,United States,,,,,29.71739322,-98.07082506,,country_inferred
+27217157,Elegant Aesthetics & Wellness,,214 2nd Avenue S.,,Franklin,TN,37064,United States,,,,,35.92373600,-86.86633700,,country_inferred
+110251685,Element Medical Aesthetics,,7951 Collin McKinney Pkwy APT 1500 Suite 114,,McKinney,TX,75070,United States,,,,,33.13945766,-96.71874931,,country_inferred
+27217102,Element Medical Aesthetics,,80 Main Street,2nd Floor,New Canaan,CT,06840,United States,,,,,41.14816742,-73.49251204,,country_inferred
+70908726,Elevating Aesthetics and Wellness,,12177 Northwest 76th Place,,Parkland,FL,33076,United States,,,,,26.32584465,-80.28849895,,country_inferred
+89136133,Elin Aesthetics,,17780 W. Capitol Dr. Suite 120,,Brookfield,WI,53045,United States,,,,,43.09139976,-88.13294092,,country_inferred
+101071910,Elite Aesthetics,,3210 Antilley Road,,Abilene,TX,79606,United States,,,,,32.37349999,-99.76237099,,country_inferred
+27217107,Elite Laser and Skincare,,4765 Andrew Jackson Pkwy,,Hermitage,TN,37076,United States,,,,,36.21955934,-86.59711419,,country_inferred
+141281988,Elite Medical Tampa,,"4905 W Laurel Street, Suite 202",,Tampa,FL,33607,United States,,,,,27.95641463,-82.52633928,,country_inferred
+27217134,Elivate Medspa Wellness,,1455 East Putnam Ave,,Old Greenwich,CT,06870,United States,,,,,41.04636725,-73.57141205,,country_inferred
+139664331,Elizabeth Green,,4216 Decatur Dr,,Woodbridge,VA,22193,United States,,,,,38.62806784,-77.33863816,,country_inferred
+153732611,Ella Medical Aesthetics,,"3345 Bee Caves Rd, Suite 102A",,Austin,TX,78746,United States,,,,,30.27444307,-97.80242436,,country_inferred
+29327209,EMB Aesthetics,,471 Main St Ste 102,,Stoneham,MA,02180,United States,United States of America,,,,42.47601653,-71.10084166,,country_normalized
+38251154,Ember Glow Lab,,657 South Drive,Unit 404,Miami Springs,FL,33166,United States,,,,,25.80877301,-80.27948597,,country_inferred
+36683778,Emerald Aesthetics,,"4305 S Pleasant Crossing Blvd,",suite 3,Rogers,AR,72758,United States,,,,,36.27901404,-94.14844465,,country_inferred
+139664064,Emily Michelle Esthetics,,201 Keller St,,Petaluma,CA,94952,United States,,,,,38.23538402,-122.64335557,,country_inferred
+156828448,EMP Aesteem Aesthetics,,4925 Greenville Ave Ste 550,,Dallas,TX,75206,United States,,,,,32.84710447,-96.77058183,,country_inferred
+159764378,EMP Aesthetic Alchemy,,10905 Quaker Ave,,Lubbock,TX,79424,United States,,,,,33.49498187,-101.90454722,,country_inferred
+136972690,EMP Hayes Clinic & Spa,,410 N Collegiate Dr,,Paris,TX,75460,United States,,,,,33.66573829,-95.52521818,,country_inferred
+133934863,EMP House of Beauty,,1633 Rogers Road,,Fort Worth,TX,76107,United States,,,,,32.72706748,-97.36452927,,country_inferred
+144461802,EMP Lakewood Int Health,,6331 Prospect Ave,,Dallas,TX,75214,United States,,,,,32.81533286,-96.75409077,,country_inferred
+144456185,EMP Live Young Wellness,,2931 Long Prairie Rd Unit 100,,Flower Mound,TX,75022,United States,,,,,33.02518579,-97.07248725,,country_inferred
+144462611,EMP Omri Med,,4517 114th St Suite 100,,Lubbock,TX,79424,United States,,,,,33.48921466,-101.90818841,,country_inferred
+150594782,EMP Re-form Aesthetics,,1916 S Carolina St.,,Amarillo,TX,79102,United States,,,,,35.19330976,-101.87499833,,country_inferred
+131530642,EMP Refine MedSpa,,2900 W Southlake Blvd #160,,Southlake,TX,76092,United States,,,,,32.93478944,-97.19830322,,country_inferred
+161127787,EMP Renew Beauty Frisco,,Stonebriar Centre2601 Preston RdSte 1062,,Frisco,TX,75034,United States,,,,,33.09977945,-96.81178399,,country_inferred
+149090400,EMP Sculpt Haus,,2200 W. Wadley Ste 10,,Midland,TX,79705,United States,,,,,32.02425056,-102.10802463,,country_inferred
+159769208,Employee IAS Fort Worth,,2917 Crockett Street,,Fort Worth,TX,76107,United States,,,,,32.75010668,-97.35872171,,country_inferred
+158283240,Employee IAS Woodlands,,1900 Lake Woodlands Dr,Suite 500,The Woodlands,TX,77380,United States,,,,,30.16597998,-95.46436196,,country_inferred
+28824427,Endocrinology And Antiaging Center,,535 Ave. Escorial,Urb. Caparra Heights,SAN JUAN,PR,00920,United States,,,,,18.40699599,-66.09435101,,country_inferred
+115296368,Enliven You Aesthetics & Wellness,,2959 Valwood Pkwy,,Farmers Branch,TX,75234,United States,,,,,32.93918960,-96.87765905,,country_inferred
+152198343,Ennis Plastic Surgery,,"233 S Federal Highway, Ste 110",,Boca Raton,FL,33432,United States,,,,,26.34765043,-80.08705843,,country_inferred
+91293365,Enso Plastic Surgery,,1441 Brickell Ave,Suite 301,Miami,FL,33131,United States,,,,,25.75873632,-80.19156333,,country_inferred
+33585859,EnVie Medical Spa,,3770 Due West Rd NW,,Marietta,GA,30064,United States,United States of America,16786267262,,,33.96520802,-84.66201501,,country_normalized
+48454914,Epiphany Dermatology-Riverside,,1805 NW Platte Road Suite 120,,Riverside,MO,64150,United States,,,,,39.16758199,-94.60384401,,country_inferred
+27217159,Epitome Medical Aesthetics,,2185 Upton Dr,#101,Virginia Beach,VA,23454,United States,,,,,36.75706022,-76.00612453,,country_inferred
+29803927,ESMÉ Esthetic Studio,,2077 Lynnhaven Pkwy,Suite 103,Virginia Beach,VA,23456,United States,United States of America,,,http://Esmeestheticsstudio.com,36.79013901,-76.12287496,,country_normalized
+27217108,Essential Glow Aesthetics,,1209 W Everly Brothers Road,,Central City,KY,42330,United States,,,,,37.27996108,-87.13641428,,country_inferred
+33949848,Estetica Cosmetic Surgery,,9450 E. Ironwood Square Dr.,,SCOTTSDALE,AZ,85258,United States,United States of America,+1 4805510581,,,33.57858255,-111.87735716,,country_normalized
+39671394,Esthetics by Halima,,6931 SW 57th Ave,,Coral Gables,FL,33146,United States,,,,,25.70510285,-80.28532184,,country_inferred
+27217138,Eterna Cosmetic Surgery,,5431 nm loop 1604 W,,San Antonio,TX,78249,United States,,,,,29.59224848,-98.59301615,,country_inferred
+150600401,Evina Enhancements,,811 E Las Olas Blvd Unit 4,,Fort Lauderdale,FL,33301,United States,,,,,26.12211106,-80.12559398,,country_inferred
+159769205,Evolv Vitality,,215051 135th Ave Suite 108,,Rogers,MN,55374,United States,,,,,45.18660900,-93.55780430,,country_inferred
+59020460,Evolve Aesthetics and Wellness,,1800 43rd Ave,1800 43rd Ave,Vero Beach,FL,32960,United States,,,,,27.63519164,-80.42973997,,country_inferred
+135856013,Exclusive Beauty Club,,7257 NE 4th Avenue,,Miami,FL,33138,United States,,,,https://exclusivebeautyclub.com,25.84227196,-80.18905907,,country_inferred
+93554014,F.U.T.U.R.E. Aesthetics,,2736 NW 29th Ave Terrace,,Fort Lauderdale,FL,33311,United States,,,,,26.16288235,-80.18294035,,country_inferred
+33278418,Face & Beyond Aesthetic Lounge,,3709 Drakeshire Drive,,Modesto,CA,95356,United States,United States of America,15593264676,,https://faceandbeyondaestheticlounge.com,37.69277099,-120.98139701,,country_normalized
+122452325,Face Austin,,4613 Beecaves Rd Ste 104,,Westlake hills,TX,78746,United States,,,,,30.28714002,-97.81588101,,country_inferred
+54461747,Face Edit by Itza,,2100 Coral Way ph 706,,Coral Gables,FL,33145,United States,,,,,25.75039599,-80.22844899,,country_inferred
+47687092,Face It SkinCare LLC,,"3020 BROADMOOR LN ,STE 450",,Flower Mound,TX,75022,United States,,,,,33.03378998,-97.07673997,,country_inferred
+132431480,FACEBYMACE,,83 S Crater Pool Ln,,Saratoga Springs,UT,84045,United States,,,,,40.36085055,-111.91339776,,country_inferred
+132826903,Faces of Marco,,12250 Tamiami Trail East,Suite 202,Naples,FL,34113,United States,,,,,26.06782906,-81.70820241,,country_inferred
+64794776,Facial Artistry & Aesthetics,,1745 E Skyline Dr unit 101,,Tucson,AZ,85718,United States,,,,,32.33515018,-110.94580879,,country_inferred
+37992394,Fancy Face Aesthetics and Wellness,,2760 US1 South,,Saint Augustine,FL,32086,United States,,,,,29.84426301,-81.32194403,,country_inferred
+95593097,Fellas Salon LLC,,1804 St. Clair Ave,,St. Paul,MN,55105,United States,,,,,44.93419160,-93.17657823,,country_inferred
+75738603,Fetch Mkt.,,4084 Spring Island Drive,,Okatie,SC,29909,United States,,,,,32.31607130,-80.83138730,,country_inferred
+36418569,Fine Aesthetics,,"5329 W. Atlantic Ave,",#204,Delray Beach,FL,33484,United States,,,,,26.45888000,-80.12796396,,country_inferred
+144462942,Fit Lab Hawai'i,,178 W Kawailani St,,Hilo,HI,96720,United States,,,,,19.68468918,-155.07275212,,country_inferred
+159769202,Flawless Aesthetics & Anti-aging,,1042 Camellia Blvd Suite 16,,Lafayette,LA,70508,United States,,,,,30.17509899,-92.04269600,,country_inferred
+27217090,Flawless Aesthetics Chattanooga,,6116 Shallowford Road,Suite 117,Chattanooga,TN,37421,United States,,,,,35.05105743,-85.18341396,,country_inferred
+94547616,Flawless by Melissa (WPB Location),,4825 SW 158 Ave,,South West Ranches,FL,33331,United States,,,,,26.05950080,-80.35894315,,country_inferred
+94224255,Flawless by Melissa (WPB Location),,521 South Olive Ave,,West Palm Beach,FL,33401,United States,,,,,26.70865384,-80.05233464,,country_inferred
+72862956,Florida Dermatologic Surgery and Aesthetics Institute,,11950 CR 101,Suite 203,The Villages,FL,32162,United States,,,,,28.92898001,-82.01736396,,country_inferred
+38663131,Forever Young Med Spa,,10 Fern Drive,,Jericho,NY,11753,United States,,,,,40.79676501,-73.53275280,,country_inferred
+27217111,Four Bridges Dermatology,,1247 Riverfront Pkwy,Suite 205,Chattanooga,TN,37402,United States,,,,,35.04325900,-85.32117000,,country_inferred
+32124776,Freedom Wellness & Aesthetics,,4961 Atlantic Avenue #57,,Delray Beach,FL,33445,United States,United States of America,15616762302,,http://www.freedomwellnessandaesthetics.com,26.45923200,-80.11973998,,country_normalized
+47389820,Fresh Slate,,166 Hargraves Drive,Suite B500,Austin,TX,78737,United States,,,,,30.20394099,-97.97896996,,country_inferred
+38251155,Full Circle Health,,"64 Lafeyette Rd,",Suite 3 & 13,North Hampton,NH,03862,United States,,,,,42.97196401,-70.83616203,,country_inferred
+147598024,Functional living & aesthetics,,10005 merry fawn court,,sun city center,FL,33573,United States,,,,,27.74334535,-82.34296939,,country_inferred
+132694872,G Halo Esthetics,,178 Mt. Bethel Road,,Warren,NJ,07059,United States,,,,,40.63757502,-74.51348803,,country_inferred
+158283789,Gables Pediatrics,,358 San Lorenzo Ave,Suite 3230,Coral Gables,FL,33146,United States,,,,,25.73132800,-80.26027901,,country_inferred
+59648169,Gainesville Dermatology,,114 NW 76th St,,Gainesville,FL,32607,United States,,,,,29.65359915,-82.42505294,,country_inferred
+156820095,Gavino Dermatology,,9073 W State Hwy 29 Ste 108,,Liberty Hill,TX,78642,United States,,,,,30.64179795,-97.84039464,,country_inferred
+27616579,Genesis Dermatology,,600 Heritage Drive,#101,Jupiter,FL,33458,United States,,,,,26.88867202,-80.10546903,,country_inferred
+119967728,Genuine Skin Esthetics,,2175 Pend Oreille Circle,,Idaho Falls,ID,83404,United States,,,,,43.48848962,-111.99101996,,country_inferred
+43617732,Georgia Leith Skin,,5481 Wisconsin Ave Loft 16,,Chevy Chase,MD,20815,United States,,,,,38.96319900,-77.08645997,,country_inferred
+37937603,Gerrish Medesthetics-VA,,112 Pleasant St SW,,Vienna,VA,22180,United States,,,,,38.89803964,-77.26866738,,country_inferred
+32454474,Gillie Aesthetics Dermatology,,"1602 W Northfield Blvd, suite 300",,Murfreesboro,TN,37129,United States,United States of America,16158017674,,,35.87117301,-86.41321704,,country_normalized
+163920241,Glass Skin Aesthetics,,286 New Gate Loop,,LAKE MARY,FL,32746,United States,,,,,28.76365141,-81.39043490,,country_inferred
+156824267,Gleam Aesthetic,,202 Central Ave S Ste 8,,Valley City,ND,58072,United States,,,,,46.92210025,-98.00327840,,country_inferred
+85854093,Glick Skin Institute - Margate,,3275 N State Rd 7,,Margate,FL,33063,United States,,,,,26.27138399,-80.20252703,,country_inferred
+95593093,Glick Skin Institute - Wellington,,1447 Medical Park Blvd. #107,,Wellington,FL,33414,United States,,,,,26.65496612,-80.20645202,,country_inferred
+131530641,Glo Derma,,204 Floral Vale Blvd,,Yardley,PA,19067,United States,,,,,40.21891907,-74.88384368,,country_inferred
+39581331,Glo Medspa,,"1613 Military Cutoff Road,",Suite 110,Wilmington,north carolina,28403,United States,,,,,34.22092379,-77.83130146,,country_inferred
+39484075,Glo Skin Studio,,8886 E. Tanque Verde Rd,,Tucson,AZ,85749,United States,,,,,32.25744510,-110.80298230,,country_inferred
+136972689,Glow Aesthetic & Laser Center,,"9995 SW 72nd St, Suite 203",,Miami,FL,33173,United States,,,,,25.70184813,-80.35610646,,country_inferred
+33278436,Glow by Elena Reitman MD,,"15 Broadway, Suite 105",,Cresskill,NJ,07626,United States,United States of America,,,,40.93918301,-73.96205703,,country_normalized
+45431598,Glow Light Medical Spa,,14121 24th St. NE,,Bellevue,WA,98007,United States,,,,,47.63122599,-122.15107600,,country_inferred
+33585857,Glow Salon & Spa,,1839 Holman Drive,,North Palm Beach,FL,33408,United States,United States of America,15616766554,,,26.84927900,-80.06020298,,country_normalized
+134085461,Glow Setters Skin Studio,,"785 Oakleaf Plantation Parkway, Unit 612",,Jacksonville,FL,32065,United States,,,,,30.17142068,-81.85005506,,country_inferred
+130054522,Glow Skincare Boutique,,"6000 Shakeraq Hill, Ste 304",,Peachtree City,GA,30269,United States,,,,,33.41332147,-84.56012535,,country_inferred
+138513658,Glowing Skin Med Spa,,1583 N Federal Highway,,Fort Lauderdale,FL,33304,United States,,,,,26.14836242,-80.12031330,,country_inferred
+142911143,Glowing Wellness,,12525 Orange Ave. Suite 710,,Davie,FL,33330,United States,,,,,26.06617811,-80.31620533,,country_inferred
+51081974,GlowTox Bar,,1601 Concord Pike,#35,Wilmington,DE,19803,United States,,,,,39.84302596,-75.64284471,,country_inferred
+71810914,Glösense Dermatology & Aesthetics,,7875 sw 104th street,Suite 203,Miami,FL,33156,United States,,,,,25.67422800,-80.32236503,,country_inferred
+103279596,Gold Dermatology,,200 NE 2nd Ave #105,,Delray Beach,FL,33444,United States,,,,,26.46610365,-80.07151796,,country_inferred
+27217122,Gold Skincare Center,,2000 Richard Jones Rd,,Nashville,TN,37215,United States,,,,,36.10495915,-86.80961422,,country_inferred
+47096518,Good Skin Aesthetics,,3875 Sierra Meadows Drive,,Rocklin,CA,95677,United States,,,,,38.79154100,-121.22239470,,country_inferred
+124829686,Goodjuju Aesthetics,,7325 N 16th St,#140,Phoenix,AZ,85020,United States,,,,,33.54462302,-112.04693002,,country_inferred
+27217121,Greater Knoxville Dermatology,,7730 Dannaher Drive,,Powell,TN,37849,United States,,,,,36.05755908,-84.00021376,,country_inferred
+46465154,Greater Miami Skin & Laser Center,,"4308 Alton Rd, Ste 750",,Miami Beach,FL,33140,United States,,,,,25.81489398,-80.14054202,,country_inferred
+30625200,Greenwich Pharmacy and Spa,,118 Main St,,New Canaan,CT,06840,United States,United States of America,,,,41.14716882,-73.49220640,,country_normalized
+28826413,GreenwichMD,,40 East Putnam Ave,STE 2D,Cos Cob,CT,06807,United States,,,,,41.03709198,-73.60369899,,country_inferred
+44449422,Grossman Dermatology,,2001 SANTA MONICA BLVD SUITE 1250W,,SANTA MONICA,CA,90404,United States,,,,,34.02909199,-118.47995999,,country_inferred
+139664332,Group Health Cooperative,,17059 Olympic View Rd NW,,Silverdale,WA,98383,United States,,,,,47.71956513,-122.74667946,,country_inferred
+40732728,Gunn Dermatology,,391 Rele Street,,Mountain Brook,AL,35223,United States,,,,,33.48531900,-86.77319204,,country_inferred
+156828449,Hamilton Aesthetics,,3399 PGA Blvd #450,,Palm Beach Gardens,FL,33410,United States,,,,,26.84578107,-80.08778992,,country_inferred
+45025495,Hamilton Dermatology,,11800 ATLANTIS PL,,ALPHARETTA,GA,30022,United States,,,,,34.04846601,-84.27545396,,country_inferred
+42081600,Hamptons Medical Associates,,"1590 N.W. 10th Ave,",Suite 201,Boca Raton,FL,33486,United States,,561-368-2714,,https://www.hamptonsmed.com/,26.36391400,-80.10530399,,country_inferred
+69024401,Hannah Ellis Skincare,,1404 McGavock Pike,Suite B,Nashville,TN,37216,United States,,,,,36.20468893,-86.72368642,,country_inferred
+139664070,Harper Haus Aesthetics & Wellness,,1362 Orleans Ct,,Grayson,GA,30017,United States,,,,,33.89174726,-83.99655183,,country_inferred
+28825990,Haus of Skin,,602 Oak Rd,,Kemah,TX,77565,United States,,,,https://www.hausofskin.net/,29.54529100,-95.03391200,,country_inferred
+92442649,Hayes Clinic & Spa,,410 N Collegiate Dr,,Paris,TX,75460,United States,,,,,33.66573829,-95.52521818,,country_inferred
+92433146,"Heather J Roberts, MD, AMC",,11500 West Olympic Blvd. STE 480,,Los Angeles,CA,90064,United States,,,,,34.03624050,-118.44415770,,country_inferred
+163923237,Hecker Dermatology Pompano,,3500 NE 5th Avenue,,Pompano Beach,FL,33064,United States,,,,,26.27438446,-80.11643424,,country_inferred
+84758983,Hedman Method,,175 SW 7th St,Suite 2011,Miami,FL,33130,United States,,,,,25.76797699,-80.19670798,,country_inferred
+127409482,Hello YOU Aesthetics + Wellness,,1530 E Williams Field Rd. Ste. 203,,Gilbert,AZ,85295,United States,,,,,33.30827221,-111.75708540,,country_inferred
+123588208,Higher Level Skin and Beauty,,218 W 10th St,,Dallas,TX,75208,United States,,,,,32.74482329,-96.82542328,,country_inferred
+122452320,Highland Park Concierge Medicine,,3607 Oak Lawn Ave Ste 270,,Dallas,TX,75219,United States,,,,,32.81326924,-96.80467706,,country_inferred
+153732610,HJEM Aesthetics,,107 N 3rd Ave Suite 300,,Minneapolis,MN,55401,United States,,,,,44.98573260,-93.27039126,,country_inferred
+102223284,Holistic Skin Care by Janine LLC,,5505 Main St,,Williamsville,NY,14221,United States,,,,,42.87439967,-78.72408143,,country_inferred
+159764373,Hollywood Eye Institute & Elite Aesthetics,,9999 Sheridan St Suite 100,,Cooper City,FL,33024,United States,,,,,26.03072803,-80.27903075,,country_inferred
+54099734,Hormonally Balanced,,83 Cambridge St,,Burlington,MA,01803,United States,01803,,,,42.49430940,-71.19490263,,name_whitespace; zip_recovered_from_country; country_inferred
+150600413,House Beauty Aesthetics & Wellness,,480 W Miller St,,Dilley,TX,78017,United States,,,,,28.67102971,-99.17719588,,country_inferred
+118764880,House Longevity LLC,,1131 Alta Loma,,West Hollywood,CA,90069,United States,,,,,34.09159798,-118.37840100,,country_inferred
+131530637,House of Beauty FW,,1633 Rogers Road,,Fort Worth,TX,76107,United States,,,,,32.72706748,-97.36452927,,country_inferred
+141279788,House of Preservation,,3219 N Fitzhugh Ave,,Dallas,TX,75204,United States,,,,,32.81659547,-96.79360096,,country_inferred
+156820094,Hush Spa PLLC,,6510 Merle Hay Rd,,Johnston,IA,50131,United States,,,,,41.67919970,-93.69811500,,country_inferred
+128791111,Hydration Station,,"3333 west coast hwy, floor 4, suite 19",,Newport Beach,CA,92663,United States,,,,,33.62087328,-117.92720483,,country_inferred
+79372879,IAS Austin,,3001 Palm Way,Suite 146,Austin,TX,78758,United States,,,,,30.40263099,-97.71979296,,country_inferred
+126131297,IAS Austin South Lamar,,1100 S Lamar Blvd,Bdg 2; S. 2120,Austin,TX,78704,United States,,,,,30.25611486,-97.76230179,,country_inferred
+79372878,IAS Houston,,4525 Washington Ave,Suite 200,Houston,TX,77007,United States,,,,,29.77028274,-95.40693058,,country_inferred
+79280229,IAS Phoenix,,4637 N 24th St,,Phoenix,AZ,85016,United States,,,,,33.50489452,-112.02992197,,country_inferred
+147596780,IAS Post Oak,,"1800 Post Oak Blvd., Suite 6130",,Houston,TX,77056,United States,,,,,29.74719366,-95.46173122,,country_inferred
+79372877,IAS Prosper,,2200 East Prosper Trail,Suite 30,Prosper,TX,75078,United States,,,,,33.24766099,-96.77050002,,country_inferred
+79372882,IAS Scottsdale,,7012 E Greenway Pkwy,Suite 140,Scottsdale,AZ,85254,United States,,,,,33.62365334,-111.93009987,,country_inferred
+79372884,IAS Tyler,,419 WSW Loop 323,Suite 200,Tyler,TX,75701,United States,,,,,32.30354880,-95.30592570,,country_inferred
+97705470,IAS Tyler,,419 WSW Loop 323,Suite 200,Tyler,TX,75701,United States,,,,,32.30354880,-95.30592570,,country_inferred
+91299135,IAS Washington,,1365 Wisconsin Ave NW,,Washington,DC,20007,United States,,,,,38.90830173,-77.06362474,,country_inferred
+79372875,IAS Woodlands,,1900 Lake Woodlands Dr,Suite 500,The Woodlands,TX,77380,United States,,,,,30.16597998,-95.46436196,,country_inferred
+105591370,Icon Aesthetics & Wellness,,41 N Federal Hwy Suite B Second Floor,Suite B,Pompano Beach,FL,33062,United States,,,,,26.23305481,-80.10318832,,country_inferred
+62835090,Iconic Health,,1898 W Hillsboro Blvd,Suite H,Deerfield Beach,FL,33442,United States,,,,,26.31635123,-80.12974428,,country_inferred
+85854089,Ideal Medical and Wellness,,"2999. NE 191st Street, Ste 345",,Aventura,FL,33180,United States,,,,,25.95264100,-80.14179897,,country_inferred
+27217113,IGlow Medspa,,9400 Brighton Way,Suite 201,Beverly Hills,CA,90210,United States,,,,,34.07025582,-118.40101940,,country_inferred
+27217100,Image Surgical Arts,,2416 21st Ave. S,Suite 301,Nashville,TN,37212,United States,,,,,36.12655919,-86.80381422,,country_inferred
+44449424,Indulgence Cosmetics Skincare Clinic,,1771 Lindo Street,,Benicia,CA,94510,United States,,,,,38.05314698,-122.14379397,,country_inferred
+54100098,Infinity Beauty Lab Med Spa,,40 SW 13th St,suite #606,Miami,FL,33130,United States,,,,,25.76109000,-80.19423598,,country_inferred
+159042403,InHome Regen LLC,,14171 Metropolis Ave #203,,Ft Myers,FL,33912,United States,,,,,26.53650678,-81.85305377,,name_whitespace; country_inferred
+159769200,InHome Regen LLC,,11833 grand isle ln,,Ft Myers,FL,33913,United States,,,,,26.57261032,-81.75759588,,country_inferred
+39368999,Injection Perfection,,"5499 N Federal Hwy,",Suite P,Boca Raton,FL,33487,United States,,,,,26.39771000,-80.07683201,,country_inferred
+133934867,Injections by Sydney Bermel,,203 Woodlane Dr,,Clear Lake,IA,50428,United States,,,,,43.13480465,-93.43351399,,country_inferred
+36683774,Injectologie,,"2655 S LeJeune Rd, #808",,Coral Gables,FL,33134,United States,,,,,25.74750000,-80.26155398,,country_inferred
+135654885,Injector Artist Aesth (Moxie),,16918 Bulverde rd ste 102,,san antonio,TX,78247,United States,,,,,29.59465899,-98.42333002,,country_inferred
+123588205,Inner Glow,,"190 Congress Park Dr., Suite 180",,Delray Beach,FL,33445,United States,,,,,26.45748257,-80.09615699,,country_inferred
+43016062,Inner Image Aesthetic Medicine,,141 Camino Alto #1,,Mill Valley,CA,94941,United States,,,,,37.89759499,-122.53037296,,country_inferred
+158283800,InnerBeauty Med Spa & Laser,,18283 Minnetonka Blvd Ste B,,Wayzata,MN,55391,United States,,,,,44.94163901,-93.51104802,,country_inferred
+33278429,Innova Dermatology,,105 Maple Row Blvd,,Hendersonville,TN,37075,United States,United States of America,16152663376,,,36.30902598,-86.60028704,,country_normalized
+27217177,Inspire Medical Spa,,14 Woodruff Ave,#10,Narragansett,RI,02882,United States,,,,,41.43067879,-71.48211171,,country_inferred
+161127788,Integrated Wellness Center,,"105 Paseo Concepción de Gracia, Apt. 603",,San Juan,PR,00901,United States,,,,,18.46375799,-66.11322404,,country_inferred
+95594309,"Integrated Wellness Center, LLC",,471 Ave. Ferrocarril,Suite A-102,Ponce,PR,00731,United States,,,,,18.00529198,-66.61935998,,country_inferred
+141282013,Isabel Charleston,,37 Cleveland St Suite 201,,Charleston,SC,29403,United States,,,,,32.80158201,-79.95243400,,country_inferred
+76745901,It's A Secret Med Spa,,104 Decker Dr,Suite 200,Irving,TX,75062,United States,,,,,32.86192501,-96.94338901,,country_inferred
+123588218,IVY Cardiovascular & Vein Center,,20165 SE Bridgewater Drive,,Jupiter,FL,33458,United States,,,,,26.95757005,-80.15529660,,country_inferred
+39745194,J Day Aesthetics,,"18876 Van Buren Blvd,",Ste 205/206,Riverside,CA,92508,United States,,,,,33.88784498,-117.33286100,,country_inferred
+56199434,J'ai of Beverly Hills,,10309 Lauriston Ave,,Los Angeles,CA,90025,United States,,,,,34.05318699,-118.41783198,,country_inferred
+29346741,JaclynThompson LLC,,"248 Oxford Rd, STATIC SALON",,Oxford,CT,06478,United States,United States of America,,,,41.42111701,-73.10486897,,country_normalized
+45025494,"James A. Altick, JR., MD",,2804 Kilpatrick Blvd,,Monroe,LA,71201,United States,,,,,32.52629198,-92.09372704,,country_inferred
+58493489,Jason Dzubinski,,8825 Bee Caves Rd,,Austin,TX,78746,United States,,,,,30.31777350,-97.86091564,,country_inferred
+85854096,"Jennifer Murdock, MD",,2020 N Bayshore Dr,1705,Miami,FL,33137,United States,,,,,25.79658099,-80.18805299,,country_inferred
+123668429,Jerald P. Vizzone DO PA,,242 Calremont Ave,,Montclair,NJ,07042,United States,,,,,40.81840268,-74.21840128,,country_inferred
+114222374,Jersey Shore Facialist,,8 Paddock Ct,,Bayville,NJ,08721,United States,,,,,39.90539080,-74.16331634,,country_inferred
+95593091,Jetsetrx,,3811 Shipping Ave #409,Suite 209,Coral Gables,FL,33136,United States,,,,,25.73354748,-80.25622712,,country_inferred
+94547101,JetSetRX,,2355 Salzedo St,Suite 209,Coral Gables,FL,33134,United States,,,,,25.74976399,-80.26049904,,country_inferred
+45632492,Jeune Aesthetics,,4730 NE 2nd Ave,,Miami,FL,33137,United States,,305-501-0212,,http://www.jeunemiami.com,25.81897701,-80.19179802,,country_inferred
+34891867,Jewel MedSpa,,"2095 Exeter Road, suite 85",,Germantown,TN,38138,United States,United States of America,,,,35.09175500,-89.80401304,,country_normalized
+83439904,Jewels X,,7271 N St Rd 7,#804,Parkland,FL,33023,United States,,,,,26.32168501,-80.20379303,,country_inferred
+111398429,John Fasano MD,,509 Riverside Drive,,Stuart,FL,34994,United States,,,,,27.19935330,-80.24468934,,country_inferred
+142698922,Johnson Dermatology,,5921 Riley Park Drive,,Fort Smith,AR,72916,United States,,,,,35.27209982,-94.36943604,,country_inferred
+65762820,Jonathan's Landing,,16964 Captain Kirle Drive,,Jupiter,FL,33477,United States,,,,,26.92595020,-80.08736881,,country_inferred
+82459790,Joyce Averbach MD,,813 Porcari Street,,Charleston,SC,29412,United States,,,,,32.74057278,-79.93681039,,country_inferred
+35974170,"Judith E Crowell, M.D.",,7800 SW 87th Ave,# C300,Miami,FL,33173,United States,,,,,25.69639499,-80.33483998,,country_inferred
+91293369,Juliet Cosmetics,,9299 SW 152 St. Suite 104,,Miami,FL,33157,United States,,,,,25.62958070,-80.34347510,,country_inferred
+158283237,Just Injected (Moxie),,2515 Inwood Rd Ste 201 Unit 402,,Grapevine,TX,75235,United States,,,,,32.82212409,-96.83639292,,name_whitespace; country_inferred
+150600405,Just Wellness Medspa,,200 W Northwest Hwy Ste 201,,Grapevine,TX,76051,United States,,,,,32.94147045,-97.07931372,,country_inferred
+99941958,Juve Skin Care,,101 Via Vin Santo,,Henderson,NV,89011,United States,,,,,36.08711413,-114.93076463,,country_inferred
+120218804,K2 Restorative Medicine & Medspa,,3536 Vann Rd,Suite C,Trussville,AL,35235,United States,,,,,33.60656369,-86.63375330,,country_inferred
+103279593,KADO Aesthetics,,"5800 Camino Del Sol APT 100,",,Boca Raton,FL,33433,United States,,,,,26.34175514,-80.13513736,,country_inferred
+28029213,Kaesthetics,,8661 Brenton Dr,,Easton,MD,21601,United States,,,,,38.78681300,-76.05189399,,country_inferred
+80077423,Kamilia Smith MD,,3611 Swiss Avenue,ste 201,Dallas,TX,75204,United States,,,,,32.79280398,-96.78147000,,country_inferred
+141282009,Kara Szczomak PA,,15855 19 Mile rd,,Clinton Township,MI,48038,United States,,,,,42.61489092,-82.96051172,,country_inferred
+35754734,Kattine Aesthetics,,1430 Medical Center Parkway,,Murfreesboro,TN,37129,United States,,,,,35.86019401,-86.41709602,,country_inferred
+105591373,KAYO Aesthetics (Moxie),,5924 Convair Dr Suite 444 Rm 6,,Fort Worth,TX,76109,United States,,,,,32.69912217,-97.41378988,,name_whitespace; country_inferred
+108164398,KB Aesthetics,,9730 Wilshire Blvd.,Suite 211,Beverly Hills,CA,90212,United States,,,,,34.06674698,-118.40743700,,country_inferred
+91293366,KC Wellness & Medspa,,10036 Water Works Ln,,Riverview,FL,33578,United States,,,,,27.85456503,-82.33795919,,country_inferred
+63808802,Kim Apple Beauty,,10800 North Military Trail,,Palm Beach Gardens,FL,33410,United States,,,,,26.83628726,-80.10439531,,country_inferred
+27217127,Kim Bell MedSpa,,1029 Waterford Place,,Kingston,TN,37763,United States,,,,,35.88415879,-84.49613844,,country_inferred
+127409475,Kind Dermatology,,601 East Arrellagg Street Suite 101,,Santa Barbara,CA,93103,United States,,,,,34.43413644,-119.70263475,,country_inferred
+45025489,KM Skin Studio,,1600 Rosecrans Ave Dr #3,,Manhattan Beach,CA,90266,United States,,,,,33.90155601,-118.38395996,,country_inferred
+142911523,Know Me Aesthetics (Moxie),,1533 N Shepard Dr. Suite 200 Loft 3,,Houston,TX,77008,United States,,,,,29.79889935,-95.41041461,,country_inferred
+124829683,L'Avenue Dermatology & Aesthetics,,30 East 60th St.,Suite 1902,New York,NY,10022,United States,,,,,40.76382823,-73.97027943,,country_inferred
+152193186,L. Wagner Aesthetic,,219 Chalupsky Ave SE,,New Prague,MN,56071,United States,,,,,44.54194863,-93.55554486,,country_inferred
+104358445,La Fleur Aesthetics,,314 Raleigh St,,Holly Springs,NC,27540,United States,,,,,35.65029385,-78.83296889,,country_inferred
+89136174,LA Glow,,2925 Somerset Drive,,Los Angeles,CA,90016,United States,,,,,34.02866251,-118.33768532,,country_inferred
+147598030,La Las,,10418 W Rosewood Lane,,Peoria,AZ,85383,United States,,,,,33.73134177,-112.28401450,,country_inferred
+83440577,La Lumiere Esthetique,,9850 Walnut Hill Ln,"ste 227, #5",Dallas,TX,75238,United States,,,,,32.87781798,-96.71635703,,country_inferred
+32124777,La Vraie Beaute - San Antonio,,7979 Broadway Suite 101,,San Antonio,TX,78209,United States,United States of America,12109102565,,http://lvbsa.com,29.50689199,-98.46666102,,country_normalized
+27217152,Lafrance Medical Aesthetics,,72 Pine Street,,Bristol,CT,06010,United States,,,,,41.66706827,-72.91931195,,country_inferred
+145959421,Lakes Area Cosmetic Bar,,424 James St Suite 1,,Brainerd,MN,56401,United States,,,,,46.35851642,-94.21788185,,country_inferred
+138513660,Lakewood Integrative Health,,6331 Prospect Ave,,Dallas,TX,75214,United States,,,,,32.81533286,-96.75409077,,country_inferred
+28029287,Larimar MedSpa,,"307 Manufacturers Road,",Suite 201,Chattanooga,TN,37405,United States,,,,,35.06268199,-85.31404703,,country_inferred
+136973296,Lauren Bays Beauty,,4840 Roswell Rd NE,Building E #250,Atlanta,GA,30342,United States,,,,,33.88691622,-84.38207076,,country_inferred
+47685530,Lavi MD,,3196 North Federal Highway,,Boca Raton,FL,33431,United States,,,,,26.29800102,-80.27216204,,country_inferred
+29803941,Lean Labs Medical Services LLC,,4334 N Loop 1604 W #101,,Shavano Park,TX,78249,United States,United States of America,,,,29.59638700,-98.56853501,,country_normalized
+93554064,Lemmon Avenue Age Management,,2801 Lemmon Ave,#300,Dallas,TX,75204,United States,,,,,32.80383000,-96.79646456,,country_inferred
+31696791,Level 10 Body & Face,,1011 Camino Del Mar Suite 268,,Del Mar,CA,92014,United States,United States of America,16197190190,,http://level10delmar.com,32.95471100,-117.26316397,,country_normalized
+83569514,LevlUp Consulting LLC,,1366 Seward Drive,,Brighton,MI,48116,United States,,,,,42.51610302,-83.79060696,,country_inferred
+43768396,"Lexi Wells Esthetics, LLC",,5801 Washington Ave,,Evansville,IN,47715,United States,,,,,37.96179501,-87.48024497,,country_inferred
+113873028,LH Med Spa and Wellness - Livingston,,250 S Livingston Ave,,Livingston,NJ,07039,United States,,,,http://lhmedspaandwellness.com,40.78797780,-74.31359858,,country_inferred
+85854091,LIC Lifestyle and Beauty,,4610 Center Boulevard,Apt 1009,Long Island City,NY,11109,United States,,,,,40.74748013,-73.95666898,,country_inferred
+96700883,Lily Med Spa,,14785 Preston Rd,Suite 175,Dallas,TX,75254,United States,,,,,32.94932919,-96.80425763,,country_inferred
+97705469,Lily’s Med Spa and Salon,,75 Sterling Way,,Mount Sterling,KY,40353,United States,,,,,38.04748329,-83.94053289,,country_inferred
+42185992,Lips and IV Bar by Dr. Lombardi,,71 S. Main Street,,Marlboro,NJ,07746,United States,,,,,40.30373899,-74.25109900,,country_inferred
+36376024,Lisa Keyser Aesthetics,,104 West Market Street,,Smithville,TN,37166,United States,,,,http://LisaKeyserAesthetics.com,35.94214096,-85.68746357,,country_inferred
+41718568,Lisa Simone Skincare,,"343 W. Erie St,",Ste 320,Chicago,IL,60654,United States,,,,,41.89369902,-87.63771402,,country_inferred
+81107599,Lisse Aesthetics,,"10300 N Central Expy,",Suite 110,Dallas,TX,75231,United States,,,,,32.88582400,-96.76914299,,country_inferred
+156824929,Liz Clouse RN CPSN PA,,8315 Cantrell Rd. St 120,,Little Rock,AR,72227,United States,,,,,34.77624491,-92.36747312,,country_inferred
+32124771,Lizzy G Aesthetics,,"174 High St, Unit 101",,Ipswich,MA,01938,United States,United States of America,19788079151,,,42.69207052,-70.85645454,,country_normalized
+156824934,LK Aesthetics & Dermatology,,907 N Fed Hwy,,Boynton Beach,FL,33435,United States,,,,,26.53463970,-80.05836010,,country_inferred
+40514272,LKN Laser and Skin,,,18805 W Catawba Ave,Cornelius,NC,28031,United States,,,,,35.46944829,-80.89101479,,country_inferred
+108164396,LL Aesthetics,,4461 royal palm avenue,,miami beach,FL,33140,United States,,,,,25.81808254,-80.12764512,,country_inferred
+122452312,"Logunova Beauty Salon, LLC",,607 South Olive Street,,Los Angeles,CA,90014,United States,,,,,34.04803874,-118.25446224,,country_inferred
+130054535,Long Creek Medical,,3289 Fields Ct.,,Decatur,IL,62521,United States,,,,,39.81211300,-88.90325081,,country_inferred
+123588197,longévité,,16 Ridgebrook Rd,,Greenwich,CT,06830,United States,,,,,41.04873101,-73.62526152,,country_inferred
+96700879,Lord of Aesthetics,,1646 Prarie Mark Ln,,Houston,TX,77077,United States,,,,,29.75209472,-95.58359864,,country_inferred
+147600023,LORÉN Medical,,"80 Langley Road, Suite 12",,Newton,MA,02459,United States,,,,,42.33017879,-71.19098819,,country_inferred
+35974171,Los Feliz Medspa,,2107 Hillhurst Ave,,Los Angeles,CA,90027,United States,,,,,34.11014198,-118.28765600,,country_inferred
+38904005,Lotus Wellness Aesthetics,,"175 Carnegie Pl,",,"Fayetteville,",GA,30214,United States,,,,https://www.lotusfamilywellnessclinic.com/,33.50752099,-84.42823300,,country_inferred
+141282030,Love The Skin Bar,,1000 Old Seneca Turnpike,,Skaneateles,NY,13152,United States,,,,,42.96500423,-76.43347267,,country_inferred
+162443119,Love Urself Aesthetics,,"14221 SW 120th St, Suite 124",,Miami,FL,33186,United States,,,,,25.65702473,-80.42440338,,country_inferred
+152193030,LTH Beauty Aesthetic & Wellness Co.,,137 W Prospect Ave,,Mt. Prospect,IL,60056,United States,,,,,42.06384650,-87.93918300,,country_inferred
+141280927,Lucere Aesthetics,,357 S Pierre St,,Pierre,SD,57501,United States,,,,,44.36608653,-100.35506827,,country_inferred
+39233648,Lueur Aesthetics,,28 Concord Drive,,Dunedin,FL,34698,United States,,,,,28.00072501,-82.77019097,,country_inferred
+150595205,LuminaSkin,,1247 Broadway,,Burlingame,CA,94010,United States,,,,,37.58557253,-122.36494621,,country_inferred
+85854088,Luna Skin,,3201 University Drive East,Suite 205,Bryan,TX,77802,United States,,,,,30.65072200,-96.29741903,,country_inferred
+152198351,Lux & Lav Aesthetics,,523 N Nevada Ave,,Colorado Springs,CO,80903,United States,,,,,38.84175302,-104.82085902,,country_inferred
+161395266,LUXE Concierge Aesthetics,,14959 SW 35 St,,Davie,FL,33331,United States,,,,,26.07645852,-80.34917924,,country_inferred
+38558220,LUXE Concierge Aesthetics,,11336 W. State Rd 84.,Suite 7 & 9,Davie,FL,33325,United States,,,,http://www.luxeconciergeaesthetics.com,26.11152400,-80.30227997,,country_inferred
+52244298,Luxx Med Aesthetics & Wellness,,37616 Ford Rd,,Westland,MI,48185,United States,,,,,42.32415647,-83.41111135,,country_inferred
+156828445,L’atelier Aesthetics,,7785 NW 201 Terrace,,Hialeah,FL,33015,United States,,,,,25.95669227,-80.32875061,,country_inferred
+42081599,L’io Beauty and Wellness,,479 Under Mountain Rd,,Lenox,MA,01240,United States,,,,,42.37285730,-73.29168633,,country_inferred
+27217101,MAD Esthetics,,272 Calhoun Station Pkwy,Suite E,Madison,MS,39110,United States,,,,,32.52753293,-90.09921476,,country_inferred
+153732605,MADE Medical and Aesthetics PLLC,,4934 Lincoln Drive,,Edina,MN,55436,United States,,,,,44.91425935,-93.39912304,,country_inferred
+149090401,Madison Skin Specialists,,"6314 Odana Rd, #20",,Madison,WI,53719,United States,,,,,43.05436122,-89.48872851,,country_inferred
+119967733,Magakyan Medical Management LLC,,100 Town Square Place,Suite 409,Jersey City,NJ,07310,United States,,,,,40.72683718,-74.03325963,,country_inferred
+115296372,Magnolia Dermatology,,13192 Dallas Pkwy,,Frisco,TX,75033,United States,,,,,33.18752511,-96.83804357,,country_inferred
+106971916,Mainland Eye NJ,,415 new rd suite 1,,Somers Point,NJ,08244,United States,,,,,39.32646499,-74.59956598,,country_inferred
+99941952,Manushka Aesthetics,,66 Eadie Pl,,Staten Island,NY,10301,United States,,,,,40.64419237,-74.08994677,,country_inferred
+37143306,"Martha Viera, MD",,4950 S Le Jeune Rd #H,,Coral Gables,FL,33146,United States,,,,,25.72473601,-80.26188700,,country_inferred
+162440491,Maven Medical Arts,,12448 S Fort St Suite C-100,,Draper,UT,84020,United States,,,,,40.52448743,-111.86454618,,country_inferred
+27217116,Mays Plastic Surgery,,13806 Lake Point Circle,Suite 101,Louisville,KY,40223,United States,,,,,38.27286271,-85.50531401,,country_inferred
+28518253,McDonald Murrmann Skin and Laser,,7205 Wolf River Blvd,,Germantown,TN,38138,United States,,,,,35.11584799,-89.82268800,,country_inferred
+152193035,ME AESTHETICS,,1030 Treasure Ln,,Vero Beach,FL,32963,United States,,,,,27.58300369,-80.33000647,,country_inferred
+149933089,ME Aesthetics,,362 17th St,,Vero Beach,FL,32960,United States,,,,,27.63305958,-80.38068379,,country_inferred
+161128411,Med Spa of Ormond Beach,,1400 Hand Ave Suite L 32174,,Ormond Beach,FL,32174,United States,,,,,29.26113451,-81.08438748,,country_inferred
+32124759,Medical Aesthetics by Caroline,,"146 Main St, 2nd Floor",,Wethersfield,CT,06109,United States,United States of America,18608265347,,http://medicalaestheticsbycaroline.com,41.70995802,-72.65406800,,country_normalized
+38663125,MediGlow,,140 Sylvan Ave,#108,Englewood Cliffs,NJ,07632,United States,,,,,40.86975399,-73.95762804,,country_inferred
+35300031,Members Med Spa,,19554 Ventura Blvd,,Tarzana,CA,91356,United States,,,,,34.17218298,-118.55932002,,country_inferred
+141282026,Memorial Plastic Surgery,,8731 Katy Fwy Suite 500,,Houston,TX,77024,United States,,,,,29.78316120,-95.50461395,,country_inferred
+85854095,Metamorph Medspa,,960 Ohio Dr,,Plano,TX,75093,United States,,,,,33.01083099,-96.78466602,,country_inferred
+128791174,Method Of Beauty,,30839 E. Thousand Oaks Blvd.,,Westlake Village,CA,91362,United States,,,,,34.15614383,-118.79313840,,country_inferred
+163920244,MI Skin,,"1133 21st Street NW Ste 450, bldg #2",,Washington,DC,20036,United States,,,,,38.90446797,-77.04616071,,country_inferred
+163920245,MI Skin,,"1133 21st Street NW Ste 450, bldg #2",,Washington,DC,20036,United States,,,,,38.90446797,-77.04616071,,country_inferred
+163987533,Mi Vida Aesthetics & Wellness,,506 N.Main St,,Cibolo,TX,78108,United States,,,,,29.56576606,-98.22942567,,country_inferred
+52661976,"Michael R. Migden, MD",,1930 Swift Blvd,,Houston,TX,77030,United States,,,,,29.71107570,-95.40434301,,country_inferred
+161127783,Midwest Facial Plastic Surgery,,3590 Arcade Street,,Vadnais Heights,MN,55127,United States,,,,,45.04776916,-93.06297352,,country_inferred
+32124756,Milani Medspa,,2070 Chain Bridge Rd Suite 160,,Vienna,VA,22182,United States,United States of America,17038225560,,http://milanimedspa.com,38.91731965,-77.23729945,,country_normalized
+128791110,Milay Aesthetics,,1926 Broad Street,,St. Louis Obispo,CA,93401,United States,,,,,35.27240006,-120.65842819,,country_inferred
+133935160,Milay Aesthetics,,1926 Broad Street,,San Luis Obispo,CA,93401,United States,,,,,35.27240006,-120.65842819,,country_inferred
+47389813,Milford Med Spa,,99 Cherry Street,Ste F,Milford,CT,06460,United States,,,,,41.22697700,-73.05192602,,country_inferred
+61102213,Mint Salon & Day Spa,,126 West Wise Street,,Bowie,TX,76230,United States,,,,,33.55923268,-97.84966377,,country_inferred
+28029283,Mira Bella Medspa,,8131 Frontage rd,#139,San Antonio,TX,78230,United States,,,,,29.51490330,-98.55182520,,country_inferred
+38558231,Mira Zeitlin Aesthetics,,2500 E. Hallandale Beach Blvd.,#609,Miami Beach,FL,33009,United States,,,,http://mirazeitlinaesthetics.com,25.98557099,-80.12510297,,country_inferred
+153732608,Miracle Blue Aesthetics,,3850 Bird Rd #402B,,Coral Gables,FL,33146,United States,,,,,25.73484127,-80.25690806,,country_inferred
+156820093,MK Aesthetics,,14525 MN-7 Ste 360,,Minnetonka,MN,55345,United States,,,,,44.92170517,-93.46535852,,country_inferred
+73779448,Modern Dermatology,,1021 Mercer St,,Seattle,WA,98109,United States,,,,,47.62422001,-122.33623199,,country_inferred
+54100100,Modern Image Aesthetics,,8480 Cooper Creek Blvd,#102,University park,FL,34201,United States,,,,,27.39224800,-82.45423496,,country_inferred
+53271922,Modern Skin Medispa,,6560 John Hickman Pkwy Suite 300,,Frisco,TX,75034,United States,,,,,33.11629901,-96.82884301,,country_inferred
+122452317,Montclair Rejuvenation Center,,1 Mt. Prospect Ave,,Verona,NJ,07044,United States,,,,,40.82479556,-74.23098218,,country_inferred
+43015951,Moody Sioussat Medical,,6413 Vanderbilt St,,Houston,TX,77005,United States,,,,,29.71212801,-95.42567897,,country_inferred
+141278992,MorEsthetics,,245 Bloomfield Dr # 104,,Lititz,PA,17543,United States,,,,,40.11383318,-76.30740885,,country_inferred
+123588228,Moxie,,12604 Scofield Farms Dr,,Austin,TX,78727,United States,,,,,30.41358610,-97.68519859,,country_inferred
+102222374,Muse Med Spa,,4201 Bee Caves Rd B-200,,Austin,TX,78746,United States,,,,,30.28434868,-97.81239011,,country_inferred
+128791376,Muse Medical Artistry,,25409 E Fair Dr,,Aurora,CO,80016,United States,,,,,39.60432000,-104.69174201,,country_inferred
+54099735,My Best Skin,,320 N Magnolia Ave,Suite A3,Orlando,FL,32801,United States,,,,,28.54650602,-81.37797998,,country_inferred
+138513657,My Evergreen MedSpa,,9230 Katy Fwy Ste 100,,Houston,TX,77055,United States,,,,,29.78527704,-95.51980624,,country_inferred
+106971912,My Skin Dealer,,65 Southeast Spanish Trail,#204,Boca Raton,FL,33432,United States,,,,,26.35029546,-80.07506753,,country_inferred
+56199438,Naples Skin Clinic,,3960 Radio Rd,#109,Naples,FL,34104,United States,34104,,,,26.15285998,-81.75920202,,zip_recovered_from_country; country_inferred
+50374834,Nashville Skin,,2301 21ST AVE S,,NASHVILLE,TN,37212,United States,,,,,36.12919699,-86.80314997,,country_inferred
+88020414,Natura Collective,,3626 N Hall Street,Ste 615,Dallas,TX,75219,United States,,,,,32.78894801,-96.79947098,,country_inferred
+138511147,Naturally Aesthetic,,118 E River Road,,Rumson,NJ,07760,United States,,,,,40.37340916,-74.00018472,,country_inferred
+27217119,NaturallYou,,31 River Road,Suite 100,Cos Cob,CT,06807,United States,,,,,41.06946729,-73.61421206,,country_inferred
+71810111,Naya Aesthetics,,21800 Devonshire Street,Suite B,Chatsworth,CA,91311,United States,,,,,34.25699401,-118.60409598,,country_inferred
+60369674,"Neil A. Gordon, MD",,539 Danbury Rd,,Wilton,CT,06443,United States,,,,,41.23030721,-73.42691770,,country_inferred
+61102216,Neurostrive,,1024 SE Federal Hwy,,Stuart,FL,34994,United States,,,,,27.18884155,-80.24852124,,country_inferred
+55481513,New Freedom Family Medicine,,6244 Highway 100,Ste 150,Washington,MO,63090,United States,,,,,38.54341598,-91.02450196,,country_inferred
+36418565,Next Health Studio City,,12833 Ventura Blvd.,,Studio City,CA,91604,United States,,,,,34.14561499,-118.41311599,,country_inferred
+54461746,Next Health- West Hollywood,,8570 Sunset Blvd.,Suite 6.1A,West Hollywood,CA,90069,United States,,,,,34.09262099,-118.37855103,,country_inferred
+44180796,Next Health-Century City,,10250 Santa Monica Blvd,,Los Angeles,CA,90067,United States,,,,,34.05949001,-118.41957198,,country_inferred
+33278408,Nickerson,,91B Tremont St.,,South Carver,MA,02366,United States,United States of America,,,https://www.finelinesmedspa.com,41.87023430,-70.72868720,,country_normalized
+84758980,NIYA Medical LLC,,1090 Kane Concourse,Suite #206,Bay Harbour,FL,33154,United States,,,,,25.88641299,-80.13097198,,country_inferred
+132826890,NNY Esthetician,,314 Cowan Road,,Canton,NY,13617,United States,,,,,44.60777087,-75.11371695,,country_inferred
+136972701,Noble Beauty,,527 Main St,,Lewiston,ID,83501,United States,,,,,46.42158207,-117.02601906,,country_inferred
+29803937,Nordstar Medical Skincare and Laser Clinic,,2027 GreyStone Square,,Jackson,38305,TN,,,,,,35.68617401,-88.82861097,,
+36217966,NOVA Med Sculpt,,"10201 Fairfax Blvd,",Suite 525,Fairfax,VA,22030,United States,,,,https://www.novamedsculpt.com/,38.86091900,-77.29735000,,country_inferred
+141278989,Nuen Aesthetics Studio,,2749 SW Maycrest Terrace,,Beaverton,OR,97003,United States,,,,,45.50001558,-122.86004478,,country_inferred
+30238442,Nurse Cindy Ho,,503 N Vista St,,Los Angeles,CA,90036,United States,United States of America,,,,34.08038899,-118.35248298,,country_normalized
+31243864,"Nurse Zan, LLC",,"134 Franklin Road, suite 2",,Brentwood,TN,37027,United States,United States of America,,,,36.03489400,-86.78757203,,country_normalized
+47389816,Nurture Aesthetics & Wellness,,265 E. Warm Springs,#102,Las Vegas,NV,89119,United States,,,,,36.05627502,-115.16079901,,country_inferred
+72863002,NuYou Medical Aesthetics,,888 Biscayne Blvd,Suite 505 Room 532,Miami,FL,33132,United States,,,,,25.78248598,-80.19006699,,country_inferred
+39745190,NuYou Medical Spa,,9443 Witten Drive,,San Antonio,TX,78254,United States,,,,,29.53140298,-98.74609096,,country_inferred
+103279600,N’Lighten Skin,,9150 Wilshire Blvd.,Suite 306,Beverly Hills,CA,90212,United States,,,,,34.06681102,-118.39130142,,country_inferred
+29803939,O'Neill Plastic Surgery,,245 Seven Farms Drive Ste 210,,Charleston,SC,29492,United States,United States of America,,,,32.85929900,-79.90928497,,country_normalized
+33278437,Oahu Dermatology - Dr. Garcia,,1329 Lusitana St. #109,,Honolulu,HI,96813,United States,United States of America,,,,21.30724601,-157.85197203,,country_normalized
+123680838,Oasis Haven Inc,,3151 Airway Ave,Ste F107,Costa Mesa,CA,92626,United States,,949-334-7988,,http://www.oasishaven.com,33.67790081,-117.87313644,,country_inferred
+32124780,Oasis Medspa,,990 SE INDIAN ST,,STUART,FL,34997,United States,United States of America,,,,27.16015302,-80.24046402,,country_normalized
+37039064,Oasis Spa at Baptist Milestone,,750 Cypress Station Drive,,Louisville,KY,40207,United States,,,,http://www.baptistmilestone.com/spa,38.24121899,-85.62663201,,country_inferred
+69024400,Oceans Wellness,,8350 Whispering Oak Way,,West Palm Beach,FL,33411,United States,,,,,26.67740309,-80.17564341,,country_inferred
+99940309,Oculofacial Plastic & Reconstructive Surgery,,900 NW 17th Street,,Miami,FL,33136,United States,,,,,25.79101234,-80.21069729,,country_inferred
+81107597,Oculofacial Plastic Surgery of Hawaii,,1380 Lusitana St,Suite 912,Honolulu,HI,96813,United States,,,,,21.30801199,-157.85291198,,country_inferred
+47389824,OHMI Medical Group,,17400 Irvine Blvd,Ste N,Tustin,CA,92780,United States,,,,,33.74795299,-117.82855997,,country_inferred
+76745900,Onassis Skin,,462 North Linden Drive,Suite 447,Beverly Hills,CA,90212,United States,,,,,34.06780000,-118.40782600,,country_inferred
+45025490,OptiSkin,,"1150 Fifth Ave, STE 1A",,New York,NY,10128,United States,,,,,40.78789561,-73.95533240,,country_inferred
+158283239,Optix Eye Care,,49 N Buncombe School Rd,,Weaverville,NC,28787,United States,,,,,35.71484892,-82.55959523,,country_inferred
+32124764,Ora Wellness,,505 NE 20th St,,Boca Raton,FL,33431,United States,United States of America,17722073437,,http://Ora-wellness.com,26.36254398,-80.08833902,,country_normalized
+29803949,Orchid Dermatology,,"5301 4th Ave, Cir, E",,Bradenton,FL,34208,United States,United States of America,,,,27.49593600,-82.49431403,,country_normalized
+91293367,Ormond Family Medical Practice,,22 Lloleeta Path,,Palm Coast,FL,32164,United States,,,,,29.44906403,-81.20588375,,country_inferred
+54100096,Orr Salon and Med Spa,,2701 E 15th St,,Tulsa,OK,74104,United States,,,,,36.14077298,-95.95134802,,country_inferred
+37143304,Our Little Secret Aesthetics,,219 SE 31st Terrace,,Cape Coral,FL,33904,United States,,,,,26.59405839,-81.97009087,,country_inferred
+95293160,Palace Aesthetics,,107 SE Washington St,Ste 145,Portland,OR,97214,United States,,,,,45.51878878,-122.66416708,,country_inferred
+56199432,Palm Beach Dermatology,,4495 Military Trail,,Jupiter,FL,33458,United States,,,,,26.89279202,-80.10267501,,country_inferred
+66832349,Palm Beach Dermatology Group,,"5210 Linton Blvd., Suite 306,307",,Delray Beach,FL,33484,United States,,,,,26.43807595,-80.12574486,,country_inferred
+31243861,Park City Medesthetix,,1441 W UTE BLVD 160,,PARK CITY,UT,PARK CITY,United States,United States of America,,,,40.72417601,-111.53922801,,country_normalized
+36114123,Parkland Dermatology And Cosmetic S,,4360 N STATE RD 7,,CORAL SPRINGS,FL,33073,United States,,,,,26.28303702,-80.20360997,,country_inferred
+40324419,Paviol Dermatology,,"2620 E. 7th St,",STE 200,Charlotte,NC,28204,United States,,,,,35.20388810,-80.81087181,,country_inferred
+36683775,PCH Medspa,,2801 East Coast Highway,Suite E,Corona Del Mar,CA,92625,United States,,,,http://www.medspa.com,33.60058601,-117.87281801,,country_inferred
+77952348,Peak Beauty Clinic,,4211 Travis St,,Dallas,TX,75205,United States,,,,,32.81763801,-96.79384404,,country_inferred
+158283794,Peak Integrative Health and Longevity,,610 Sycamore St #230,,Kissimmee,FL,34747,United States,,,,,28.31863346,-81.53937755,,country_inferred
+47389817,Pennoyer Dermatology,,47 Jolley Dr,,Bloomfield,CT,06002,United States,,,,,41.81962902,-72.72649997,,country_inferred
+82459816,Perfection Skincare & Esthetics,,468 Spring Meadows Drive,,Idaho Falls,ID,83404,United States,,,,,43.44488302,-112.04299204,,country_inferred
+34891952,Permanent Makeup,,"4550 PGA Boulevard Suite, Unit 109",,Palm Beach Gardens,FL,33418,United States,United States of America,,,,26.83793799,-80.10967197,,country_normalized
+67866806,Petal + Stem Aesthetic & Longevity Inst.,,796 Bielenberg Drive,Suite 102,Woodbury,MN,55125,United States,,,,,44.93825188,-92.95666375,,country_inferred
+66819223,PGA Dermatology-PBG,,3401 PGA Blvd.,Suite 540,Palm Beach Gardens,FL,33410,United States,,,,,26.84571598,-80.08951198,,country_inferred
+42662306,PHC Internal Medicine and Weight Loss,,128 Medical Park Rd,,Mooresville,NC,28117,United States,,,,,35.54924238,-80.85124560,,country_inferred
+42473212,Phi MD Aesthetics & Rejuvenation,,18942 Brookhurst St,,Fountain Valley,CA,92708,United States,,714-656-6555,,,33.68781085,-117.95392595,,country_inferred
+138513287,PHILIPS ISADORA,,3521 East Higgins Drive,,Mount Pleasant,SC,29466,United States,,,,,32.85145849,-79.78354603,,country_inferred
+161127789,Piazza Plastic Surgery,,"1400 Scenic Drive, Unit 2",,Austin,TX,78703,United States,,,,,30.29630160,-97.78402860,,country_inferred
+130054536,Picasso Medical Aesthetics,,14442 Whittier Blvd.,,Whittier,CA,90605,United States,,,,,33.95367419,-118.01660302,,country_inferred
+147598013,Piel Studio,,2131 W West Ave,,Fullerton,CA,92833,United States,,,,,33.86588628,-117.96669574,,country_inferred
+36418568,Pinnacle Dermatology - Springfield,,"225 Northcrest Drive,",Bldg 200,Springfield,TN,37172,United States,,,,,36.47944801,-86.88739396,,country_inferred
+33949851,Pinnacle Dermatology Barrington,,738 W Northwest Highway,,Barrington,IL,60010,United States,United States of America,18473826800,,,42.16782141,-88.15629315,,country_normalized
+45192526,Pinnacle Dermatology Hedgewood,,13875 Hedgewood Drive,,Woodbridge,VA,22193,United States,,,,,38.65208840,-77.31707538,,country_inferred
+27217135,Plastic Surgery Group of Memphis,,80 Humphreys Center,Suite 102,Memphis,TN,38120,United States,,,,,35.12835755,-89.85681472,,country_inferred
+33949842,Plastic Surgery of the Carolinas,,578 Lone Tree Drive,,Mt Pleasant,SC,29464,United States,United States of America,18438813881,,,32.83687804,-79.86571860,,country_normalized
+119967736,Plush Bespoke Beauty,,"1070 Morris Ave, Unit 1124",,Union,NJ,07083,United States,,,,,40.68306956,-74.23731220,,country_inferred
+162443116,Poke Me Pretty,,20783 N 83rd Ave #111,,Peoria,AZ,85382,United States,,,,,33.67288290,-112.23779149,,country_inferred
+136972700,Posh Blush,,1300 S Litchfield Rd,,Goodyear,AZ,85338,United States,,,,,33.43216826,-112.36031002,,country_inferred
+131530645,Prana Blue LLC,,1010 Dakota Dr. Unit 180,,Jupiter,FL,33458,United States,,,,,26.90536864,-80.11290051,,country_inferred
+150594786,Precision Advisory and aesthetics,,1910 Alden Road,,Orlando,FL,32803,United States,,,,,28.56902576,-81.37175089,,country_inferred
+34891948,Precision Skin Institute,,3501 S University Dr #5,,Davie,FL,33328,United States,United States of America,,,http://www.percisionskininstitute.com,26.07752101,-80.25267797,,country_normalized
+136972693,Premier Med Spa,,2001 N Collins Blvd suite 105,,Richardson,TX,75080,United States,,,,,32.97692099,-96.72322298,,country_inferred
+28451110,Premier Medical Aesthetics,,300 Cherokee Blvd,Suite 110,Chattanooga,TN,37405,United States,,,,,35.06376301,-85.31208399,,country_inferred
+29346740,Premier Medical Aesthetics & Wellness,,1091 Farmington Ave,,Berlin,CT,06037,United States,United States of America,,,,41.63425401,-72.76533802,,country_normalized
+39301347,Premier Medical and MedAesthetic,,262 Eastgate Drive #347,,Aiken,South Carolina,29803,United States,,,,,33.51044296,-81.71557968,,country_inferred
+33278414,Premier Plastic Surgery,,316 S El Dorado St unit 105,,San Mateo,CA,94401,United States,United States of America,,,http://Premierplasticsurgery.com,37.56704098,-122.31901104,,country_normalized
+147596777,Prischmann Facial Plastic Surgery,,701 Xenia Ave S Suite 450,,Golden Valley,MN,55416,United States,,,,,44.97363646,-93.35086424,,country_inferred
+114222371,Prism Regenerative Medicine & Aesthetics,,12603 Henderson Rd.,,Tampa,FL,33625,United States,,,,,28.05796038,-82.54896086,,country_inferred
+96700878,Prive Aesthetics,,6417 Hillcrest Avenue,,Dallas,TX,75205,United States,,,,,32.84448277,-96.78755727,,country_inferred
+40514270,Privá MedSpa - Fairfield,,23 Sherman Street,,Fairfield,CT,06824,United States,,,,,41.13983601,-73.25736202,,country_inferred
+40632253,Privá MedSpa - Oxford,,315 Center Rock Green Ste 9,,Oxford,CT,06478,United States,,(203) 701-7700,,,41.42388600,-73.10732930,,country_inferred
+47389822,Professional Skin Solutions,,123 Ohme Garden Road,Suite D,Wenatchee,WA,98801,United States,,,,,47.47074502,-120.33340699,,country_inferred
+118764925,ProMD Health,,500 E Broward Blvd,#122,Fort Lauderdale,FL,33394,United States,,,,,26.12193600,-80.13846297,,country_inferred
+33278434,Pure Glo Wellness,,39825 Alta Murrieta Dr. B-25 Ste. 106,,Murrieta,CA,92563,United States,United States of America,19513951741,,,33.56181699,-117.17807500,,country_normalized
+51776623,Pure Medical Spa,,1675 Patriot Dr,,Muskegon,MI,49444,United States,,,,,43.15817298,-86.20399501,,country_inferred
+37143308,Pure Rad Med Aesthetics,,"2645 N Federal Hwy,",#100,Delray Beach,FL,33483,United States,,,,,26.48957000,-80.06359397,,country_inferred
+45025491,Pure Radiance Aesthetics,,1805 N 91st Ave,,Phoenix,AZ,85037,United States,,,,,33.46670988,-112.25472537,,country_inferred
+28029220,Pure Serenity Skincare,,650-A Fremont Avenue,,Los Altos,CA,94024,United States,,,,,37.36122301,-122.09743601,,country_inferred
+89136135,Pure Wellness Med Spa Ocala,,4407 NW Blitchton Road,,Ocala,FL,34482,United States,,,,,29.21284691,-82.19412657,,country_inferred
+32124769,Pure Youth Wellness & Aesthetics,,398 N Congress Ave. #385,,Boynton Beach,FL,33426,United States,United States of America,15615289038,,http://www.youthfullypure.com,26.52991998,-80.08891704,,country_normalized
+37937604,PureenMD,,"1608 Lemoine Ave,",STE 201,Fort Lee,NJ,07024,United States,,,,,40.84914201,-73.97007902,,country_inferred
+39369083,Purely K Skincare,,"233 W State St,",Suite A,Eagle,ID,83616,United States,,,,,43.69462698,-116.35711100,,country_inferred
+49935435,R&R Skin and Aesthetics,,9069 S Dixie Hwy,,Pinecrest,FL,33156,United States,,,,,25.68622100,-80.31063003,,country_inferred
+147602976,Rachel Dahlen Aesthetics,,7701 York Ave S Ste 100,,Edina,MN,55435,United States,,,,,44.86418201,-93.32023098,,country_inferred
+30238438,Radiance Med Spa,,2810 Paces Ferry Road SE,Ste 206,Atlanta,GA,30339,United States,United States of America,,,,33.86526698,-84.46990104,,country_normalized
+29327207,Radiant Dermatology,,15611 Bel-Red Rd,Suite 100,Bellevue,WA,98008,United States,United States of America,,,,47.63258700,-122.13113302,,country_normalized
+124826850,Rae Aesthetics,,3026 Tilghman St. Suite 103,,Allentown,PA,18104,United States,,,,,40.59833739,-75.52509098,,country_inferred
+158283238,Rae Aesthetics 2,,1874 Emerald Drive,,Orefield,PA,18069,United States,,,,,40.60861374,-75.58910631,,country_inferred
+111367007,RaeDerma,,10505 Anna Island Drive,,Frisco,TX,75035,United States,75035,,,,33.12871726,-96.79017167,,zip_recovered_from_country; country_inferred
+32124761,Rapaport Dermatology Culver City,,4240 Overland Ave,,Culver City,CA,90230,United States,United States of America,13103617710,,,34.01213000,-118.40055697,,country_normalized
+141279004,Re-form Aesthetics,,1916 S Carolina St.,,Amarillo,TX,79102,United States,,,,,35.19330976,-101.87499833,,country_inferred
+35139224,Redavfined Aesthetics,,807 N Waco,Suite 30,Wichita,KS,67203,United States,,,,,37.69771699,-97.34254697,,country_inferred
+159764367,Refine Laser & Skin Care,,7801 Park Dr Ste H,,Chanhassen,MN,55317,United States,,,,,44.86190800,-93.55438447,,country_inferred
+130054537,Refine Med Spa,,2900 W Southlake Blvd,,Southlake,TX,76092,United States,,,,,32.93478944,-97.19830322,,country_inferred
+86453567,Refined Beauty PA,,4820 N First St,Ste 101,Fresno,CA,93726,United States,,,,,36.80518813,-119.77184026,,country_inferred
+156824936,Refresh Med Spa,,618 Pleasant Valley Blvd,,Altoona,PA,16602,United States,,,,,40.51112500,-78.38157457,,country_inferred
+35055660,Refreshed Aesthetics,,1122 Freeport Rd,,Pittsburgh,PA,15238,United States,,,,,40.48752998,-79.88134004,,country_inferred
+162440499,"RegimenMD, Inc.",,295 Main Street,,Tilton,NH,03276,United States,,,,,43.44302655,-71.59065066,,country_inferred
+156824933,Rehmat Merchant,,1504 Burlew St Unit 5,,Dallas,TX,75204,United States,,,,,32.80058800,-96.77948785,,country_inferred
+82459818,ReJHUvenate Aesthetics,,1280 Boulevard Way,Suite 204,Walnut Creek,CA,94595,United States,,,,,37.89350198,-122.07650900,,country_inferred
+33585861,Remi Skin,,"125 Cool Springs Blvd, suite 240",,Franklin,TN,37067,United States,United States of America,6159829788,,,35.94223000,-86.83953899,,country_normalized
+35300032,Rendon Center,,1001 NW 13TH STREET,SUITE 100,BOCA RATON,FL,33486,United States,,,,,26.36212799,-80.10714298,,country_inferred
+27217105,RenewMD Wellness,,3133 W March Ln,Ste 1040,Stockton,CA,95219,United States,,,,,37.98446223,-121.35201988,,country_inferred
+27992119,"RenewMD Wellness/Simran Sethi, MD",,5657 Auto Mall Pkwy,,Fremont,CA,94538,United States,,,,,37.50475200,-121.97643997,,country_inferred
+27992117,"RenewMD Wellness/Simran Sethi, MD",,400 Plaza Drive,Ste 140C,Folsom,CA,95630,United States,,,,,38.65726754,-121.17478947,,country_inferred
+150600409,Renu,,845 SE Osceola Street,,Stuart,FL,34994,United States,,,,,27.19871707,-80.23868916,,country_inferred
+152193161,Renuture,,5160 Sanderlin Ave Ste 4,,Memphis,TN,38117,United States,,,,,35.11769343,-89.89007566,,country_inferred
+81107595,ReSpa,,300 Village Square Crossing,Suite 202,Palm Beach Gardens,FL,33410,United States,,,,,26.83655900,-80.07275396,,country_inferred
+79372886,Restora Austin,,901 W 38th St,Ste 401,Austin,TX,78705,United States,,,,,30.30440200,-97.74252703,,country_inferred
+31696795,Restoration Wellness & Med Spa,,"365 S Hartman Drive, suite 104",,Lebanon,TN,37087,United States,United States of America,16154708124,,,36.20175598,-86.32775398,,country_normalized
+34891871,Restorative Injectables,,6981 East Belleview Ave,,Denver,CO,80237,United States,United States of America,,,,39.62482000,-104.90619099,,country_normalized
+29327212,Restore Md Llc,,382 GRINDSTONE HILL RD,,NORTH STONINGTON,CT,06359,United States,United States of America,,,,41.47402898,-71.83302899,,country_normalized
+150595208,"Restored By Jenny, LLC",,5656 Bee Caves Rd. Ste E-201,,Austin,TX,78746,United States,,,,,30.29498133,-97.82444203,,country_inferred
+38904004,Results Medical Spa - Guilford,,"2614 Boston Post Road, Willow Hall,",STE 16C,Guilford,CT,06437,United States,,,,,41.30773500,-72.72932198,,country_inferred
+41482809,Reszko Dermatology,,1112 Park Ave STE 1A,,New York,NY,10128,United States,,,,,40.78284866,-73.95583884,,country_inferred
+47096513,Reszko Dermatology - Rye,,266 Purchase St.,,Rye,NY,10580,United States,,,,,40.99143680,-73.68386393,,country_inferred
+159764369,Retake Aestehtics,,15807 biscayne blvd STE 205,,Aventura,FL,33160,United States,,,,,25.92147608,-80.15454038,,country_inferred
+27217104,Retief Skin Center,,4301 Hillsboro Pike,#200,Nashville,TN,37215,United States,,,,,36.09915914,-86.82231422,,country_inferred
+115296374,REV Aesthetics,,3900 Market Street,,Camp HIll,PA,17011,United States,,,,,40.23881465,-76.94986211,,country_inferred
+127409478,Reve Plastic Surgery,,"1055 Kibo Ridge, Suite 105",,Dripping springs,TX,78620,United States,,,,,30.19519154,-98.04864914,,country_inferred
+124830401,Reveal KBeauty Med Spa,,231 Route 4,Suite 7,Paramus,NJ,07652,United States,,,,,40.91592290,-74.05195043,,country_inferred
+69024397,Rever Wellness,,2655 South Le Jeune Road,,Coral Gables,FL,33134,United States,,,,,25.74746153,-80.26172657,,country_inferred
+32454519,Revify Medspa,,20658 Stone Oak Pkwy Suite 105,,San Antonio,TX,78258,United States,United States of America,12103169461,,http://revifymedspa.com,29.64914102,-98.46124598,,country_normalized
+45632491,Revitaliv IV,,6390 W Indiantown Road #28,,Jupiter,FL,33458,United States,,,,,26.93374302,-80.13230696,,country_inferred
+42081602,REVIVE in Solano,,595 Buck Ave,Suite D,Vacaville,CA,95688,United States,,,,,38.33452701,-121.95012599,,country_inferred
+156820098,Revive Medspa,,4211 Friendswood Link Rd,,Friendswood,TX,77546,United States,,,,,29.52612917,-95.18213079,,country_inferred
+67866807,Rewind Beauty Bar,,1520 Broadway,#105,Fort Myers,FL,33901,United States,,,,,26.64332902,-81.87056390,,country_inferred
+56722082,Rhea Dilag Aesthetics,,885 McVey Ave,,Lake Oswego,OR,97034,United States,,,,,45.40906699,-122.67039701,,country_inferred
+97705480,Rimi Med & Aesthetics,,3101 Clays Mill Rd,,Lexington,KY,40503,United States,,,,,38.00310530,-84.54568995,,country_inferred
+147602974,ROG MedSpa,,2111 W Loop S Ste 370,,Houston,TX,77027,United States,,,,,29.74526175,-95.45623696,,country_inferred
+45431595,Root Cause Wellness & Aesthetics,,"1455 1st Street, Suite 215",,Napa,CA,94559,United States,,,,,38.29739748,-122.28884867,,country_inferred
+76745906,Rooted Femme,,101 W 40th St,suite 1 02,Austin,TX,78756,United States,,,,,30.30302748,-97.73206714,,country_inferred
+91293373,Rotemberg Plastic Surgery,,7000 SW 62nd ave Ph B,,South Miami,FL,33143,United States,,,,,25.70541593,-80.29402455,,country_inferred
+147598003,Royal Aesthetics,,15295 Lake Lamond Rd,,Conroe,TX,77384,United States,,,,,30.23605152,-95.50571542,,country_inferred
+27217089,Russak Dermatology Clinic,,115 E 57th St,Suite 1220,New York,NY,10022,United States,,,,,40.76166678,-73.97011212,,country_inferred
+29343770,Ruxer MedSpa,,4720 Village Square Drive,Suite B,Paducah,KY,42001,United States,United States of America,,,,37.06987900,-88.68719200,,country_normalized
+152198345,rēVive Medical Aesthetics,,"3301 N Miller Rd, Suite 160",,Scottsdale,AZ,85251,United States,,,,,33.48640002,-111.91711060,,country_inferred
+27754686,Saisei Aesthetics and Wellness,,2936 Smith Farm Way,,Herndon,VA,20171,United States,,,,,38.92360582,-77.39840692,,country_inferred
+155305009,Sakura Aesthetics,,1600 Kapiolani Blvd #500,,Honolulu,HI,96814,United States,,,,,21.29207833,-157.83911318,,country_inferred
+30238447,Salt Spa & Wellness Center,,"1817 REPUBLIC ROAD, SUITE B",,VIRGINIA BEACH,VA,23454,United States,United States of America,,,,36.85123600,-76.02660302,,country_normalized
+38663124,Saluja Cosmetic & Laser Center,,19546 Greentree Way,Suite 101,Cornelius,NC,28031,United States,,,,,35.44777969,-80.86550321,,country_inferred
+39484076,Sanctuary Clinical Skincare Studio,,"375 Wampanoag Trail,",Suite 105,Riverside,RI,02915,United States,,,,,41.79418710,-71.35024920,,country_inferred
+38070895,Sanctuary Medical Center,,4800 N Federal Hwy,#C100,BOCA RATON,FL,33431,United States,,,,,26.39317401,-80.07600999,,country_inferred
+34891947,Sanova Derm Bee Cave & Lakeway,,3944 RR 620 S. bldg 6 Suite 201,,Bee Cave,TX,78738,United States,United States of America,,,,30.31111172,-97.94618314,,country_normalized
+136973289,Sarah Skin Studio,,,2721 S Charleston Rd,Heber City,UT,84032,United States,,,,,40.47415519,-111.47131816,,country_inferred
+161128412,Satori Dermatology & Wellness,,"1909 Mallory Lane, Suite 302",,Franklin,TN,37067,United States,,,,,35.95673585,-86.81744220,,country_inferred
+55272751,Saving Face,,405 W. 14th St,,Austin,TX,78701,United States,,,,,30.27691799,-97.74409504,,country_inferred
+55481542,Saving Face,,405 W. 14th St,,Austin,TX,78701,United States,,,,,30.27691799,-97.74409504,,country_inferred
+109129119,Savvy Aesthetics,,166 Heritage Circle,,Mt Pleasant,SC,29464,United States,,,,,32.81254802,-79.87343599,,country_inferred
+53610848,Schweiger Dermatology - Hackensack,,"20 Prospect Ave, STE 702",,Hackensack,NJ,07601,United States,,,,,40.88341498,-74.05726900,,country_inferred
+161128414,Schweiger Dermatology Boca,,"22191 Powerline Rd., Ste 29C",,Boca Raton,FL,33433,United States,,,,,26.34679241,-80.15431013,,country_inferred
+156820096,Sculpt Haus,,126 Glass St Suite 100,,Dallas,TX,75207,United States,,,,,32.78941899,-96.82266597,,country_inferred
+32124781,Sea Glass Med Spa,,1726 S. Bumby Ave,,Orlando,FL,32806,United States,United States of America,19806220613,,,28.51329000,-81.36771500,,country_normalized
+138513654,Seamless Aesthetics & Wellness,,107 N. McDonough Street,,Decatur,GA,30315,United States,,,,,33.71052502,-84.37972307,,country_inferred
+108164395,Selah Aesthetics and Wellness,,5636 Whitesville Rd,Suite C1,Columbus,GA,31904,United States,,,,,32.52476622,-84.95896254,,country_inferred
+33585863,Self Aesthetics Skin & Body,,"495 South Gloster Street, suite 201",,Tupelo,MS,38801,United States,United States of America,6624019996,,,34.25047201,-88.71697600,,country_normalized
+30893907,Shanthala MD Laser & Aesthetics,,"194 Newbury St, Peabody, MA 01960",,Peabody,MA,01960,United States,United States of America,,,https://bostonlaseraesthetics.com/,42.54391715,-70.98655391,,country_normalized
+31243865,ShanthalaMD Laser and Aesthetics,,5 Dearborn Way,,Middleton,MA,01949,United States,United States of America,,,,42.60428161,-70.98288767,,country_normalized
+70908717,Sharon J Littzi Md,,1 MORSE CT,,NEW CANAAN,CT,06840-5505,United States,,,,,41.14632599,-73.49295603,,country_inferred
+27217098,Shell Plastic Surgery,,2680 W Oxford Loop,,Oxford,MS,38655,United States,,,,,34.36605631,-89.57081468,,country_inferred
+115296371,Shine On Beauty Bar,,2213 Hyperion Ave.,,Los Angeles,CA,90027,United States,,,,,34.10013910,-118.27341848,,country_inferred
+130054518,Signature Dermatology & Aesthetics FM,,3321 Yucca Dr Suite 100,,Flower Mound,TX,75028,United States,,,,,33.03209315,-97.06845648,,country_inferred
+127409471,Signature Dermatology & Aesthetics Rockwall,,1940 S. John King Blvd,Bldg 2,Rockwall,TX,75032,United States,,,,,32.90419470,-96.43161691,,country_inferred
+155305019,Silience- Laser & Electrolysis,,5343 Ferrari Ave,,Ave Marie,FL,34142,United States,,,,,26.32905631,-81.43823355,,country_inferred
+147598029,Simply Smooth AZ,,11841 N 189th,,Suprise,AZ,85388,United States,,,,,33.59156499,-112.46724592,,country_inferred
+55024310,Siperstein Dermatology-Boca,,1401 N. Federal Hwy,,Boca Raton,FL,33432,United States,,,,,26.36362801,-80.08152001,,country_inferred
+55180830,Siperstein Dermatology-Boca,,1401 N. Federal Hwy,,Boca Raton,FL,33432,United States,,,,,26.36362801,-80.08152001,,country_inferred
+78999465,Sitko Skin,,2042 Northeast Highland Street,,Portland,OR,97211,United States,,,,,45.56895502,-122.64470204,,country_inferred
+96700882,Skin & Cancer Associates,,4500 Biscayne Blvd,Suite 101,Miami,FL,33137,United States,,,,,25.81767828,-80.18874357,,country_inferred
+27217137,Skin & Sculpt Med Spa,,248 N. Peters Rd.,Suite 3,Knoxville,TN,37923,United States,,,,,35.91615884,-84.08701378,,country_inferred
+76745905,Skin and Beauty by Ileana,,486 Zenobia Street,,Denver,CO,80204,United States,,,,,39.72369599,-105.05179404,,country_inferred
+122452323,Skin and Cancer Associates - Weston II,,17170 Royal Palm Blvd,Suite A,Weston,FL,33326,United States,,,,,26.08869098,-80.37826100,,country_inferred
+30625204,Skin Appeal,,1700 E. Fort Lowell,,Tucson,AZ,85719,United States,United States of America,,,,32.26447825,-110.94651161,,country_normalized
+93554012,Skin by EC,,"80 River St, Ste 2A",,Hoboken,NJ,07030,United States,,,,,40.73623740,-74.02927537,,country_inferred
+35139222,Skin By Eve,,735 Sergeant Palmateer Way,,Wappingers Falls,NY,12590,United States,,,,,41.58875302,-73.91076079,,country_inferred
+144462936,Skin by Francesca,,"2950 W Cypress Creek Rd, Suite 230",,Fort Lauderdale,FL,33309,United States,,,,,26.20173910,-80.18590136,,country_inferred
+152193031,Skin by Francesca,,"2950 W Cypress Creek Rd, Suite 230",,Fort Lauderdale,FL,33309,United States,,,,,26.20173910,-80.18590136,,country_inferred
+141279008,Skin By Ksenia,,3701 N COUNTRY CLUB DR,,Aventura,FL,33180,United States,,,,,25.96633536,-80.12660308,,country_inferred
+147597991,Skin by Mati,,18476 Kenyon Ave,,Lakeville,MN,55044,United States,,,,,44.68244785,-93.29821189,,country_inferred
+103279594,Skin by Sarah Medical,,30 Leeuwarden Rd,,Darien,CT,06820,United States,,,,,41.08642040,-73.50692581,,country_inferred
+91293370,Skin by Torie,,762 NW 7 Street,,Boca Raton,FL,33486,United States,,,,,26.35626267,-80.10076377,,country_inferred
+118764928,Skin By Whit,,"5499 N Federal Hwy, suite L-2 FL",,Boca raton,FL,33487,United States,,,,,26.39799428,-80.07674785,,country_inferred
+144461719,Skin Center of Florida,,5596 W Sample Rd,,Margate,FL,33073,United States,,,,,26.27396463,-80.19874138,,country_inferred
+45025496,Skin Center of Florida,,840 US 1,,North Palm Beach,FL,33408,United States,,,,,26.82358801,-80.05958700,,country_inferred
+77952350,Skin Chalet,,1815 Central Park Drive,Ste 110 PMB 131,Steamboat Springs,CO,80487,United States,,,,,40.46287998,-106.82244099,,country_inferred
+138513665,Skin Confident Alaska,,35671 Kenai Spur Hwy Suite B,,Soldotna,AK,99669,United States,,,,,60.49733508,-151.07289980,,country_inferred
+124829682,Skin Conserv by Yve,,5217 Sun Meadow Dr,,Flowermound,TX,75022,United States,,,,,33.02754706,-97.11252576,,country_inferred
+47389812,Skin Damsel,,4801 Spring Valley Rd,Suite 80,Farmers Branch,TX,75244,United States,,,,,32.94141299,-96.82805402,,country_inferred
+39437799,Skin Eleve,,10316 Topanga Canyon,Suite B,Chatsworth,CA,91311,United States,,,,,34.25790898,-118.60583899,,country_inferred
+37788582,Skin ID Aesthetics,,11380 Prosperity Farms Road,"Suite 110A, Bldg C",Palm Beach Gardens,FL,33410,United States,,,,http://skinidaesthetics.com,26.84114701,-80.07143004,,country_inferred
+29803953,Skin Kahala,,4747 Kilauea Ave. #206,,Honolulu,HI,96816,United States,United States of America,,,,21.27753200,-157.78422303,,country_normalized
+119967729,Skin Local - Dadeland,,9410 SW 77th Ave,,Miami,FL,33156,United States,,,,,25.68307816,-80.31949925,,country_inferred
+33278431,Skin MSO LLC,,1012 Goodlette-Frank Road,Suites 101,Naples,FL,34102,United States,United States of America,,,http://www.kirschderm.com,26.14491901,-81.78966696,,country_normalized
+33585860,Skin of Charleston,,278 Meeting St,,Charleston,SC,29401,United States,United States of America,8432006408,,,32.78438524,-79.93249312,,country_normalized
+33278427,Skin Revisionist LLC,,"1080 94 St, Unit 602",,Bay Harbour Island,FL,33154,United States,United States of America,19545529282,,http://www.skinrevisionist.com,25.88449299,-80.13056998,,country_normalized
+158283802,Skin Sanctuary Med Spa,,15045A Mystic Lake Dr,,Prior Lake,MN,55372,United States,,,,,44.73134045,-93.46883743,,country_inferred
+126133142,Skin Sesh Medical Aesthetics,,"7528 4th St. NW, STE B",STE B,Los Ranchos,NM,87107,United States,,,,,35.16905249,-106.63517896,,country_inferred
+133946104,Skin Siren Aesthetics,,5777 Las Virgenes Road. Unit B Ste 2,,Calabasas,CA,91302,United States,,310-650-1595,,http://www.skinsirens.com,34.16175250,-118.70361859,,country_inferred
+149090399,Skin Spectrum,,6127 N La Cholla Blvd #101,,Tucson,AZ,85741,United States,,,,,32.31840473,-111.01281398,,country_inferred
+48236925,Skin Studio,,2 Trolley Place,,Norwalk,CT,06853,United States,,,,,41.07480799,-73.43041999,,country_inferred
+27217156,SKIN the Spa,,1055 River Oaks Dr.,,Flowood,MS,39232,United States,,,,,32.32965297,-90.10801476,,country_inferred
+40399167,Skin To Mind,,"101 W. South St,",,Aberdeen,NC,28315,United States,,,,,35.13053291,-79.42811922,,country_inferred
+38251156,Skin Treats,,115 Heady Ave,,Louisville,KY,40207,United States,,,,,38.25297302,-85.64175698,,country_inferred
+93554013,Skin Treats by Ana,,7700 N Kendall Dr,#408,Kendall,FL,33156,United States,,,,,25.68801594,-80.31988013,,country_inferred
+147598018,Skin Up Aesthetics & Wellness,,9789 SW 72nd Street,,Miami,FL,33173,United States,,,,,25.70208249,-80.35200218,,country_inferred
+152349624,Skin Well,,13800 SW 56th St,Suite 107,Miami,FL,33175,United States,,,,,25.70957159,-80.39131439,,country_inferred
+34891872,Skin Wellness Dermatology,,"3415 Independence Dr, Suite 200",,Birmingham,AL,35209,United States,United States of America,,,,33.47294899,-86.78437199,,country_normalized
+91293368,Skin Whiz,,9735 Wilshire Blvd Suite 418,,Beverly Hills,CA,90210,United States,,,,,34.06751045,-118.40766281,,country_inferred
+27217179,SkinBody Memphis,,717 S White Station Road,,Memphis,TN,38119,United States,,,,,35.11105753,-89.88871473,,country_inferred
+43153989,SkinByAsk,,10 Cedarcrest Drive,,Saratoga Springs,NY,12866,United States,,,,,43.10361890,-73.72177494,,country_inferred
+43726824,"Skincare Expert, LLC",,124 Lapham Way,,San Francisco,CA,94112,United States,,,,,37.70897300,-122.42757797,,country_inferred
+27217094,Skinerella MD,,3956 Town Center Boulevard,Suite 332,Orlando,FL,32837,United States,,,,,28.36388000,-81.42465000,,country_inferred
+108164399,Skinique Aesthetics (Moxie),,23030 Lyons Ave unit 100,,santa clarita,CA,91321,United States,,,,,34.37984556,-118.53612092,,name_whitespace; country_inferred
+123588224,Skinn Bar,,9560 Legacy Dr Ste 260,,Frisco,TX,75033,United States,,,,,33.15810635,-96.84740046,,country_inferred
+159769209,Skinnovations Medical,,152840 Phlox Ln,,Wausau,WI,54401,United States,,,,,44.91166008,-89.64347772,,country_inferred
+153732609,Skinpeccable,,1887 W 5000 N,,Rexburg,ID,83440,United States,,,,,43.89774631,-111.81561866,,country_inferred
+147600020,Skinplicity,,484 W Calle Primera Suite 916,,San Ysidro,CA,92173,United States,,,,,32.55440647,-117.05362468,,country_inferred
+161127773,Skins by Kevin,,3539 w 89th pl,,Hialeah,FL,33018,United States,,,,,25.90408556,-80.35498572,,country_inferred
+108164383,SkinSmart,,311 Golf Club Road,,Roaring Brook Twp.,PA,18436,United States,,,,,41.38859300,-75.52082498,,country_inferred
+78997049,SkinSpirit 2,,"3300 Bee Cave Rd, Ste 290",,Austin,TX,78746,United States,,,,,30.27551398,-97.79900002,,country_inferred
+152193178,SkinSpirit Annapolis,,1915 Towne Centre Blvd #110,,Annapolis,MD,21401,United States,,,,,38.97994307,-76.53928506,,country_inferred
+110251683,SkinSpirit Atlanta - Dunwoody,,130 High St.,Suite 117,Atlanta,GA,30346,United States,,,,,33.92462039,-84.34647758,,name_whitespace; country_inferred
+135654887,SkinSpirit Beverly Hills,,"153 S Lasky Dr, Suite 8",,Beverly Hills,CA,90212,United States,,,,,34.06518078,-118.41023873,,country_inferred
+114222373,SkinSpirit Buckhead,,3330 Piedmont Rd,Suite 7,Atlanta,GA,30305,United States,,,,,33.84563984,-84.37462009,,country_inferred
+152193033,SkinSpirit Charlotte,,1041 Providence Rd Ste 180,,Charlotte,NC,28207,United States,,,,,35.19498367,-80.82580878,,country_inferred
+111394645,SkinSpirit Corporate,,16819 NE 35th St,,Bellevue,WA,98008,United States,,,,,47.64182662,-122.11525141,,country_inferred
+130054533,SkinSpirit Danville,,439 Railroad Ave,,Danville,CA,94526,United States,,,,,37.81880087,-121.99719030,,country_inferred
+152193164,Skinspirit Dublin,,4375 W Dublin Granville Rd,,Dublin,OH,43017,United States,,,,,40.09809658,-83.10618634,,country_inferred
+93554016,SkinSpirit Forth Worth,,629 Stayton St,#147,Fort Worth,TX,76107,United States,,,,,32.75215016,-97.35005204,,country_inferred
+127409480,SkinSpirit Gaithersburg,,215 Market St. W,,Gaithersburg,MD,20878,United States,,,,,39.12159690,-77.23572331,,country_inferred
+152193193,SkinSpirit Georgetown,,"11855 Wisconsin Ave NW, Suite A",,Georgetown,DC,20007,United States,,,,,38.90979298,-77.06460522,,country_inferred
+152193189,SkinSpirit Green Lake,,6850 E Green Lake Way N.,,Seattle,WA,98115,United States,,,,,47.67824406,-122.32722983,,country_inferred
+152193194,SkinSpirit Greenwood Village,,8000 E. Belleview Ave Suite B80,,Greenwood Village,CO,80111,United States,,,,,39.62245999,-104.89627201,,country_inferred
+152193166,SkinSpirit Honolulu,,"1441 Kapiolani Blvd, Suite 908",,Honolulu,HI,96814,United States,,,,,21.29281430,-157.84303784,,country_inferred
+152193173,SkinSpirit La Jolla,,8867 Villa La Jolla Dr,Ste 604,La Jolla,CA,92037,United States,,,,,32.86906333,-117.23259039,,country_inferred
+152193184,SkinSpirit Lake Oswego,,"220 A Avenue, Suite 100",,Lake Oswego,OR,97034,United States,,,,,45.41932577,-122.66574196,,country_inferred
+163919389,SkinSpirit Leawood,,"6920 W 121st St, Suite 102",,Leawood,KS,66209,United States,,,,,38.90910932,-94.66586540,,country_inferred
+108164382,SkinSpirit Left Bank,,629 Stayton St. Ste 147,,Fort Worth,TX,76107,United States,,,,,32.75215016,-97.35005204,,country_inferred
+135654886,SkinSpirit Long Beach,,"6460 East PCH, Suite 230",,Long Beach,CA,90803,United States,,,,,33.75580180,-118.11064060,,country_inferred
+161127790,SkinSpirit Los Altos,,359 State Street,,Los Altos,CA,94022,United States,,,,,37.37880389,-122.11771963,,country_inferred
+144462608,SkinSpirit Los Gatos,,15954 Los Gatos Blvd,,Los Gatos,CA,95032,United States,,,,,37.23659685,-121.96139152,,country_inferred
+130054534,SkinSpirit Los Gatos,,15954 Los Gatos Blvd,,Los Gatos,CA,95032,United States,,,,,37.23659685,-121.96139152,,country_inferred
+155305015,SkinSpirit Los Gatos Employee,,15954 Los Gatos Blvd,,Los Gatos,CA,95032,United States,,,,,37.23659685,-121.96139152,,country_inferred
+135619412,SkinSpirit Manhattan Beach,,"3113 N Sepulveda Blvd, Unit C",,Manhattan Beach,CA,90266,United States,,,,,33.89820828,-118.39636819,,country_inferred
+118764926,SkinSpirit McLean,,6224 Old Dominion Dr,Suite 6D,McLean,VA,22101,United States,,,,,38.91979340,-77.14984535,,country_inferred
+152193038,SkinSpirit Miami,,851 NE 1st Ave,Suite 116,Miami,FL,33132,United States,,,,,25.78288915,-80.19190590,,country_inferred
+142911147,SkinSpirit Mill Valley,,800 Redwood Highway Suite 610,,Mill Valley,CA,94941,United States,,,,,37.89852702,-122.51477600,,country_inferred
+106971917,SkinSpirit Millburn,,241 Millburn Avenue,,Millburn,NJ,07041,United States,,,,,40.72401801,-74.29976601,,country_inferred
+152193177,SkinSpirit Nashville (Brentwood),,400 Centerview Dr,Suite 4000,Brentwood,TN,37027,United States,,,,,36.02656922,-86.78866428,,country_inferred
+152193169,SkinSpirit Nordstrom Bellevue,,100 Bellevue Square,,Bellevue,WA,98004,United States,,,,,47.61525817,-122.20505772,,country_inferred
+155305006,SkinSpirit Nordstrom Northpark,,"8687 North Central Expressway, Suite 2000",,Dallas,TX,75225,United States,,,,,32.86848980,-96.77497470,,country_inferred
+152193170,SkinSpirit Nordstrom Scottsdale,,7055 E Camelback Rd,,Scottsdale,AZ,85251,United States,,,,,33.50146904,-111.92954298,,country_inferred
+152193180,SkinSpirit Oakbrook,,10 Oakbrook Center Mall,,Nordstrom Oakbrook,IL,60521,United States,,,,,41.85252100,-87.95120600,,country_inferred
+145959469,SkinSpirit Oakland - Montclair,,,2017 Mountain Blvd.,Oakland,CA,94611,United States,,,,,37.82701698,-122.20998502,,country_inferred
+152193195,SkinSpirit Palo Alto,,701 Emerson Street,,Palo Alto,CA,94301,United States,,,,,37.44320574,-122.15986300,,country_inferred
+152193187,SkinSpirit Pasadena,,708 E Colorado Blvd,,Pasadena,CA,91101,United States,,,,,34.14514728,-118.13558581,,country_inferred
+131531848,SkinSpirit Phoenix - Biltmore,,2021 E Camelback Rd,Suite B26,Phoenix,AZ,85016,United States,,,,,33.50751311,-112.03709914,,country_inferred
+152193191,SkinSpirit Portland,,26 N.W. 23rd Place,,Portland,OR,97210,United States,,,,,45.52412382,-122.69958221,,country_inferred
+152193168,SkinSpirit Princeton,,53 Hulfish St,,Princeton,NJ,08542,United States,,,,,40.35091200,-74.66178099,,country_inferred
+152193185,SkinSpirit Roseville,,"1470 Eureka Road, Suite 140",,Roseville,CA,95661,United States,,,,,38.75193271,-121.25265568,,country_inferred
+105591372,SkinSpirit Roslyn Heights (Formerly Truth + Beauty),,250 South Service Rd,,Roslyn Heights,NY,11577,United States,,,,,40.78376099,-73.65110301,,country_inferred
+152193175,SkinSpirit San Diego - Del Mar,,1555 Camino Del Mar #110,,San Diego - Del Mar,CA,92014,United States,,,,,32.96040240,-117.26451622,,country_inferred
+162441988,SkinSpirit San Francisco - Noe Valley,,3939 24th St.,,San Francisco - Noe Valley,CA,94114,United States,,,,,37.75126105,-122.43056394,,country_inferred
+95593089,SkinSpirit Sarasota,,109 Links Ave Suite,,Sarasota,FL,34236,United States,,,,,27.33779970,-82.53289669,,country_inferred
+138513655,SkinSpirit Scottsdale,,15425 N. Scottsdale Rd,Suite 140,Scottsdale,AZ,85254,United States,,,,,33.62638266,-111.92458257,,country_inferred
+136972691,SkinSpirit Topanga,,21725 Victory Blvd.,,Canoga Park,CA,91303,United States,,,,,34.18958700,-118.60247400,,country_inferred
+152193182,SkinSpirit Totem Lake,,11900 NE Village Plaza #168,,Kirkland,WA,98034,United States,,,,,47.71264863,-122.18123644,,country_inferred
+152193179,SkinSpirit Tribeca (Formerly Skintology),,418 Washington St,Unit 1B,New York,NY,10013,United States,,,,,40.72264857,-74.01061373,,country_inferred
+130054525,SkinSpirit Walnut Creek,,1647 N California Blvd,,Walnut Creek,CA,94596,United States,,,,,37.90201800,-122.06532997,,country_inferred
+130054530,SkinSpirit Willow Glen,,1140-6 Lincoln Avenue,,Willow Glen (San Jose),CA,95125,United States,,,,,37.30775267,-121.90020003,,country_inferred
+131534208,SkinsSpirit Phoenix - Paradise Valley,,12650 N Tatum Blvd.,Suite 103,Phoenix,AZ,85032,United States,,,,,33.60196748,-111.98179241,,country_inferred
+30238448,SkinSync Clinical Spa,,107 Audubon Rd Unit 2,,Wakefiled,MA,01880,United States,United States of America,,,https://www.skinsync.com,42.52095409,-71.04916639,,country_normalized
+155305017,Skn by Heather,,285 Hillside Road,,Seven Hills,OH,44131,United States,,,,,41.36896631,-81.68153530,,country_inferred
+163919393,Skynn Medical Aesthetics,,201 E Kennedy Blvd Suite 410,,Tampa,FL,33602,United States,,,,,27.94700116,-82.45825911,,country_inferred
+38772973,Smart Skin Med Spa,,1931 29th Ave S,,Homewood,AL,35209,United States,United States of America,,,,33.47926500,-86.78789800,,country_normalized
+135654890,Sobella Wellness & Aesthetics,,"3905 NW 107th Ave, Suite 409",,Doral,FL,33178,United States,,,,,25.81059209,-80.36810817,,country_inferred
+61878777,Sol Luna Aesthetics,,2499 Glades Rd,Ste 302,Boca Raton,FL,33431,United States,,,,,26.36913178,-80.13673596,,country_inferred
+45025492,Sonoran Skin Renewal,,9915 E Bell rd suite 120B,,Scottsdale,AZ,85260,United States,,,,,33.63851060,-111.88773371,,country_inferred
+144461791,Sotelo Dermatology,,7000 N 10th St ste c-1,,McAllen,TX,78504,United States,,,,,26.26480177,-98.21903437,,country_inferred
+149090397,Source of Health,,"10752 N 89th Place, STE B118",,Scottsdale,AZ,85260,United States,,,,,33.58458395,-111.88877147,,country_inferred
+163920235,South Coast Dermatology and Cosmetic Center,,97 Libbey Industrial Parkway Suite 400 (4th floor),,Weymouth,MA,02189,United States,,,,,42.19322268,-70.94582172,,country_inferred
+104358442,Southern Bloom Aesthetics,,573 North Bardstown Road,,Mount Washington,KY,40047,United States,,,,,38.05247827,-85.54786424,,country_inferred
+133935164,Souyoul Dermatology,,8525 Line Ave,,Shreveport,LA,71106,United States,,,,,32.43721346,-93.73443939,,country_inferred
+27616560,Spectacular Skin,,474 Perkins Extd,Suite 210,Memphis,TN,38117,United States,,,,,35.11808499,-89.90783196,,country_inferred
+54719919,Sporting Life Beauty & Wellness,,644 Paloma Ln.,,Aiken,SC,29805,United States,,,,,33.58931801,-81.62505628,,country_inferred
+30238443,Springhouse Derm Aesthetics,,55 Ruthies Way,,Chalfont,PA,18914,United States,United States of America,,,http://Springhousederm.com,40.29154500,-75.21642301,,country_normalized
+49627683,Squeeze Skin,,4525 Lemmon Ave,Suite 240,Dallas,TX,75219,United States,,,,,32.85371800,-96.83417499,,country_inferred
+27217171,SSK Plastic Surgery,,500 Superior Ave,#340,Newport Beach,CA,92663,United States,,,,,33.62995510,-117.92921932,,country_inferred
+27217096,Stadia Medspa,,21 Spurs Lane,Suite 110,San Antonio,TX,78240,United States,,,,,29.52744838,-98.59251615,,country_inferred
+27217153,Stages Skin Studio,,150 Pewitt Drive,Suite 100,Brentwood,TN,37027,United States,,,,,36.03375904,-86.78711422,,country_inferred
+62835093,Star Skincare Med Spa,,6699 N Federal Hgwy,#102,Boca Raton,FL,33487,United States,,,,,26.40885731,-80.07681156,,country_inferred
+161128419,Stella Nova Hair Skin and Beauty,,2003 N Atlantic Ave,,Cocoa Beach,FL,32931,United States,,,,,28.34310694,-80.61035004,,country_inferred
+131530646,Studio One 28 Aesthetics,,3105 E 15th St,,Douglas,AZ,85607,United States,,,,,31.34923490,-109.51293845,,country_inferred
+61102211,Submerge Aesthetics,,137 East Main Street,,Bay Shore,NY,11706,United States,,,,,40.72395464,-73.24441424,,country_inferred
+162440500,Suede Aesthetics,,1351 Madison Ave Ste F #225,,Mankato,MN,56001,United States,,,,,44.16607991,-93.97316254,,country_inferred
+74714615,Sunkissed Med Spa,,58-110 Wehiwa Place,,Haleiwa,HI,96712,United States,,,,,21.67869998,-158.03482501,,country_inferred
+89136177,Sunkissed Med Spa - Texas,,5507 N. Main Street,,Victoria,TX,77905,United States,,,,,28.84603706,-97.01406153,,country_inferred
+117713092,Surface Clinical,,4311 oak lawn ave ste 380,,Dallas,TX,75219,United States,,,,,32.82099023,-96.80286012,,country_inferred
+27217110,Susong Dermatology,,2051 Hamill Road,Suite 301,Chattanooga,TN,37343,United States,,,,,35.12475755,-85.23781397,,country_inferred
+78999463,Sweetgrass Plastic Surgery,,218 Brighton Park Blvd,Ste 101,Summerville,SC,29486,United States,,,,,33.04450700,-80.14406401,,country_inferred
+150594789,Symmetry Medical Aesthetics Stillwater,,123 2nd Street N Suite 202,,Stillwater,MN,55082,United States,,,,,45.05683247,-92.80757676,,country_inferred
+147602979,Synergy Aesthetics,,1610 Woodland Ave,,Duluth,MN,55803,United States,,,,,46.82161280,-92.07343101,,country_inferred
+37492543,Synergy Medical Aesthetics,,"1655 North Mountain Ave,",Suite 113,Upland,CA,91784,United States,,,,http://synergymedicalaesthetics.com,34.12361707,-117.67045465,,country_inferred
+131530639,Tejas Beauty Nurse,,3304 Cole Ave Suite 169,,Dallas,TX,75204,United States,,,,,32.80518057,-96.80005478,,country_inferred
+47389815,Telitha Mahdavi Skincare,,4925 Boonsboro Road,Suite 3,Lynchburg,VA,24503,United States,,,,,37.44658301,-79.21970898,,country_inferred
+30625198,Tella MedSpa,,18817 FM 2252 #3,,San Antonio,TX,78266,United States,United States of America,,,,29.61587501,-98.31561401,,country_normalized
+156828444,Teresa Medspa,,2179 North Edison Court,,Tucson,AZ,85749,United States,,,,,32.24836224,-110.75269745,,country_inferred
+40205828,Terri Lawton Skin Care and Age Management,,931 1/2 N. La Cienega,,West Hollywood,CA,90069,United States,,,,,34.08788099,-118.37670199,,country_inferred
+132826899,Test Reseller 8/19/2025,,48 Goddard St,,Newton Highlands,MA,02461,United States,,,,,42.30539668,-71.20746106,,country_inferred
+93553872,The Aesthetic Society,,261 e Southlake blvd Ste 100,,Southlake,TX,76092,United States,,,,,32.94016752,-97.14746597,,country_inferred
+44983830,The Aesthetics Lounge & Spa,,"11940 US-1, Ste 125",,Palm Beach Gardens,FL,33408,United States,,,,,26.85166701,-80.05771901,,country_inferred
+34891869,The Aesthetics Lounge & Spa St. Joseph,,"431 Upton Dr, Suite 4",,St. Joseph,MI,49085,United States,United States of America,,,,42.11999233,-86.47811207,,country_normalized
+102223283,The Aesthetics Lounge - Orlando,,"496 Delaney Ave., #408",,Orlando,FL,32801,United States,,,,,28.53619988,-81.37498370,,country_inferred
+122452319,The Aesthetics Project,,4300 N Central Expy,Ste 300,Dallas,TX,75206,United States,,,,,32.81726313,-96.78782835,,country_inferred
+152193037,The Aesthetics Room,,128 East Main Street Ste B,,Union City,TN,38261,United States,,,,,36.42677965,-89.05567647,,country_inferred
+63808617,The Art of Beauty,,436 73rd Street,,North Bergen,NJ,07047,United States,,,,,40.79785863,-74.00883568,,country_inferred
+34891944,The Artistry of Face,,475 Albany Shaker Road,,Albany,NY,12211,United States,United States of America,,,,42.70758697,-73.77789397,,country_normalized
+111398430,The Bearded Lady,,127 NE 128th Ave,,Portland,OR,97230,United States,,,,,45.52392676,-122.53191071,,country_inferred
+116444347,The Beauty Loft,,1698 Post Rd E,STE 1B,Westport,CT,06880,United States,,,,,41.13747290,-73.30444485,,country_inferred
+46785884,The Best Injector,,4961 W Atlantic Ave,Studio 22,Delray Beach,FL,33445,United States,,,,http://www.thebestinjector.com,26.39190201,-80.12553900,,country_inferred
+47389818,The Best Injector,,4961 W Atlantic Ave,Studio 22,Delray Beach,FL,33445,United States,,,,,26.39190201,-80.12553900,,country_inferred
+141278994,The Body Glow Studio,,"7035 Beracasa Way, Suite 104",,Boca Raton,FL,33433,United States,,,,,26.35118001,-80.15532141,,country_inferred
+35754743,The Brow Shaping Queen,,8641 5th st,suite E9,Frisco,TX,75034,United States,,,,http://thebrowshapingqueen.com,33.14804501,-96.82490402,,country_inferred
+97258625,The Bungalow,,One Casino Terrace,,Newport,RI,02840,United States,,,,,41.48197696,-71.30776730,,country_inferred
+158283787,The Charleston Facemaker,,169 Winding River Dr,,Johns Island,SC,29455,United States,,,,,32.79762358,-80.11281225,,country_inferred
+156828451,The Collective Aesthetics and Concierge,,"3381 SW Mapp Rd, ,",,Palm City,FL,34990,United States,,,,,27.16430973,-80.26913625,,country_inferred
+28029217,The Cosmeceutical Studio,,1454 California St. #A,,Kingsburg,CA,93631,United States,,,,,36.51377002,-119.55328499,,country_inferred
+27217182,The Cosmetic Market-Brentwood,,211 Franklin Road,Suite 115,Brentwood,TN,37027,United States,,,,,36.03245904,-86.79071422,,country_inferred
+27217183,The Cosmetic Market-Cool Springs,,545 Cool Springs Boulevard,Suite 158,Franklin,TN,37067,United States,,,,,35.94895890,-86.82271423,,country_inferred
+27346671,The Cosmetic Market-Green Hills,,4015 Hillsboro Pike,Suite 107,Nashville,TN,37215,United States,United States of America,,,,36.10339699,-86.81800404,,country_normalized
+27217274,The Cosmetic Market-Warehouse Row,,1110 Market Street,Suite 120,Chattanooga,TN,37402,United States,,,,,35.04318900,-85.30889903,,country_inferred
+39437802,The Derm Bar MD,,1169 Winding Way Drive,,Knoxville,TN,37923,United States,,,,,35.94348000,-84.10647102,,country_inferred
+150600403,The Eastover Clinic,,725 Providence Rd,302,Charlotte,NC,28207,United States,,,,,35.20001189,-80.82487638,,country_inferred
+135654889,The Face Edit Aesthetics,,"7030 FM 1488-Rd IMAGE STUDIOS, studio 125",,Magnolia,TX,77354,United States,,,,,30.22106225,-95.57621293,,country_inferred
+141281996,The Face Ritual,,"495 N Ventu Park Rd., Suite 169",,Thousand Oaks,CA,91320,United States,,,,,34.18541667,-118.91233401,,country_inferred
+30625206,The Facebar,,4231 Postal Ct suite 102,,Pasadena,MD,21122,United States,United States of America,,,,39.12006301,-76.51317602,,country_normalized
+71810917,The Fix Aesthetic Clinic,,752 E Silver Springs Blvd,,Ocala,FL,34470,United States,,,,,29.18683849,-82.12981071,,country_inferred
+105590882,The Fort Lauderdale Medspa,,2821 East Commercial Boulevard,Suite 200,Fort Lauderdale,FL,33308,United States,,,,,26.19029000,-80.10823598,,country_inferred
+141279590,The Glam Nurse,,7109 E 2nd St #104,,Scottsdale,AZ,85251,United States,,,,,33.49104388,-111.92796106,,country_inferred
+161128418,The Gleaux Wellness House,,14350 Proton Rd,,Dallas,TX,75244,United States,,,,,32.94558961,-96.83622529,,country_inferred
+27616569,The IV Garden,,189 Bedford st,2nd floor,Lexington,MA,02420,United States,,,,,42.45962391,-71.23780883,,country_inferred
+32124763,The Klinic by KSW Medical Aesthetics,,675 Main St W,,Woburn,MA,01801,United States,United States of America,13392987766,,http://theklinic.co,42.49198950,-71.15401780,,country_normalized
+92433081,The Laser Lounge Spa Fort Myers,,11300 Lindbergh Blvd #115,,Fort Myers,FL,33913,United States,,,,,26.54852718,-81.76640961,,country_inferred
+39745186,The Look Aesthetics,,"5000 Hughes Crossing,",Suite 110,Franklin,TN,37064,United States,,,,,35.86299902,-86.84386104,,country_inferred
+27754685,The Luxe Medspa,,5041 Dallas Highway,Suite 508,Powder Springs,GA,30127,United States,,,,,33.94140999,-84.69874602,,country_inferred
+84758981,The Med Spa Of Flower Mound,,2601 Lakeside Pkwy,#180,Flower Mound,TX,75022,United States,,,,,32.99208901,-97.06749599,,country_inferred
+33947386,The Medspa - Wimberley,,210 Masonic Lodge Road,,Wimberley,TX,78676,United States,United States of America,15128479000,,,29.99978901,-98.08199503,,country_normalized
+123588188,The Natural Aesthetic,,328 W 6th St,,Houston,TX,77007,United States,,,,,29.78108307,-95.40078355,,country_inferred
+94547104,The Natural Aesthetic & Wellness,,947 Schooner Dr Unit 216,,Ventura,CA,93001,United States,,,,,34.24895197,-119.25908785,,country_inferred
+42662307,The Neat Studio,,1441 Kapiolani Blvd Ste 606,,Honolulu,HI,96814,United States,,,,http://www.theneatstudio.com,21.29273501,-157.84308202,,country_inferred
+103279599,The Ocean Aesthetics,,2222 Santa Monica Blvd.,,Santa Monica,CA,90404,United States,,,,,34.03039898,-118.47761004,,country_inferred
+33278410,The Opus - Med Spa,,"3 Renaissance Square, 9th Floor",,WHITE PLAINS,NY,10601,United States,United States of America,,,,41.03293686,-73.76732799,,country_normalized
+130054538,The Palm Aesthetics,,12080 NE 16th AVE apt 102,,Miami,FL,33161,United States,,,,,25.88667896,-80.16901253,,country_inferred
+87056602,The Place Aesthetics & Wellness,,111 Boston Post Rd,#105,Sudbury,MA,01776,United States,,,,,42.36267161,-71.39395858,,country_inferred
+80074973,The Plum Room Miami,,147 Alhambra Circle,Suite 205,Coral Gables,FL,33134,United States,,,,,25.75272800,-80.25822301,,country_inferred
+132826902,The Regimen Room,,206 Hoover Rd,,Neptune,NJ,07753,United States,,,,,40.22541857,-74.04034904,,country_inferred
+39369060,The Sage Head Spa-Alpharetta,,800 N Main St.,Suite 160-128,Alpharetta,GA,30009,United States,,,,https://thesageheadspa.com/,34.09306800,-84.28233802,,country_inferred
+34891863,The Skin Clinic & Aesthetics,,"333 N 18th Ave, Suite D1",,Pocatello,ID,83201,United States,United States of America,,,,42.87658600,-112.43281700,,country_normalized
+72862993,The Skin Element,,11601 NW 89th St,#215,Doral,FL,33178,United States,,,,,25.85425401,-80.38560699,,country_inferred
+150600407,The Skin Loft,,2206 Trophy Club Dr,,Trophy Club,TX,76262,United States,,,,,33.00483227,-97.20327587,,country_inferred
+109129112,The Skin Lounge,,10 Fairmount Ave,,Chatham,NJ,07928,United States,,,,,40.74055060,-74.38385100,,country_inferred
+76745903,The Skin Society,,300 Trilith Parkway,Ste 215,Fayetteville,GA,30214,United States,,,,,33.46909575,-84.50734219,,country_inferred
+152193032,The Skin Standard,,8108 Minnetonka Blvd,,St. Louis Park,MN,55426,United States,,,,,44.94992871,-93.38263601,,country_inferred
+41718569,The Skin Suite,,1600 e. Woodlawn rd.,,charlotte,north carolina,28209,United States,,,,,35.17178478,-80.84927459,,country_inferred
+102223287,THE SKNMUSE,,"9075 SW 162nd Ave. Suite 104, Unit 16","Suite 104, Unit 16",Miami,FL,33196,United States,,,,,25.68151799,-80.45629728,,country_inferred
+58493488,The Spot,,10 N Main St,STE 304,West Hartford,CT,06107,United States,,,,,41.76256800,-72.74128615,,country_inferred
+135654915,The Veil Group,,14274 Sundial Place,,Lakewood Ranch,FL,34202,United States,,,,,27.42152855,-82.39798862,,country_inferred
+63808805,The VIP Injector,,9550 Park Ln Plantation,,Plantation,FL,33324,United States,,,,,26.10702057,-80.27567933,,country_inferred
+33278428,Three Graces Aesthetics,,"1829 Gunbarrel Rd, Suite 101",,Chattanooga,TN,37421,United States,United States of America,,,,35.02626401,-85.15834304,,country_normalized
+63808800,Tiba Boutique Spa,,606 West Iris Drive,,Nashville,TN,37204,United States,,,,,36.11698355,-86.76734926,,country_inferred
+162440501,Timeless Beauty Aesthetics,,259 Oceanic Ave (Lauderdale by the sea),,Fort Lauderdale,FL,33308,United States,,,,,26.19343330,-80.10082470,,country_inferred
+156828452,Tina Torres Cosmetics,,429 College Ave #140 Ft worth TX,,Fort Worth,TX,76104,United States,,,,,32.73988643,-97.33451635,,country_inferred
+56199440,TLC Lasers LLC,,37450 Dequindre Rd,,Sterling Heights,MI,48310,United States,,,,,42.56724298,-83.08803600,,country_inferred
+66832344,TLC Midwifery,,371 8 th street garden FL,,Brooklyn,NY,11215,United States,,,,,40.62715217,-74.00482285,,country_inferred
+132431475,Torstveit Medical Aesthetics,,4520 N 12th St Suite 103,,Phoenix,AZ,85014,United States,,,,,33.50278546,-112.05689577,,country_inferred
+27217163,Total Aesthetics,,208 Post Road West,,Westport,CT,06880,United States,,,,,41.13628600,-73.37173500,,country_inferred
+57386173,Total Nutrition and Therapeutics,,809 CR 466,Unit 202-c,Lady Lake,FL,32159,United States,,,,,28.91734819,-81.93932526,,country_inferred
+93554015,Tradition Water's Edge Dermatology,,"9401 SW Discovery Way, Suite 104",,Port St. Lucie,FL,34987,United States,,,,,27.25615871,-80.42085297,,country_inferred
+95593095,Transcend MedSpa,,4407 Beecaves #612,,Austin,TX,78746,United States,,,,,30.28538602,-97.81388301,,country_inferred
+72862991,Tribeca Aesthetics,,50 Laight Street,,New York,NY,10013,United States,,,,,40.72213874,-74.00877768,,country_inferred
+43015953,TRUE Aesthetic Clinic,,141 Schiller Square,,Itasca,IL,60143,United States,,,,,41.97057100,-88.01002500,,country_inferred
+39484074,Trump National Golf Club Charlotte,,120 Trump Square,,Mooresville,NC,28117,United States,,,,,35.53275620,-80.91852900,,country_inferred
+39801023,Tucson Aesthetics,,5295 E. Knight Dr.,,Tucson,AZ,85712,United States,,,,,32.24983117,-110.88018913,,country_inferred
+45568733,Tunisian Esthetics,,7747 Fabled Point,,Union City,GA,30291,United States,,,,,33.54469598,-84.53461796,,country_inferred
+45274015,Twelve Twenty Eight Wellness,,"138 Marietta Hwy,",,Roswell,GA,30075,United States,,,,,34.01389699,-84.36669500,,country_inferred
+52106466,Tyngsboro Cosmetic Dentistry,,15 Pondview Square,,Tyngsboro,MA,01879,United States,,,,,42.68873758,-71.43294214,,country_inferred
+38214436,U.S. Dermatology Partners North Dallas,,5310 Harvest Hill #130,,Dallas,TX,75230,United States,United States of America,,,https://www.usdermatologypartners.com/locations/texas/dallas/5310-harvest-hill-rd-ste-130/,32.92111998,-96.81703500,,country_normalized
+108164380,UMMG,,1828 Ponce de Leon Blvd,,Coral Gables,FL,33134,United States,,,,,25.75532136,-80.25913329,,country_inferred
+135654891,UMMG Attn: Jonathan Hartway,,"1045 5th Street, Suite 305",,"Miami Beach,",FL,33139,United States,,,,,25.77480841,-80.13923184,,country_inferred
+111398431,Unblemished MD,,11209 Thorn Ridge Rd,,OKC,OK,73120,United States,,,,,35.58554583,-97.57269869,,country_inferred
+40850182,UndertoneSkn,,1355 NW,7 St #705,Miami,FL,33125,United States,,,,,25.78091400,-80.21745201,,country_inferred
+73779446,Unfiltered Beauty Medspa,,654 Dawsonville Highway,Suite B,Gainesville,GA,30501,United States,,,,,34.29693198,-83.85316697,,country_inferred
+29803946,Uplifted Aesthetics,,830 Torrance Blvd,,Redondo Beach,CA,90277,United States,United States of America,,,,33.83828485,-118.37833275,,country_normalized
+122452343,Urban Aesthetics,,3011 South Lindsay Road,120,Gilbert,AZ,85295,United States,,,,,33.29647745,-111.77291647,,country_inferred
+141282016,Urban Med Spa,,2515 Park Marina Dr. Ste 200,,Redding,CA,96001,United States,,,,,40.57682039,-122.37011978,,country_inferred
+144456183,Urban Medical VA,,1707 Jefferson Hwy,,Fisherville,VA,22939,United States,,,,,38.10011791,-78.97163541,,country_inferred
+64794741,Urbane Aesthetiks,,1105 W Hunt St,,Mckinney,TX,75069,United States,,,,,33.19900505,-96.62627370,,country_inferred
+132826894,Valerie Zehler Clinical Skincare,,1506 Live Oak Dr,,Lewisville,TX,75067,United States,,,,,33.02711765,-97.00252853,,country_inferred
+71810919,Vanity Point Wellness,,1553 San Ignacio Ave,Suite B,Coral Gables,FL,33146,United States,,,,,25.70547402,-80.28457404,,country_inferred
+54099732,VCF Medical,,654 W Indiantown Rd.,Suite 105,Jupiter,FL,33458,United States,,,,,26.93365501,-80.10563902,,name_whitespace; country_inferred
+131534211,Velour Medical,,1239 Broadway Floor 13,,New York,NY,10001,United States,,,,,40.74712880,-73.98854452,,country_inferred
+147600021,Vi Beauty Lab,,810 Lake St E,,Wayzata,MN,55391,United States,,,,,44.96827816,-93.50893721,,country_inferred
+133934853,Vibe Aesthetics and Wellness,,495 S Gloster St Suite 201,,Tupelo,MS,38801,United States,,,,,34.25048907,-88.71702789,,country_inferred
+39897285,Village Institute of Plastic Surgery,,607 County Road 466A,,Fruitland Park,FL,34731,United States,,,,,28.86210500,-81.94316501,,country_inferred
+47096516,Viona Medical Spa,,"8775 Sierra College Blvd, Ste 350",,Roseville,CA,95661,United States,,,,,38.74047201,-121.22445602,,country_inferred
+108164389,Virtual Practitioners,,209 St. Louis Ave Ste 104,,Fort Worth,TX,76104,United States,,,,,32.74225222,-97.32843210,,country_inferred
+122452351,Vision Cosmetic Surgery,,1508 bay rd apt 102,,miami beach,FL,33139,United States,,,,,25.78735763,-80.14490731,,country_inferred
+71810008,Vital Wellness & Aesthetics,,8240 South State Road 7,270,Boynton Beach,FL,33472,United States,,,,,26.55472199,-80.20454698,,country_inferred
+39897287,Vitality Anti-Aging Center,,"74 8th st SE,",Suite 101,Hickory,NC,28602,United States,,,,,35.73296833,-81.32689212,,country_inferred
+27217130,Vitality Dermatology,,724 Leigh Drive,,Columbus,MS,39705,United States,,,,,33.53026700,-88.42468999,,country_inferred
+155305018,Vitality Lifestyle & Wellness,,5105 Sunmore Cir Suite A,,Midland,TX,79707,United States,,,,,32.01130190,-102.15373324,,country_inferred
+114222372,Vivae Wellness,,805 N Federal Hwy,,Boca Raton,FL,33432,United States,,,,,26.35815618,-80.08572311,,country_inferred
+163919391,Vivian Fraga MD,,5454 Wisconsin Ave,Suite 1005,Chevy Chase,MD,20815,United States,,,,,38.96255401,-77.08693070,,country_inferred
+103279595,VRAI Medspa-Buckhead,,3229 Cains Hill Pl NW,,Atlanta,GA,30305,United States,,,,,33.84290323,-84.38019028,,country_inferred
+45431597,VSKIN,,2374 Appaloosa Ln,,Park City,UT,84098,United States,,,,,40.73052098,-111.46513299,,country_inferred
+99941955,Waters Edge Dermatology- Palm Beach Gardens,,"600 village square crossing, suite 101",,Palm Beach Gardens,FL,33410,United States,,,,,26.83555200,-80.07319996,,country_inferred
+145959468,Waters Edge St. Lucie West/ Specialty,,"264 NW Peacock Blvd., #202",,Port St Lucie,FL,34986,United States,,,,,27.31643914,-80.40850727,,country_inferred
+98765129,Waters Edge Stuart,,2601 S Kanner Hwy,,Stuart,FL,34994,United States,,,,,27.17319602,-80.25183265,,country_inferred
+44449423,Weiser Skin MD,,155 Spring St,,New York,NY,10012,United States,,,,,40.72450244,-74.00160143,,country_inferred
+159769211,Wellness District Medical Weight Loss & Aesthetics,,435 32nd Ave E Ste B,,West Fargo,ND,58078,United States,,,,,46.83254892,-96.89255629,,country_inferred
+45568731,Wellness Insights,,8 Maple St,,Darien,CT,06820,United States,,,,,41.06707099,-73.49060197,,country_inferred
+27217097,WellSkin,,1630 Nashville Pike,Suite 200,Gallatin,TN,37066,United States,,,,,36.35265956,-86.51081417,,country_inferred
+88020420,Westlake Alamo Heights,,5500 Broadway St,Suite R100,Alamo Heights,TX,78209,United States,,,,,29.47872700,-98.46311900,,country_inferred
+66819227,Westlake Belterra Village Way,,164 Belterra Village Way suite Y700,,Austin,TX,78737,United States,,,,,30.20295046,-97.98324339,,country_inferred
+82459789,Westlake Cedar Park,,200 N Lakeline Blvd,Suite A,Cedar Park,TX,78613,United States,,,,,30.50385970,-97.84759176,,country_inferred
+64794754,Westlake Dermatology- Marble Falls,,800 S U.S. 281,,Marble Falls,TX,78654,United States,,,,,30.55544289,-98.27444135,,country_inferred
+88020417,Westlake Domain Northside,,11801 Domain Boulevard Suite 120,,Austin,TX,78758,United States,,,,,30.40473900,-97.72095403,,country_inferred
+116444345,Westlake Downtown Austin,,327 East Cesar Chavez Street,,Austin,TX,78701,United States,,,,,30.26236131,-97.74129590,,country_inferred
+64794768,Westlake Dripping Springs,,164 Belterra Village Way suite y700,,Austin,TX,78737,United States,,,,,30.20295046,-97.98324339,,country_inferred
+91293376,Westlake Far West,,3637 Far West Blvd.,Suite E,Austin,TX,78731,United States,,,,,30.35467129,-97.75647838,,country_inferred
+63808698,Westlake Georgetown,,4235 Williams Drive,,Georgetown,TX,78628,United States,,,,,30.67990514,-97.71149781,,country_inferred
+64794765,Westlake Lamar Central,,3800 N Lamar Blvd,suite 155,Austin,TX,78756,United States,,,,,30.30602352,-97.74333631,,country_inferred
+106971919,Westlake Lockhart,,120 E. Market St.,Suite 100,Lockhart,TX,78644,United States,,,,,29.88372203,-97.67141715,,country_inferred
+91293374,Westlake Olmos Park,,3910 McCullough Avenue,Suite 106,San Antonio,TX,78212,United States,,,,,29.46708604,-98.49143659,,country_inferred
+64794758,Westlake Onion Creek,,2201 Onion Creek Parkway,,Austin,TX,78747,United States,,,,,30.13633328,-97.79664990,,country_inferred
+91293375,Westlake River Oaks,,3636 Westheimer Road,,Houston,TX,77027,United States,,,,,29.74185137,-95.43651392,,country_inferred
+65762818,Westlake Round Rock,,1760 Round Rock Avenue,,Round Rock,TX,78681,United States,,,,,30.51257285,-97.70461275,,country_inferred
+78999472,Westlake South Austin-Davis,,5301 Davis Lane,suite 100,Austin,TX,78749,United States,,,,,30.20812801,-97.86318403,,country_inferred
+91293372,Westlake SOUTHWEST PARKWAY,,7415 Southwest Parkway,Suite 2-100,Austin,TX,78735,United States,,,,,30.25643853,-97.87044116,,country_inferred
+84758978,Westlake University Park,,6565 Hillcrest Ave,Suite 110,Dallas,TX,75205,United States,,,,,32.84634599,-96.78799297,,country_inferred
+101071912,Westlake West University,,2132 Bissonnet St.,Suite 200,Houston,TX,77005,United States,,,,,29.72583455,-95.41033774,,country_inferred
+27217161,What Wrinkle Aesthetics,,8001 Raintree Ln,Ste 202,Charlotte,NC,28277,United States,,,,,35.09395750,-80.78731324,,country_inferred
+75738609,Wild & Beautiful Austin,,500 West 38th Street,,Austin,TX,78705,United States,,,,,30.30248690,-97.73729190,,country_inferred
+28825996,Willamette Skin Care Center,,3327 Northwest Foxtail Street,,Corvallis,OR,97330,United States,,,,,44.59990802,-123.28744004,,country_inferred
+45953022,Windward Aesthetics,,380 N Main St,,Alpharetta,GA,30009,United States,,,,,34.08606501,-84.29561797,,country_inferred
+135619404,Wings Wellness Spa,,17600 COLLINS AVENUE,,SUNNY ISLES BEACH,FL,33160,United States,,,,,25.93916361,-80.12155541,,country_inferred
+31696798,Womens Clinic LA,,2284 E Maple Ave,,El Segundo,CA,90245,United States,United States of America,13104149761,,,33.92611101,-118.38555504,,country_normalized
+30893848,Wrinkleboss,,4308 Bryant Ave S,,Minneapolis,MN,55409,United States,United States of America,612-405-2326,,https://www.wrinkleboss.co/,44.91628199,-93.26996102,,country_normalized
+80077419,XO Aesthetic Refinery,,3744 Frankfort Avenue,,Louisville,KY,40207,United States,,,,,38.25274398,-85.65887702,,country_inferred
+32454518,YNG Aesthetics,,316 S Dixie Hgwy,,WEST PALM BEACH,FL,33401,United States,United States of America,,,http://yngofficial.com,26.71108602,-80.05344499,,country_normalized
+159764379,Young Skin Care,,7564 Fairway Trail,,Boca Raton,FL,33487,United States,,,,,26.41728196,-80.08393039,,country_inferred
+35139220,Young Skin Dermatology,,8018 Wiles Road,,Coral Springs,FL,33067,United States,,,,http://www.youngskinmd.com,26.28660272,-80.23324004,,country_inferred
+27217140,Young Skin Dermatology,,123 High Ridge Road,,Stamford,CT,06905,United States,,,,,41.07626730,-73.54921205,,country_inferred
+83439924,Your Honest Glow,,75634 Bayley Place,,Yulee,FL,32097,United States,,,,,30.59776010,-81.68924481,,country_inferred
+43015949,Youth Skin RX,,"6305 E. 120th Ct, Suite B",,Tulsa,OK,74137,United States,,,,,35.98875099,-95.90568702,,country_inferred
+159763212,Youthful Essence Aesthetics and Wellness,,Bloom Building 91951 Overseas Highway,,Tavernier,FL,33070,United States,,,,,25.01041308,-80.51565716,,country_inferred
+49273946,Youthful Magnolia,,1307 8th Avenue #404,,Fort Worth,TX,76104,United States,,,,,32.73042301,-97.34325600,,country_inferred
+54100093,YS Aesthetics,,3316 Griffin Rd,,Fort Lauderdale,FL,33312,United States,,,,,26.06230002,-80.18897399,,name_whitespace; country_inferred
+57964170,Yuni Aesthetics,,19830 NW 12th Ct,,Miami Gardens,FL,33169,United States,,,,,25.95614644,-80.22290318,,country_inferred
+145959462,Yvette's Flawless Skin Care,,"9420 SW 77th Ave., Suite 201D",,Miami,FL,33156,United States,,,,,25.68282394,-80.31948115,,country_inferred
+142911084,Yvonne Melnick,,843 Hart loop,,Kamas,UT,84036,United States,,,,,40.62256106,-111.29688866,,country_inferred
+103279601,Yvonne Tran,,3015 Barnhill Ln,,Sugar land,TX,77479,United States,,,,,29.57833100,-95.60574447,,country_inferred
+45431599,YVR Aesthetic Training & Study Centre,,Suite 517 - 750 West Broadway,,Vancouver,BC,V5Z 1H4,Canada,,,,,49.26301452,-123.12105431,,country_inferred
+74714618,Zare Cosmetic Surgery,,120 E University Dr,,Rochester,MI,48307,United States,,,,,42.68185801,-83.13292797,,country_inferred
+152198349,Zatika Gray,,500 N. Hampton Rd Ste 9,,Desoto,TX,75115,United States,,,,,32.59592959,-96.85674553,,country_inferred
+63808804,ZenLuxe Med Spa,,1881 North University Drive,suite 206,Coral Springs,FL,33071,United States,,,,,26.25424229,-80.25158287,,country_inferred
+45191338,Zinovations,,"15785 Birmingham Hwy Ste 300,",,Milton,GA,30004,United States,,,,,34.16524801,-84.33318398,,country_inferred
+155305020,‘ili essentials,,23916 Clayton court,,Valencia,CA,91354,United States,,,,,34.43564393,-118.55428970,,country_inferred
+32124766,⟡ 5th & Wellness ⟡,⟡ Pavise Diamond Partner ⟡,37 SE 5th Street Suite 100,,Boca Raton,FL,33432,United States,United States of America,,,http://www.5thandwell.com,26.34547599,-80.08715801,50,country_normalized
+27217099,⟡ Accent Plastic and Reconstructive Surgery ⟡,⟡ Pavise Diamond Partner ⟡,2147 Southridge Drive,,Tupelo,MS,38801,United States,,,,,34.22665608,-88.72561454,50,country_inferred
+27217091,⟡ Ageless by Natasha ⟡,⟡ Pavise Diamond Partner ⟡,6109 E. Princess Drive,,Mesa,AZ,85205,United States,,,,,33.44075479,-111.69911830,50,country_inferred
+154182106,⟡ ALXS SKN GYM ⟡,⟡ Pavise Diamond Partner ⟡,297 Newbury Street,Suite 31,Boston,MA,02115,United States,02115,,,,42.34910240,-71.08523489,50,zip_recovered_from_country; country_inferred
+29803933,⟡ Apex Dermatology Denver ⟡,⟡ Pavise Diamond Partner ⟡,"125 Rampart Way, #220",,Denver,CO,80230,United States,United States of America,,,https://www.usdermatologypartners.com/locations/colorado/denver/125-rampart-way-ste-220/,39.72027500,-104.89894903,50,country_normalized
+29803932,⟡ Apex Dermatology Littleton ⟡,⟡ Pavise Diamond Partner ⟡,"1420 W Canal Ct, #50",,Littleton,CO,80120,United States,United States of America,,,https://www.usdermatologypartners.com/locations/colorado/littleton/1420-west-canal-ct-ste-50/,39.56712275,-105.00376975,50,country_normalized
+34891957,⟡ aqueous. ⟡,⟡ Pavise Diamond Partner ⟡,6465 Calder Ave Suite 205,,Beaumont,TX,77713,United States,United States of America,,,,30.07620201,-94.16971801,50,country_normalized
+107219659,⟡ Arlington Center For Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,711 E Lamar Blvd,Ste 200,Arlington,TX,76011,United States,,,,,32.76509513,-97.10162677,50,name_whitespace; country_inferred
+33278425,⟡ Atalla Skin & Laser ⟡,⟡ Pavise Diamond Partner ⟡,"1048 Ashley St, suite 303",,Bowling Green,KY,42103,United States,United States of America,,,,36.96666399,-86.42957600,50,country_normalized
+155564274,⟡ Audubon Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,3525 Prytania St #501,,New Orleans,LA,70115,United States,,,,,29.92676005,-90.09263088,50,country_inferred
+32124767,⟡ AuraMed Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,176 E. Boca Raton Road,,Boca Raton,FL,33432,United States,United States of America,15619239050,,http://www.auramedboca.com,26.35136824,-80.08420811,50,name_whitespace; country_normalized
+114222375,⟡ Austin & Reddick Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,9301 N Ctrl Expressway Suite 470,,Dallas,TX,75231,United States,,,,,32.87514420,-96.77129820,50,country_inferred
+63808697,⟡ Austin Plastic Surgeon ⟡,⟡ Pavise Diamond Partner ⟡,10622 Burnet Rd ste 100,,Austin,TX,78758,United States,,,,,30.38822336,-97.72289709,50,country_inferred
+33949853,⟡ Aventura Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,18801 NE 29th Ave,,Aventura,FL,33180,United States,United States of America,17545449030,,,25.94927020,-80.14252966,50,country_normalized
+161127785,⟡ Aviara ⟡,⟡ Pavise Diamond Partner ⟡,"421 N Rodeo Dr., Suite S2",,Beverly Hills,CA,90210,United States,,,,,34.06948946,-118.40374293,50,country_inferred
+154182104,⟡ Azala Skin Clinic ⟡,⟡ Pavise Diamond Partner ⟡,3444 Main Hwy #23,3rd Floor,Miami,FL,33133,United States,,,,,25.72733842,-80.24327020,50,country_inferred
+153732607,⟡ Azul Cosmetic Surgery and Medica ⟡,⟡ Pavise Diamond Partner ⟡,23451 Walden Center Drive,Suite 400,Bonita Springs,FL,34134,United States,,,,,26.39601816,-81.81103185,50,country_inferred
+27217129,⟡ Barely Nude Spa & Boutique ⟡,⟡ Pavise Diamond Partner ⟡,442 S Battlefield Blvd,Ste B,Chesapeake,VA,23322,United States,,,,,36.70806014,-76.23711249,50,country_inferred
+33947388,⟡ Bay Harbor-Riverchase Derm ⟡,⟡ Pavise Diamond Partner ⟡,1111 KANE CONCOURSE STE 100,,BAY HARBOR IS,FL,33154,United States,United States of America,13058662177,,https://www.riverchasedermatology.com/locations/bay-harbor-islands/,25.88697998,-80.13165100,50,name_whitespace; country_normalized
+144461710,⟡ Bayou City Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,3747 Westheimer Rd.,Suite A,Houston,TX,77027,United States,,,,,29.74114867,-95.44069012,50,country_inferred
+52712510,⟡ Baypointe Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,"3850 Bird Road, Suite 104",,Miami,FL,33146,United States,,,,https://baypointedermatology.com/,25.73472099,-80.25683397,50,name_whitespace; country_inferred
+115296369,⟡ Be You Medical ⟡,⟡ Pavise Diamond Partner ⟡,12655 Rough and Ready Highway,,Grass Valley,CA,95945,United States,,,,,39.22927581,-121.10786643,50,name_whitespace; country_inferred
+33278433,⟡ Beauty Bomb Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,"130 E. Main Street, Sutie 102 & 211",,Smithtown,NY,11787,United States,United States of America,15167326712,,,40.85605763,-73.18838825,50,country_normalized
+29346737,⟡ Beauty Collective ⟡,⟡ Pavise Diamond Partner ⟡,6076 N. Oracle Rd,,TUCSON,AZ,85704,United States,United States of America,,,https://www.beautycollective.vip/,32.31713035,-110.97485418,50,country_normalized
+29327214,⟡ Beauty Within ⟡,⟡ Pavise Diamond Partner ⟡,100 NE 6 St,#104,Boynton Beach,FL,33435,United States,United States of America,,,https://www.mybeautywithin.com/,26.52819499,-80.05579502,50,country_normalized
+48498579,⟡ Bella Mobile Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,301 N. Oxford Valley Rd,,Yardley,PA,19067,United States,,,,,40.20654202,-74.86815803,50,country_inferred
+34891943,⟡ Bespoke Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,"625 N Flagler Dr, #675",,West Palm Beach,FL,33401,United States,United States of America,,,,26.71868799,-80.05106201,50,country_normalized
+28825991,⟡ Bespoke ⟡,⟡ Pavise Diamond Partner ⟡,3008 Dawn Drive,Suite 104,Georgetown,TX,78628,United States,,,,http://www.bespokemedaesthetics.com,30.66452716,-97.69144411,50,country_inferred
+27217167,⟡ Beverly Hills Rejuvenation Chino ⟡,⟡ Pavise Diamond Partner ⟡,13850 City Center Drive,Suite 5045,Chino Hills,CA,91709,United States,,,,https://www.bhrcenter.com/med-spa-location/chino-hills-ca,34.00139898,-117.73057904,50,country_inferred
+75738600,⟡ Boca Skin Company ⟡,⟡ Pavise Diamond Partner ⟡,5499 N Federal Hwy,Suite D,Boca Raton,FL,33487,United States,,,,,26.39778020,-80.07681920,50,country_inferred
+92433148,⟡ Bougie Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,500 W 7th st ste 1714,,Fort Worth,TX,76102,United States,,,,,32.75132391,-97.33342076,50,country_inferred
+162157500,⟡ Brains & Beauty Inc. ⟡,⟡ Pavise Diamond Partner ⟡,33 East Orange Grove Ave. #103,,Burbank,CA,91502,United States,,,,,34.18002090,-118.31189923,50,country_inferred
+27217132,⟡ Bravo Medical Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,61 South Main Street,Suite 309,West Hartford,CT,06107,United States,,,,,41.75777500,-72.74348100,50,country_inferred
+27217174,"⟡ Bruce, Suzanne ⟡",⟡ Pavise Diamond Partner ⟡,1900 SAINT JAMES PL,,Houston,TX,77056,United States,,,,https://www.sba-skincare.com/,29.74654874,-95.47341564,50,country_inferred
+28518251,⟡ Calospa Floyds Knobs ⟡,⟡ Pavise Diamond Partner ⟡,408 LaFollette Station Drive,,Floyds Knobs,IN,47119,United States,,,,,38.31516979,-85.89660040,50,country_inferred
+28825994,⟡ CaloSpa Lexington ⟡,⟡ Pavise Diamond Partner ⟡,"824 Euclid Ave, #100",,Lexington,KY,40502,United States,,,,,38.02957699,-84.49102997,50,country_inferred
+27217142,⟡ CaloSpa Rejuvenation Center ⟡,⟡ Pavise Diamond Partner ⟡,2341 Lime Kiln Lane,,Louisville,KY,40222,United States,,,,https://www.calospa.com/,38.28526273,-85.62801403,50,country_inferred
+27217133,⟡ Carla Dormer ⟡,⟡ Pavise Diamond Partner ⟡,3636 E. Maffeo Rd,,Phoenix,AZ,85050,United States,,,,,33.69059300,-112.00100400,50,name_whitespace; country_inferred
+27217147,⟡ Center for Aesthetic & Laser Medicine ⟡,⟡ Pavise Diamond Partner ⟡,5030 Tennyson Pkwy,#400,Plano,TX,75024,United States,,,,https://www.usdermatologypartners.com/locations/texas/plano/5030-tennyson-pkwy-ste-400/,33.06207900,-96.79935400,50,country_inferred
+31243866,⟡ Center for Aesthetic & Laser Medicine ⟡,⟡ Pavise Diamond Partner ⟡,"4809 Old Bullard Rd, Ste 500",,Tyler,TX,75703,United States,United States of America,,,,32.29717199,-95.30586696,50,country_normalized
+29327205,⟡ Center for Aesthetic and Laser Medicine Scottsdale ⟡,⟡ Pavise Diamond Partner ⟡,10900 N. Scottsdale Rd,,10900 N. Scottsdale Rd,AZ,85254,United States,United States of America,,,https://www.usdermatologypartners.com/locations/arizona/scottsdale/10900-n-scottsdale-rd-ste-201/,33.58620296,-111.92719856,50,country_normalized
+117713094,⟡ Chirag Mehta MD PLLC ⟡,⟡ Pavise Diamond Partner ⟡,1111 East Sara Swamy Drive,,Sherman,TX,75090,United States,,,,,33.67870518,-96.60129831,50,country_inferred
+27217165,⟡ Cole Facial Clinic and Skincare ⟡,⟡ Pavise Diamond Partner ⟡,204 East Layfair Drive,,Flowood,MS,39232,United States,,,,https://www.colefacialclinic.com/,32.33125297,-90.10571476,50,country_inferred
+27217181,⟡ Cosmetic Laser Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,9339 Genesse Ave,#300,San Diego,CA,92121,United States,,,,https://clderm.com/,32.87605386,-117.21311920,50,country_inferred
+94792110,⟡ Couture Med Spa - Ocoee ⟡,⟡ Pavise Diamond Partner ⟡,10956 W. Colonial Dr.,,Ocoee,FL,34761,United States,,,,,28.55028508,-81.54126633,50,country_inferred
+98765131,⟡ Covalent Health ⟡,⟡ Pavise Diamond Partner ⟡,9835 SW 72nd Street,Suite 208,Miami,FL,33173,United States,,,,,25.70166101,-80.35295101,50,country_inferred
+122452346,⟡ Crafted Beauty ⟡,⟡ Pavise Diamond Partner ⟡,510 W Riverside Ave,Suite 100,Spokane,WA,99201,United States,,,,,47.65814958,-117.42018610,50,country_inferred
+53610847,⟡ Cult Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,5941 Forest Lane,,Dallas,TX,75230,United States,,,,,32.91036700,-96.80485400,50,country_inferred
+32124779,⟡ Culture Aesthetics and Wellness ⟡,⟡ Pavise Diamond Partner ⟡,"116 Concord Road, suite 100",,Knoxville,TN,37934,United States,United States of America,18655000101,,,35.88397699,-84.15238298,50,country_normalized
+30874069,⟡ D-Rock Salon & Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,11399 Government Center Pkwy,,Fairfax,VA,22030,United States,United States of America,,,http://drocksalon.com,38.85297924,-77.34047967,50,country_normalized
+122495757,⟡ Dahl House Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,"1420 Marketplace Drive, Suite 3",,Great Falls,MT,59404,United States,,,,,47.48128694,-111.33908970,50,name_whitespace; country_inferred
+33278412,⟡ Dallas Plastic Surgery Institute ⟡,⟡ Pavise Diamond Partner ⟡,9101 North Central Expressway Suite 600,,Dallas,TX,75231,United States,United States of America,12148219114,,http://dpsi.org,32.87308899,-96.77164901,50,name_whitespace; country_normalized
+64794773,⟡ Dawes Fretzin Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,7910 N Shadeland Ave,,Indianapolis,IN,46250,United States,,,,,39.89813999,-86.04690197,50,country_inferred
+40850198,⟡ Debra Price MD PA ⟡,⟡ Pavise Diamond Partner ⟡,9060 SW 73rd Court,,Miami,FL,33156,United States,,,,,25.68650598,-80.31447799,50,country_inferred
+32454475,⟡ Del Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,94 NE 5th Ave,,Delray Beach,FL,33483,United States,United States of America,+1 (561) 777-4905,,,26.45923200,-80.11973998,50,country_normalized
+31243863,⟡ Dermacare Brickell ⟡,⟡ Pavise Diamond Partner ⟡,1250 S MIAMI AVE SUITE 100,,MIAMI,FL,33130,United States,United States of America,,,,25.76209398,-80.19356200,50,country_normalized
+92433089,⟡ Dermatology and Laser of Alabama ⟡,⟡ Pavise Diamond Partner ⟡,201 Office Park Drive,Suite 350,Mountain Brk,AL,35223,United States,,,,,33.47895919,-86.77560527,50,country_inferred
+28825986,⟡ Dermatology and Skin Surgery Center of Wilmington ⟡,⟡ Pavise Diamond Partner ⟡,6752 Rock Spring Rd,Suite 210,Wilmington,NC,28405,United States,,,,https://www.wilmingtonskinsurgerycenter.com/,34.23681911,-77.83239479,50,country_inferred
+27217128,⟡ Dermatology Center of the Rockies ⟡,⟡ Pavise Diamond Partner ⟡,1551 Professional Lane,# 135,Longmont,CO,80501,United States,,,,https://dermatologyoftherockies.com/,40.13956576,-105.10151722,50,country_inferred
+107586736,⟡ Dermsilk ⟡,⟡ Pavise Diamond Partner ⟡,11152 Fleetwood St,Unit 7,Sun Valley,CA,91352,United States,,,,,34.22968900,-118.37412698,50,name_whitespace; country_inferred
+33947383,⟡ DermSurgery Associates ⟡,⟡ Pavise Diamond Partner ⟡,"6700 West Loop S, Suite 500",,Bellaire,TX,77401,United States,United States of America,17137919021,,,29.70719798,-95.46125797,50,country_normalized
+92434839,⟡ Dewstate ⟡,⟡ Pavise Diamond Partner ⟡,3652 Meadow Vista Lane,,Tallahassee,FL,32308,United States,,,,,30.48340056,-84.21477527,50,country_inferred
+55526069,⟡ Doctora Vital Med Spa ⟡,⟡ Pavise Diamond Partner ⟡,9650 Stirling Road,Suite 102,Cooper City,FL,33024,United States,,,,,26.04386700,-80.27456798,50,country_inferred
+27217176,⟡ Downtown Faces ⟡,⟡ Pavise Diamond Partner ⟡,428 Stone Ave,,Tucson,AZ,85701,United States,,,,,32.21552783,-110.97041818,50,country_inferred
+108164401,⟡ Dr. Anna McNay ⟡,⟡ Pavise Diamond Partner ⟡,5933 Coronado Lane,#200,Pleasanton,CA,94588,United States,,,,,37.68414669,-121.90082674,50,name_whitespace; country_inferred
+27217160,⟡ El Con Health & Wellness Center ⟡,⟡ Pavise Diamond Partner ⟡,3402 E. Broadway Blvd,,Tucson,AZ,85716,United States,,,,https://elconhealth.com/,32.22125279,-110.92001817,50,country_inferred
+34891874,⟡ Elaine Pichet's Artistic Touch ⟡,⟡ Pavise Diamond Partner ⟡,6887 N. Placita Chula Vista,,Tucson,AZ,85704,United States,United States of America,,,,32.33142899,-110.98853931,50,country_normalized
+64794775,⟡ Elite Retreat Spa ⟡,⟡ Pavise Diamond Partner ⟡,1264 Harwood Road,,Bedford,TX,76021,United States,,,,,32.85218897,-97.14820978,50,country_inferred
+49452447,⟡ EpiCentre Skin Care & Laser Center ⟡,⟡ Pavise Diamond Partner ⟡,"9101 N. Central Expy., Suite 500",,Dallas,TX,75231,United States,,214-887-1577,,,32.87369696,-96.77068628,50,country_inferred
+77952346,⟡ Erasable Med Spa ⟡,⟡ Pavise Diamond Partner ⟡,4103 North Armenia Avenue,,Tampa,FL,33607,United States,,,,,27.97655999,-82.48407303,50,country_inferred
+69024399,⟡ Essential Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,1201 N Federal Hwy lot 6,,Fort Lauderdale,FL,33304,United States,,,,,26.14127800,-80.12097145,50,country_inferred
+62835092,⟡ Esthetics by Sandra Velandia ⟡,⟡ Pavise Diamond Partner ⟡,107-06 71 Rd,Suite 302,Forest Hills,NY,11375,United States,,,,,40.71993183,-73.84339938,50,country_inferred
+99941961,⟡ Evri Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,1300 Pennsylvania Ave.,,Wilmington,DE,19806,United States,,,,,39.75321643,-75.55986185,50,country_inferred
+37393093,⟡ Flawless by Melissa Fox ⟡,⟡ Pavise Diamond Partner ⟡,470 Biltmore Way #102,,Coral Gables,FL,33134,United States,,,,,25.74802500,-80.26431599,50,country_inferred
+28825988,⟡ Formula Fig Culver Blvd ⟡,⟡ Pavise Diamond Partner ⟡,9300 Culver Boulevard,Unit 107,Culver City,CA,90232,United States,,,,https://formulafig.com/pages/culver-steps,34.02449800,-118.39334199,50,country_inferred
+114222376,⟡ Fountain Life Center ⟡,⟡ Pavise Diamond Partner ⟡,"6424 Alexandra Louise Dr,",Ste 120,Orlando,FL,32827,United States,,,,,28.37178529,-81.28213694,50,country_inferred
+27217146,⟡ Fuse Medspa & Wellness ⟡,⟡ Pavise Diamond Partner ⟡,51 E. Main St,,Avon,CT,06001,United States,,,,,41.80746850,-72.82681193,50,country_inferred
+155564275,⟡ Future Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,1807 SW 31st Avenue,,Hallandale,FL,33009,United States,,,,,25.99530799,-80.16866003,50,country_inferred
+32124762,⟡ Galiderm Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,9100 Belvedere Road #105,,Royal Palm Beach,FL,33411,United States,United States of America,15613360994,,http://www.galiderm.com,26.69107100,-80.19420598,50,country_normalized
+37143303,⟡ Gerrish Medesthetics-Scottsdale ⟡,⟡ Pavise Diamond Partner ⟡,"11648 E Shea Blvd,",Ste 101,Scottsdale,AZ,85259,United States,,,,,33.58298707,-111.82860156,50,country_inferred
+83569512,⟡ Get Refreshed ⟡,⟡ Pavise Diamond Partner ⟡,2455 SW 27th Ave,Suite 200,Miami,FL,33145,United States,,,,,25.74576499,-80.23780202,50,country_inferred
+95439837,⟡ Glamour Plastic Surgery and Med Spa ⟡,⟡ Pavise Diamond Partner ⟡,6300 West Loop S #620,,Bellaire,TX,77401,United States,,,,,29.71281168,-95.46107114,50,country_inferred
+27217168,⟡ Glo Medical Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,2228 Central Avenue,,Memphis,TN,38104,United States,,,,,35.12657551,-89.98761474,50,country_inferred
+55481854,⟡ Glow By Courtney Grace ⟡,⟡ Pavise Diamond Partner ⟡,400 NE 3rd Ave 2114,,Fort Lauderdale,FL,33301,United States,,,,,26.12640599,-80.14038502,50,country_inferred
+27217093,⟡ Greenwich Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,40 West Elm St,,Greenwich,CT,06830,United States,,,,https://www.greenwichdermatology.com/,41.02636722,-73.62791206,50,country_inferred
+30238446,⟡ Hailo Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,246 Federal Rd. Unit CL41-1 (Third Floor),,Brookfield,CT,06804,United States,United States of America,,,,41.44581101,-73.40478997,50,country_normalized
+92433149,⟡ Healthy Glow Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,2821 E Commercial Blvd. Suite 200,,Fort Lauderdale,FL,33308,United States,,,,,26.18990200,-80.10870503,50,country_inferred
+122452344,⟡ Herschthal Practice ⟡,⟡ Pavise Diamond Partner ⟡,7280 W Palmetto Park Rd.,#210,Boca Raton,FL,33433,United States,,,,,26.34941117,-80.15877358,50,country_inferred
+54100101,⟡ Hideout Boutique ⟡,⟡ Pavise Diamond Partner ⟡,1342 Colonial Blvd H57,,Fort Myers,FL,33907,United States,,,,,26.59430716,-81.88933626,50,country_inferred
+147654505,⟡ House of Preservations ⟡,⟡ Pavise Diamond Partner ⟡,3219 N Fitzhugh Ave,,Dallas,TX,75204,United States,,,,,32.81659547,-96.79360096,50,country_inferred
+162443120,⟡ Houston Skin Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,451 N Texas Ave,,Webster,TX,77598,United States,,,,,29.53521398,-95.12671300,50,country_inferred
+79372874,⟡ IAS Dallas ⟡,⟡ Pavise Diamond Partner ⟡,2935 Blackburn Street,Suite 100,Dallas,TX,75204,United States,,,,,32.80747768,-96.79451641,50,country_inferred
+106971914,⟡ IAS Fort Worth – Alliance ⟡,⟡ Pavise Diamond Partner ⟡,4560 Heritage Trace Pkwy,Suite 100,Fort Worth,TX,76244,United States,,,,,32.91417067,-97.28687219,50,name_whitespace; country_inferred
+79372883,⟡ IAS Fort Worth ⟡,⟡ Pavise Diamond Partner ⟡,2917 Crockett Street,,Fort Worth,TX,76107,United States,,,,,32.75010668,-97.35872171,50,country_inferred
+79372876,⟡ IAS Frisco ⟡,⟡ Pavise Diamond Partner ⟡,6947 Main Street,,Frisco,TX,75034,United States,,,,,33.15041801,-96.82468399,50,country_inferred
+79372880,⟡ IAS Plano ⟡,⟡ Pavise Diamond Partner ⟡,8232 Preston Road,Suite 115,Plano,TX,75024,United States,,,,,33.08996102,-96.80477496,50,country_inferred
+79372881,⟡ IAS San Antonio ⟡,⟡ Pavise Diamond Partner ⟡,19739 I-10,Suite 108,San Antonio,TX,78257,United States,,,,,29.62452002,-98.61074703,50,country_inferred
+56199443,⟡ Iwama Clinics ⟡,⟡ Pavise Diamond Partner ⟡,10386 Buena Ventura Dr,,Boca Raton,FL,33498,United States,,,,,26.37402798,-80.20798197,50,country_inferred
+155524293,"⟡ Jennifer Toole, LLC ⟡",⟡ Pavise Diamond Partner ⟡,6 Rose Ann Court,,Seekonk,MA,02771,United States,,,,,41.82441089,-71.30462794,50,country_inferred
+27616559,⟡ Johnson Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,5921 Riley Park Drive,,Fort Smith,AR,72916,United States,,,,https://johnsondermatology.com/,35.27221520,-94.36919498,50,country_inferred
+121249925,⟡ JOLA Med Spa ⟡,⟡ Pavise Diamond Partner ⟡,9201 N Central Expy STE 350,,Dallas,TX,75225,United States,,,,,32.87374500,-96.77142370,50,country_inferred
+54250358,⟡ Jules Med Spa ⟡,⟡ Pavise Diamond Partner ⟡,3010 Napier Park,Suite 102,Shavano Park,TX,78231,United States,,,,https://julesmedspa.com/,29.59964601,-98.54137001,50,name_whitespace; country_inferred
+117713095,⟡ Juvly Altoona ⟡,⟡ Pavise Diamond Partner ⟡,"3040 Meadowlark Lane, Ste 1",,Altoona,WI,54720,United States,,,,,44.81994941,-91.45922660,50,country_inferred
+88020436,⟡ Juvly Chanhassen ⟡,⟡ Pavise Diamond Partner ⟡,18920 Lake Dr E,Suite 120,Chanhassen,MN,55317,United States,,,,,44.86099363,-93.51867840,50,country_inferred
+88020439,⟡ Juvly Cincinnati ⟡,⟡ Pavise Diamond Partner ⟡,2711 Edmondson Road,,Cincinnati,OH,45208,United States,,,,,39.10626799,-84.51120999,50,country_inferred
+95593085,⟡ Juvly Cleveland ⟡,⟡ Pavise Diamond Partner ⟡,1406 W 6th St,3rd Floor,Cleveland,OH,44113,United States,,,,,41.49878255,-81.69807891,50,country_inferred
+88020445,⟡ Juvly Dallas ⟡,⟡ Pavise Diamond Partner ⟡,1303 W Walnut Hill Ln,Ste 200,Irving,TX,75038,United States,,,,,32.88554999,-96.96880503,50,country_inferred
+88020452,⟡ Juvly Downtown Columbus ⟡,⟡ Pavise Diamond Partner ⟡,40 West Gay Street,,Columbus,OH,43215,United States,,,,,39.96374402,-83.00215301,50,country_inferred
+88020453,⟡ Juvly Ft Lauderdale ⟡,⟡ Pavise Diamond Partner ⟡,4750 N Federal Hwy,302,Fort Lauderdale,FL,33308,United States,,,,,26.18608300,-80.11654899,50,country_inferred
+88020433,⟡ Juvly New York ⟡,⟡ Pavise Diamond Partner ⟡,15 W 39th St,4th floor,New York,NY,10018,United States,,,,,40.75220807,-73.98348889,50,country_inferred
+88020447,⟡ Juvly Polaris ⟡,⟡ Pavise Diamond Partner ⟡,1120 Polaris Pkwy,# 202,Columbus,OH,43240,United States,,,,,40.14467000,-82.98938302,50,country_inferred
+88020427,⟡ Juvly Vadnais Heights ⟡,⟡ Pavise Diamond Partner ⟡,1060 Centerville Cir,,Vadnais Heights,MN,55127,United States,,,,,45.07580604,-93.05650571,50,country_inferred
+117713099,⟡ K-Glow Beauty ⟡,⟡ Pavise Diamond Partner ⟡,4716 111th Dr,,Lubbock,TX,79424,United States,,,,,33.49296699,-101.91352039,50,country_inferred
+35754737,⟡ Karee Hays Esthetics ⟡,⟡ Pavise Diamond Partner ⟡,"2309 Crestmoor Road, suite 200",,Nashville,TN,37215,United States,,,,,36.11007799,-86.81626102,50,country_inferred
+28029215,⟡ La Suite Skincare ⟡,⟡ Pavise Diamond Partner ⟡,270 Mason Street,,Greenwich,CT,06830,United States,,,,,41.02292799,-73.62410096,50,country_inferred
+27217114,⟡ Laser Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,9300 E. Raintree Dr.,#130 Room 8,Scottsdale,AZ,85260,United States,,,,,33.61925508,-111.88101833,50,country_inferred
+72862987,⟡ Laser Skin and Wellness ⟡,⟡ Pavise Diamond Partner ⟡,4270 Design Center Drive,Suite 100A,Palm Beach Gardens,FL,33410,United States,,,,,26.84158601,-80.09635597,50,country_inferred
+27616565,⟡ LAZ Skincare ⟡,⟡ Pavise Diamond Partner ⟡,32 Union Square East,#206,New York,NY,10003,United States,,,,https://www.lazskincare.com,40.73578253,-73.98950730,50,country_inferred
+29803930,⟡ Lennox Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,"1615 S. Federal Hw, #100",,Boca Raton,FL,33432,United States,,,,http://www.lennoxaesthetics.com,26.33525401,-80.08865904,50,country_inferred
+30625201,⟡ Lewis Dermatology and Associates ⟡,⟡ Pavise Diamond Partner ⟡,"120 E 75th St., STE 1A",,New York,NY,10021,United States,United States of America,,,,40.77256725,-73.96148220,50,country_normalized
+112551362,⟡ LH Med Spa and Wellness ⟡,⟡ Pavise Diamond Partner ⟡,10-12 Elmer Street,,Madison,NJ,07940,United States,,,,http://lhmedspaandwellness.com,40.75872558,-74.41292430,50,name_whitespace; country_inferred
+154182105,⟡ Lily Aesthetics & Wellness ⟡,⟡ Pavise Diamond Partner ⟡,14785 Preston Rd,ste 175,Dallas,TX,75254,United States,,,,,32.94932919,-96.80425763,50,country_inferred
+32126380,⟡ Liquid Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,"2377 Main St, 2nd Floor",,Glastonbury,CT,06033,United States,United States of America,18604302636,,,41.71239099,-72.60921602,50,country_normalized
+45025493,⟡ Live Vibrant ⟡,⟡ Pavise Diamond Partner ⟡,"1313 W Boynton Beach Blvd, Suite R-11",,Boynton Beach,FL,33426,United States,,,,,26.52824901,-80.08666398,50,country_inferred
+142911524,⟡ Live Young Wellness Spa ⟡,⟡ Pavise Diamond Partner ⟡,2931 Long Prairie Rd Unit 100,,Flower Mound,TX,75022,United States,,,,,33.02518579,-97.07248725,50,country_inferred
+27217143,⟡ Lumier Medical ⟡,⟡ Pavise Diamond Partner ⟡,23639 Hawthorne Blvd.,Ste 300,Torrance,CA,90505,United States,,,,,33.81052400,-118.35153200,50,country_inferred
+48791224,⟡ Luminate ⟡,⟡ Pavise Diamond Partner ⟡,8614 S College Ave,,Tulsa,OK,74137,United States,,,,,36.03850098,-95.94663898,50,country_inferred
+42081598,⟡ Luxe Atelier Spa ⟡,⟡ Pavise Diamond Partner ⟡,101 S State,St #4110,Lake Oswego,OR,97034,United States,,,,,45.41500598,-122.66345797,50,country_inferred
+162157502,⟡ Magakyan Medical Mgmt ⟡,⟡ Pavise Diamond Partner ⟡,100 Town Square Place,Suite 409,Jersey City,NJ,07310,United States,,,,,40.72683718,-74.03325963,50,country_inferred
+39233647,"⟡ Mariela Cogorno MD, PLLC ⟡",⟡ Pavise Diamond Partner ⟡,"6705 Red Road,",Suite 504,Coral Gables,FL,33143,United States,,,,,25.70651906,-80.28537485,50,country_inferred
+27217095,⟡ Marsha's Skin Care & Medical Spa ⟡,⟡ Pavise Diamond Partner ⟡,4221 Pleasant Valley Rd,,Virginia Beach,VA,23464,United States,,,,,36.78766027,-76.15151248,50,country_inferred
+48000075,⟡ Maxwell Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,2490 E. River Rd,,Tucson,AZ,85718,United States,,,,,32.28426327,-110.93383231,50,country_inferred
+27217131,⟡ McRae MD and Laser ⟡,⟡ Pavise Diamond Partner ⟡,117 Saunders St,,Boerne,TX,78006,United States,,,,http://www.mcraemd.com,29.79374881,-98.72916176,50,country_inferred
+28451122,⟡ MD Beauty Labs Pa ⟡,⟡ Pavise Diamond Partner ⟡,320 S QUADRILLE BLVD,,WEST PALM BEACH,FL,33401,United States,,,,https://mdbeautylabs.com/,26.71109398,-80.05426901,50,country_inferred
+39026174,⟡ MDR Skin Studio ⟡,⟡ Pavise Diamond Partner ⟡,108 SW 9th St,Suite 17,Miami,FL,33130,United States,,,,https://mdrskinstudio.com/,25.73730300,-80.25192996,50,country_inferred
+27217109,"⟡ Melissa Langley, MD ⟡",⟡ Pavise Diamond Partner ⟡,3817 Bedford Ave.,Suite 230,Nashville,TN,37215,United States,,,,https://langleyskin.com/,36.10845916,-86.82051422,50,country_inferred
+52661972,⟡ Mindful Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,9201 N. Central Expressway,Ste. 210,Dallas,TX,75231,United States,United States of America,,,,32.87308899,-96.77164901,50,country_normalized
+29803928,⟡ Modern Esthetics ⟡,⟡ Pavise Diamond Partner ⟡,343 N Canon Dr,,Beverly Hills,CA,90210,United States,United States of America,,,,34.06999912,-118.40037701,50,country_normalized
+51004953,⟡ MORPH MED SPA ⟡,⟡ Pavise Diamond Partner ⟡,"63 Copps Hill Road, STE 200",,Ridgefield,CT,06877,United States,,,,,41.29581602,-73.49426302,50,country_inferred
+116444346,⟡ MurgaSkin Labs ⟡,⟡ Pavise Diamond Partner ⟡,4016 Edgewater Dr,,Orlando,FL,32804,United States,,,,,28.58933411,-81.39416737,50,country_inferred
+35834846,⟡ My Skin Dealer ⟡,⟡ Pavise Diamond Partner ⟡,"364 E. Palmetto Park Rd, #4",,Boca Raton,FL,33432,United States,,,,,26.35030200,-80.08036498,50,country_inferred
+41388161,⟡ Nashville Cosmetic Surgery ⟡,⟡ Pavise Diamond Partner ⟡,"4322 Harding Pike,",Suite 314,Nashville,TN,37205,United States,,,,,36.12674201,-86.84721900,50,country_inferred
+27217162,⟡ National Center for Plastic Surgery ⟡,⟡ Pavise Diamond Partner ⟡,7601 Lewinsville Rd,Ste 400,Vienna,VA,22102,United States,,,,,38.93463790,-77.20711265,50,country_inferred
+94547619,⟡ Nourish Skin and Wellness ⟡,⟡ Pavise Diamond Partner ⟡,4700 Homewood Ct,Suite 320,Raleigh,NC,27609,United States,,,,,35.84450581,-78.64207440,50,country_inferred
+32454382,⟡ Oahu Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,1329 Lusitana St.,,Honolulu,HI,96813,United States,United States of America,,,,21.30724601,-157.85197203,50,name_whitespace; country_normalized
+32454520,"⟡ Oksana Fursevich, RN ⟡",⟡ Pavise Diamond Partner ⟡,12340 Santa Monica Blvd Suite 130,,Los Angeles,CA,90025,United States,United States of America,13109225327,,,34.03899500,-118.46594503,50,country_normalized
+79372885,⟡ One Health & Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,4530 Donald Ross Rd.,,Palm Beach Gardens,FL,33410,United States,,,,,26.88216900,-80.10531103,50,country_inferred
+81107596,⟡ Peak Beauty Delray Beach ⟡,⟡ Pavise Diamond Partner ⟡,5030 Champion Blvd Suite G5,,Boca Raton,FL,33496,United States,,,,,26.44916999,-80.18327799,50,country_inferred
+32454517,⟡ Pinnacle Dermatology Belle Meade ⟡,⟡ Pavise Diamond Partner ⟡,24 White Bridge Road,,Nashville,TN,37205,United States,United States of America,16153520011,,,36.12707216,-86.85023084,50,country_normalized
+27217180,⟡ Pinnacle Dermatology Clarksville ⟡,⟡ Pavise Diamond Partner ⟡,290 Clear Sky Court,,Clarksville,TN,37043,United States,,,,https://pinnacleskin.com/our-locations/clarksville/,36.57215992,-87.29451430,50,country_inferred
+27217139,⟡ Pinnacle Dermatology Murfreesboro ⟡,⟡ Pavise Diamond Partner ⟡,1725 Medical Center Pkwy,Suite 350,Murfreesboro,TN,37129,United States,,,,https://pinnacleskin.com/our-locations/murfreesboro-center-parkway/,35.85772000,-86.42414200,50,country_inferred
+27217155,⟡ Premier Dermatology & Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,901 Southeast Plaza Avenue,Suite 5,Bentonville,AR,72712,United States,,,,https://premierderm.net/,36.33459530,-94.19921543,50,country_inferred
+27217123,⟡ Private Edition / Therapy Systems ⟡,⟡ Pavise Diamond Partner ⟡,4009 Hillsboro Pike,Suite 101,Nashville,TN,37215,United States,,,,https://www.privateedition.com/,36.10417400,-86.81582200,50,country_inferred
+49935436,⟡ Pure Skin Palm Beach ⟡,⟡ Pavise Diamond Partner ⟡,2810 S. Dixie Hwy,,West Palm Beach,FL,33405,United States,,,,,26.68798901,-80.05409903,50,country_inferred
+29803943,⟡ Rapaport Dermatology of Beverly Hills ⟡,⟡ Pavise Diamond Partner ⟡,"436 N. Bedford Dr., Suite 306",,Beverly Hills,CA,90210,United States,United States of America,,,https://www.rapdermbh.com/,34.06871099,-118.40536801,50,country_normalized
+57964174,⟡ Re Studios ⟡,⟡ Pavise Diamond Partner ⟡,1187 Coast Village Road,Suite 11,Santa Barbara,CA,93108,United States,,,,,34.42081232,-119.64498150,50,country_inferred
+28825992,⟡ Refined By Dani Michael ⟡,⟡ Pavise Diamond Partner ⟡,18452 Yorba Linda Blvd.,Suite B,Yorba Linda,CA,92886,United States,,,,,34.13637499,-117.86541077,50,country_inferred
+27217178,⟡ Refresh Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,5427 Bissonnet St,#500,Houston,TX,77081,United States,,,,https://www.refreshdermatology.com/,29.70344867,-95.47521564,50,country_inferred
+75738620,⟡ Rejorvenate ⟡,⟡ Pavise Diamond Partner ⟡,6971 N Federal Hwy,Suite 301,Boca Raton,FL,33487,United States,,,,,26.41598600,-80.07644350,50,country_inferred
+47389827,⟡ Rejuvené MD ⟡,⟡ Pavise Diamond Partner ⟡,7470 Cimarron Plaza,,El Paso,TX,79911,United States,,,,,31.88773898,-106.57157499,50,country_inferred
+152349479,⟡ Remedy Medical Aesthetics & Wellness ⟡,⟡ Pavise Diamond Partner ⟡,7767 Elm Creek Blvd N Ste 100,,Maple Grove,MN,55369,United States,,,,,45.09551130,-93.44679503,50,country_inferred
+95593094,⟡ Renew Beauty ⟡,⟡ Pavise Diamond Partner ⟡,8687 n central expressway ste2220,,Dallas,TX,75225,United States,,,,,32.86848980,-96.77497470,50,country_inferred
+30625202,⟡ Revival Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,8201 Preston Rd ste 440,,Dallas,TX,75225,United States,United States of America,,,https://revivalderm.com,32.86271798,-96.80482098,50,name_whitespace; country_normalized
+71810920,⟡ Rewind Advanced Aesthetics & Trichology ⟡,⟡ Pavise Diamond Partner ⟡,4834 Clearwater Way,,Lexington,KY,40515,United States,,,,,37.96312920,-84.49556250,50,country_inferred
+55024308,⟡ Riverchase Boca Raton – East ⟡,⟡ Pavise Diamond Partner ⟡,"200 Glades Road, Suite 1",,Boca Raton,FL,33432,United States,,,,,26.36103000,-80.09055704,50,country_inferred
+42081597,⟡ Riverchase Naples – North ⟡,⟡ Pavise Diamond Partner ⟡,1015 Crosspointe Dr.,,Naples,FL,34110,United States,,,,,26.27366999,-81.79868497,50,country_inferred
+155305012,⟡ Rumor Medical Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,430 S Herlong Ave,Suite 103,Rock Hill,SC,29732,United States,,,,,34.95460037,-81.05936658,50,country_inferred
+131530647,⟡ Sculpt Haus M ⟡,⟡ Pavise Diamond Partner ⟡,2200 W Wadley Suite 10,,Midland,TX,79705,United States,,,,,32.02425056,-102.10802463,50,country_inferred
+39301362,⟡ Shino Bay Cosmetic Dermatology & Laser Institute ⟡,⟡ Pavise Diamond Partner ⟡,350 East Las Olas Boulevard,Suite 110,Fort Lauderdale,FL,33301,United States,,,,https://www.shinobayderm.com/,26.11874300,-80.13983601,50,country_inferred
+105590886,⟡ Signature Dermatology And Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,5060 Tennyson Pkwy,Unit 100,Plano,TX,75024,United States,,,,,33.06406148,-96.79887863,50,name_whitespace; country_inferred
+43015948,⟡ Siperstein Dermatology Group ⟡,⟡ Pavise Diamond Partner ⟡,9897 HAGEN RANCH RD,,BOYNTON BEACH,FL,33472,United States,,,,,26.52944800,-80.16438099,50,country_inferred
+29343772,⟡ Sirena Medical Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,914 Hartford Tpke,STE 202,Waterford,CT,06385,United States,United States of America,,,https://www.sirenamedspact.com/,41.38043401,-72.15291200,50,country_normalized
+27217154,⟡ Skin Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,1896 Main Street,Suite D,Madison,MS,39110,United States,,,,https://skinaestheticsms.com/,32.46875320,-90.12911477,50,country_inferred
+27217151,⟡ Skin Beach ⟡,⟡ Pavise Diamond Partner ⟡,517 Paula Drive S.,,Dunedin,FL,34698,United States,,,,https://www.skinbeachinc.com/,28.04945956,-82.78250136,,country_inferred
+154179757,⟡ Skin Center of Florida NPB ⟡,⟡ Pavise Diamond Partner ⟡,840 US 1,,North Palm Beach,FL,33408,United States,,,,,26.82376855,-80.05970300,50,country_inferred
+109129130,⟡ Skin Perfect Medical Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,910 E. Birch Street,Suite 350,Brea,CA,92821,United States,,,,,33.91765727,-117.88675829,50,country_inferred
+131534210,⟡ Skin Perfections MedSpa ⟡,⟡ Pavise Diamond Partner ⟡,1201 E. Alton Gloor Blvd.,,Brownsville,TX,78526,United States,,,,,25.98049101,-97.49729501,50,country_inferred
+55481842,⟡ Skin Truth ⟡,⟡ Pavise Diamond Partner ⟡,6835 Shiloh Road East,Suite C-13,Alpharetta,GA,30005,United States,,,,,34.10819579,-84.20253911,50,country_inferred
+135859256,⟡ Skin Type Solutions ⟡,⟡ Pavise Diamond Partner ⟡,7257 NE 4th Avenue,,Miami,FL,33138,United States,,,,https://skintypesolutions.com/,25.84227196,-80.18905907,50,country_inferred
+34891868,⟡ SkinBEAUTIFUL RX ⟡,⟡ Pavise Diamond Partner ⟡,"180 W Olentangy St, Suite C",,Powell,OH,43065,United States,United States of America,,,https://skinbeautifulrx.com/,40.15844800,-83.08146602,50,country_normalized
+75739689,⟡ SkinSpirit Essential LLC ⟡,⟡ Pavise Diamond Partner ⟡,405 N Lamar Blvd,Ste 110,Austin,TX,78703,United States,,,,,30.26937630,-97.75464510,50,country_inferred
+122452324,⟡ SkinSpirit Houston ⟡,⟡ Pavise Diamond Partner ⟡,2401 Times Blvd,Ste 110,Houston,TX,77005,United States,,,,,29.71645625,-95.41540687,50,country_inferred
+93554061,⟡ SkinSpirit Katy ⟡,⟡ Pavise Diamond Partner ⟡,23501 Cinco Ranch Blvd Suite J110,,Katy,TX,77494,United States,,,,,29.74329498,-95.77596801,50,country_inferred
+95593086,⟡ SkinSpirit Nordstrom NYC (Beauty Haven) ⟡,⟡ Pavise Diamond Partner ⟡,232 West 58th St,,New York,NY,10019,United States,,,,,40.76665000,-73.98121002,50,country_inferred
+83440579,⟡ SkinSpirit North Austin ⟡,⟡ Pavise Diamond Partner ⟡,"9607 Research Boulevard, Ste 110",,Austin,TX,78759,United States,,,,,30.38854902,-97.74121803,50,name_whitespace; country_inferred
+102223289,⟡ SkinSpirit Park Ridge ⟡,⟡ Pavise Diamond Partner ⟡,146 Kinderkamack RD,Suite 2,Park Ridge,NJ,07656,United States,,,,,41.03432541,-74.03346666,50,country_inferred
+155564251,⟡ SkinSpirit Plano ⟡,⟡ Pavise Diamond Partner ⟡,2401 Preston Rd Suite F,,Plano,TX,75093,United States,,,,,33.03108854,-96.79543635,50,country_inferred
+93554060,⟡ SkinSpirit Preston Royal ⟡,⟡ Pavise Diamond Partner ⟡,5959 Royal Ln,#530,Dallas,TX,75230,United States,,,,,32.89577751,-96.80569521,50,country_inferred
+104358444,⟡ SkinSpirit Upper East Side NYC ⟡,⟡ Pavise Diamond Partner ⟡,160 E. 89th ST,,New York,NY,10128,United States,,,,,40.64942665,-73.91786043,50,name_whitespace; country_inferred
+98765132,⟡ SkinSpirit Wayzata ⟡,⟡ Pavise Diamond Partner ⟡,701 Lake St E,#175,Wayzata,MN,55391,United States,,,,,44.96931999,-93.51092799,50,country_inferred
+155564283,⟡ SkinSpirit West Lake Hills ⟡,⟡ Pavise Diamond Partner ⟡,"3300 Bee Cave Rd, Ste 290",,Austin,TX,78746,United States,,,,,30.27551398,-97.79900002,50,country_inferred
+152406703,⟡ SkinSpirit West Village Dallas ⟡,⟡ Pavise Diamond Partner ⟡,3636 Mckinney Ave,#170,Dallas,TX,75204,United States,,,,,32.80742931,-96.79682053,50,country_inferred
+32124758,⟡ Skintegrity ⟡,⟡ Pavise Diamond Partner ⟡,1001 N. Craycroft Rd Suite 460,,Tucson,AZ,85711,United States,United States of America,+15204422233,,http://MySkintegrity.com,32.23441629,-110.87565891,50,country_normalized
+93554065,⟡ Skyn Lab ⟡,⟡ Pavise Diamond Partner ⟡,17062 Preston rd Ste 126,,Dallas,TX,75248,United States,,,,,32.98264248,-96.80324635,50,country_inferred
+28029285,⟡ Source D'Eclat ⟡,⟡ Pavise Diamond Partner ⟡,1017 South Gaylord St.,,Denver,CO,80219,United States,,,,,39.69797302,-104.96209200,50,country_inferred
+33949855,⟡ South Coast Dermatology and Cosmetic Center ⟡,⟡ Pavise Diamond Partner ⟡,90 Libbey Pkwy # 200,,Weymouth,MA,02189,United States,United States of America,17813359700,,,42.19457523,-70.94536557,50,country_normalized
+66832347,⟡ Southeastern Plastic Surgery ⟡,⟡ Pavise Diamond Partner ⟡,2030 Fleischmann Rd,,Tallahassee,FL,32308,United States,,,,,30.47889449,-84.22292357,50,country_inferred
+49273942,⟡ Southlake Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,431 E Hwy 114 #300,,Southlake,TX,76092,United States,,,,https://southlakedermatology.com,32.95785501,-97.14535499,50,name_whitespace; country_inferred
+28029210,⟡ Spa Black Plastic Surgery ⟡,⟡ Pavise Diamond Partner ⟡,19310 Stone Oak Parkway,,SAN ANTONIO,TX,78258,United States,,,,,29.63290900,-98.49517802,50,country_inferred
+27217166,⟡ Starwood Medspa Frisco ⟡,⟡ Pavise Diamond Partner ⟡,6950 Lebanon Rd,Ste 105,Frisco,TX,75034,United States,,,,,33.12345427,-96.82551586,50,country_inferred
+83569513,⟡ Strauhs Studios ⟡,⟡ Pavise Diamond Partner ⟡,401 Broadway,Suite 213,New York,NY,10013,United States,,,,,40.71881783,-74.00257507,50,country_inferred
+38558222,⟡ Studnik and Wilentz Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,2999 NE 191 St Penthouse #1,,Aventura,FL,33180,United States,,,,http://horwitzdermatology.com,25.95264100,-80.14179897,50,country_inferred
+128791176,⟡ Sustain Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,"599 N Fair Oaks Ave, Suite 101",,Pasadena,CA,91103,United States,,,,https://sustainaesthetics.com/,34.15610582,-118.15081288,50,name_whitespace; country_inferred
+27217175,"⟡ Svelte Solutions, LLC ⟡",⟡ Pavise Diamond Partner ⟡,38A Grove Street; Suite 102,,Ridgefield,CT,06877,United States,,,,,41.23026755,-73.42671203,50,name_whitespace; country_inferred
+83440556,⟡ Texas Dermatology & Laser specialist ⟡,⟡ Pavise Diamond Partner ⟡,3320 Oakwell Court,,San Antonio,TX,78218,United States,,,,,29.50576899,-98.43097197,50,country_inferred
+155564252,⟡ The Aesthetics Society ⟡,⟡ Pavise Diamond Partner ⟡,261 e Southlake blvd Ste 100,,Southlake,TX,76092,United States,,,,,32.94016752,-97.14746597,50,country_inferred
+109129125,⟡ The Care ⟡,⟡ Pavise Diamond Partner ⟡,419 N Federal Hwy,Unit 113,Hallandale Beach,FL,33009,United States,,,,,25.99040801,-80.14277001,50,country_inferred
+117713096,⟡ The Comstock ⟡,⟡ Pavise Diamond Partner ⟡,7300 North Vía Paseo Del Sur,#206,Scottsdale,AZ,85258,United States,,,,,33.54338883,-111.90687697,50,country_inferred
+54100094,⟡ The LAB Medspa ⟡,⟡ Pavise Diamond Partner ⟡,1910 E State Hwy 114,,Southlake,TX,76092,United States,,,,,32.94573398,-97.12260198,50,country_inferred
+47389829,⟡ The Laser Lounge Naples ⟡,⟡ Pavise Diamond Partner ⟡,5100 Tamiami Trail North,#104,Naples,FL,34103,United States,,,,,26.20890202,-81.79980203,50,country_inferred
+33585862,⟡ The Laser Lounge Spa ⟡,⟡ Pavise Diamond Partner ⟡,20400 Trailside Dr,,Estero,FL,33928,United States,United States of America,12397281234,,https://estero.thelaserloungespa.com/,26.44273210,-81.81218118,50,country_normalized
+40399170,⟡ The Laser Studio ⟡,⟡ Pavise Diamond Partner ⟡,2600 Northside Crossing,,Macon,GA,31210,United States,,,,,32.89889901,-83.70588796,50,country_inferred
+30625205,⟡ The Look and Co. ⟡,⟡ Pavise Diamond Partner ⟡,1031 Chuck Dawley Blvd #4,,Mount Pleasant,SC,29464,United States,United States of America,,,https://thelookandco.com/,32.79632660,-79.85924199,50,name_whitespace; country_normalized
+62835338,⟡ The Practice Plastic Surgery ⟡,⟡ Pavise Diamond Partner ⟡,436 N Bedford Drive,Suite 103,Beverly Hills,CA,90210,United States,,,,,34.06885884,-118.40546750,50,country_inferred
+119967731,⟡ The Refined Ritual Spa ⟡,⟡ Pavise Diamond Partner ⟡,3109 Del Prado Blvd S #2,#2,Cape Coral,FL,33904,United States,,,,,26.59377554,-81.94158883,50,country_inferred
+27217092,⟡ The Shot Shop ⟡,⟡ Pavise Diamond Partner ⟡,841 Enfield Street,STE C,Enfield,CT,06082,United States,,,,https://ssmedspa.com/,41.99956881,-72.59361189,50,country_inferred
+105591371,⟡ The Skin Spot ⟡,⟡ Pavise Diamond Partner ⟡,117 N 5th Street,,Fort Pierce,FL,34950,United States,,,,,27.44745587,-80.32715562,50,name_whitespace; country_inferred
+39745192,⟡ The White Coat Beauty ⟡,⟡ Pavise Diamond Partner ⟡,1440 NW N River Dr,Suite 198,Miami,FL,33125,United States,,,,,25.78579220,-80.21983346,50,country_inferred
+29803962,⟡ Tighter Lines ⟡,⟡ Pavise Diamond Partner ⟡,1102 W. Indiantown Rd #7,,Jupiter,FL,33458,United States,United States of America,,,,26.93292901,-80.11333997,50,country_normalized
+54638583,⟡ Total Med Solutions ⟡,⟡ Pavise Diamond Partner ⟡,6101 Windcom Ct #310,,Plano,TX,75093,United States,,,,,33.05385098,-96.83249601,50,country_inferred
+42081601,⟡ Tranquility Skin & Body Care ⟡,⟡ Pavise Diamond Partner ⟡,1150 Yale St,Suite 6,Santa Monica,CA,90403,United States,,,,,34.03872900,-118.47567600,50,name_whitespace; country_inferred
+61878779,⟡ Trouve Medspa ⟡,⟡ Pavise Diamond Partner ⟡,24100 Chagrin Blvd,Ste 430,BEACHWOOD,OH,44122,United States,,,,,41.46397045,-81.50851815,50,country_inferred
+28825993,⟡ TruDerm Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,3319 South State Road 7,Suite 202,Wellington,FL,33449,United States,,,,https://trudermpa.com/,26.62944402,-80.20547327,50,country_inferred
+28029281,⟡ Trueglo Medspa ⟡,⟡ Pavise Diamond Partner ⟡,1250 Pine Ridge Road,,Naples,FL,34108,United States,,,,,26.21095102,-81.79488001,50,country_inferred
+156820097,⟡ Twin Ports Dermatology ⟡,⟡ Pavise Diamond Partner ⟡,1414 Woodland Ave,,Duluth,MN,55803,United States,,,,,46.81977863,-92.07589320,50,country_inferred
+27217150,⟡ U.S. Dermatology Partners - Derm Skincare ⟡,⟡ Pavise Diamond Partner ⟡,5310 Harvest Hill,#290,Dallas,TX,75219,United States,,,,http://dermskincare.com,32.92115394,-96.81715863,50,name_whitespace; country_inferred
+50067735,⟡ Urbane Aesthetiks ⟡,⟡ Pavise Diamond Partner ⟡,"2100 Alamo Rd, Ste 110",,Richardson,TX,75080,United States,,,,,32.97731000,-96.71656197,50,country_inferred
+27217149,⟡ US Derm-South Hulen ⟡,⟡ Pavise Diamond Partner ⟡,2801 S Hulen St,#400,Fort Worth,TX,76109,United States,,,,https://www.usdermatologypartners.com/locations/texas/fort-worth/2801-s-hulen-st-ste-400/,32.71055359,-97.38501596,50,country_inferred
+29803950,⟡ V Boutique Aesthetics & Wellness ⟡,⟡ Pavise Diamond Partner ⟡,"3618 Lantana Rd, Ste 101",,Lake Worth,FL,33462,United States,United States of America,,,,26.58781199,-80.09971200,50,country_normalized
+82459786,⟡ Venus Aesthetics ⟡,⟡ Pavise Diamond Partner ⟡,10271 sw 72nd street,Suite D105,Miami,FL,33173,United States,,,,,25.70239300,-80.35935001,50,country_inferred
+101071917,⟡ VRAI Medspa ⟡,⟡ Pavise Diamond Partner ⟡,6690 Roswell Rd,Suite 510,Sandy Springs,GA,30328,United States,,,,,33.93743111,-84.37930063,50,name_whitespace; country_inferred
+30625203,⟡ West Derm ⟡,⟡ Pavise Diamond Partner ⟡,"3838 Schaufele Ave, Ste 300",,Long Beach,CA,90808,United States,United States of America,,,https://www.westdermatology.com/,33.82867727,-118.14793103,50,country_normalized
+88020431,⟡Juvly Wausau ⟡,⟡ Pavise Diamond Partner ⟡,2302 Schofield Ave,Ste 3,Weston,WI,54476,United States,,,,,44.90930784,-89.59495337,50,country_inferred
