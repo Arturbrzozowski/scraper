@@ -7,10 +7,12 @@ save it to CSV.
 | --- | --- | --- | --- |
 | `cyspera_provider_scraper.py` | [cyspera.com/pages/find-a-provider](https://cyspera.com/pages/find-a-provider) | static JSON on Shopify CDN | `cyspera_providers.csv` |
 | `sente_store_scraper.py` | [sentelabs.com/pages/store-locator](https://sentelabs.com/pages/store-locator) | Closeby embed API | `sente_stores.csv` |
+| `calecim_directory_scraper.py` | [calecimprofessional.com/pages/pro-directory](https://calecimprofessional.com/pages/pro-directory) | Stockist.co API | `calecim_directory.csv` |
 | `dna_store_scraper.py` | DNA store locator | Blipstar widget | `dna_stores.csv` |
 
-None of the three needs a browser or an API key. Two of them dump their whole
-dataset in a single request; only the Blipstar one requires a search sweep.
+Four sites, four different locator backends, and none of them needs a browser
+or an API key. Three dump their whole dataset in a single request; only the
+Blipstar one requires a search sweep.
 
 ## Cyspera provider locator
 
@@ -157,6 +159,101 @@ record on this map, so they are not written to the CSV.
 - Every record shares the same `updated_at` minute (2026-09-17T00:02–00:03Z),
   which suggests the whole map was last bulk-reimported rather than edited
   per-location.
+
+## CALECIM Professional pro directory
+
+The page embeds a [Stockist](https://stockist.co) widget (tag `u7465`), which
+publishes a documented full-dump endpoint:
+
+```
+GET https://stockist.co/api/v1/{widget_tag}/locations/all
+```
+
+One unauthenticated request returns all 2995 records. The widget's other two
+endpoints add nothing: `/locations/search` returns the same records plus a
+`distance` relative to a query point, and `/locations/overview.js` is a geohash
+index used to place map pins. The widget tag is read from the page on each run
+(`data-stockist-widget-tag="..."`), with the last known tag as a fallback.
+
+```bash
+python calecim_directory_scraper.py
+python calecim_directory_scraper.py --raw-json calecim_raw.json
+python calecim_directory_scraper.py --no-repair   # source values, unmodified
+```
+
+Standard library only.
+
+### Why this source is the useful one
+
+It is the only one of the four with real contact data **and** structured
+address fields. 2387 of 2995 records have a phone number and 2120 have an
+email; 2584 have at least one of the two. It also splits clinics from salons
+via Stockist's filter taxonomy: **1126 Clinics, 1868 Salons**, which the other
+three sources cannot distinguish at all.
+
+### Fields available per record
+
+| Column | Coverage (2995 records) | Notes |
+| --- | --- | --- |
+| `id`, `name`, `latitude`, `longitude` | 2995 | |
+| `category` | 2994 | `Clinics` or `Salons`, from Stockist filters |
+| `address_line_1` | 2895 | |
+| `postal_code` | 2673 | after repair |
+| `phone` | 2387 | after repair |
+| `email` | 2120 | after repair |
+| `state` | 2488 | after repair |
+| `city` | 2098 | |
+| `website` | 939 | |
+| `address_line_2` | 325 | |
+| `country` | 2858 | derived; only 2188 in the source |
+| `description`, `image_url`, `full_address`, `priority` | **0** | present in the schema, null everywhere |
+
+The only custom fields defined on this map are two marker-icon URLs, which are
+presentation, not data, so they are not written to the CSV.
+
+### This data is dirty, and the scraper repairs it
+
+Normalisation is on by default; `--no-repair` turns it off. Every change is
+recorded per-row in a `data_flags` column, and `country_raw` always preserves
+the original value, so nothing is silently rewritten. Repairs applied on the
+current snapshot:
+
+| Repair | Records | What was wrong |
+| --- | --- | --- |
+| `country_normalized` | 1144 | 123 distinct country spellings: `US`, `USA`, `Us`, `United States`; `UK`, `GB`, `United Kingdome`; `AU`/`Au`; `TW`/`Tw` |
+| `country_inferred` | 739 | country blank, recovered from a US/Canadian/Australian region code or a Taiwanese district name |
+| `zip_recovered_from_country` | 84 | **a ZIP code sitting in the `country` field** with `postal_code` left empty — a column shift in their import |
+| `state_split_from_postal` | 76 | `postal_code` holding `MI 48313` rather than `48313` |
+| `country_from_tld` | 41 | country recovered from a `.ie`/`.pl`/`.hu` website or email domain |
+| `email_placeholder_blanked` | 27 | the literal string `NA` stored as an email address |
+| `country_not_a_country` | 22 | `Europe` in the country field |
+| `phone_comma_stripped` | 17 | **phone numbers mangled by thousands separators**: `665,930,009` for `665930009` |
+| `name_whitespace` | 14 | leading or trailing spaces in the name |
+| `email_multivalue` | 12 | two addresses in one field, semicolon-separated (flagged, not split) |
+| `phone_placeholder_blanked` | 6 | placeholder text in the phone field |
+| `email_malformed` | 4 | not an email address |
+| `website_recovered_from_country` | 4 | a URL in the `country` field, moved to `website` |
+| `email_was_url` | 2 | a URL in the `email` field |
+| `website_recovered_from_email` | 1 | as above, recovered into an empty `website` |
+
+### Remaining known problems
+
+- **137 records still have no country** and no signal to infer one from: no
+  region, no postal code, and either no web presence or only a generic `.com`
+  domain. Inferring these would require geocoding the coordinates, which the
+  scraper deliberately does not do.
+- **26 exact name+address duplicates** and 157 records sharing coordinates with
+  another record. Some of the latter are genuinely co-located (a clinic and a
+  salon at one address); they are not de-duplicated.
+- 101 email addresses appear on more than one record — group practices sharing
+  an inbox, not necessarily errors.
+- `city` is empty on 897 records even where `address_line_1` contains the city,
+  because Stockist stores whatever the importer put in each column.
+- Region codes `WA`, `SA` and `NT` are ambiguous between US, Australian and
+  Canadian schemes. The inference tables resolve them to the US reading and
+  exclude them from the Australian and Canadian sets, so a Western Australia
+  record with a blank country may be labelled United States. This affects a
+  small number of records and is the one repair rule that can be wrong.
 
 ## DNA store locator
 
