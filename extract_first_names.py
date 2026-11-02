@@ -43,6 +43,16 @@ BUSINESS_PATTERNS = [
     r'^medjuv.*', r'^medispa.*', r'^rejuve.*',
 ]
 
+# Ordinary words that show up as the first part of business emails
+# (e.g. "your_360@", "quality.medicalcos@", "services@")
+NON_NAME_WORDS = {
+    'your', 'my', 'the', 'edit', 'quality', 'services', 'business', 'miraculous',
+    'dogwood', 'rank', 'illume', 'aura', 'honey', 'doc', 'shop', 'store',
+    'studio', 'boutique', 'salon', 'lounge', 'bar', 'lab', 'vision', 'eye',
+    'eyecare', 'optometry', 'optical', 'dental', 'smile', 'body', 'face',
+    'luxe', 'pure', 'divine', 'elite', 'premier', 'luxury',
+}
+
 # Title prefixes that may appear before names in emails (e.g., "drandrea" = dr + andrea)
 TITLE_PREFIXES = ['dr', 'mr', 'mrs', 'ms', 'miss', 'prof', 'doc']
 
@@ -180,7 +190,8 @@ def find_name_in_string(text):
                 name_candidate = remainder[:length]
                 if name_candidate in COMMON_FIRST_NAMES:
                     remaining_after_name = remainder[length:]
-                    if remaining_after_name and len(remaining_after_name) >= 2:
+                    # "drandrea" (title + name) or "drandreasmith" (title + name + surname)
+                    if not remaining_after_name or len(remaining_after_name) >= 2:
                         return name_candidate
 
     # Try progressively longer prefixes to find a match
@@ -251,6 +262,27 @@ def is_single_initial_pattern(text):
     return False
 
 
+# Two-consonant openings that real first names start with (sh-ena, cr-ystal, ...)
+VALID_ONSETS = {
+    'bh', 'bl', 'br', 'ch', 'dh', 'gh', 'cl', 'cr', 'dr', 'dw', 'fl', 'fr', 'gl', 'gr', 'gw',
+    'kh', 'kl', 'kr', 'ph', 'pl', 'pr', 'rh', 'sc', 'sh', 'sk', 'sl', 'sm',
+    'sn', 'sp', 'st', 'sv', 'sw', 'th', 'tr', 'tw', 'wh', 'wr', 'zh',
+}
+
+
+def looks_like_initial_plus_surname(text):
+    """
+    True for strings like 'hjohnson', 'cmiller', 'kczimm' whose first two letters
+    are consonants that no first name starts with. Used on the part before a
+    '.', '_' or '-' separator, where is_single_initial_pattern is too aggressive.
+    """
+    if len(text) < 4 or not text.isalpha():
+        return False
+    vowels = 'aeiouy'
+    return (text[0] not in vowels and text[1] not in vowels
+            and text[:2] not in VALID_ONSETS)
+
+
 def extract_first_name(email):
     """
     Extract a first name from an email address.
@@ -273,15 +305,39 @@ def extract_first_name(email):
 
     # Pattern 1: firstname.lastname or firstname_lastname or firstname-lastname
     # Extract first name BEFORE checking business patterns on full local part
-    if '.' in local_part:
-        first_name = local_part.split('.')[0]
-    elif '_' in local_part:
-        first_name = local_part.split('_')[0]
-    elif '-' in local_part:
-        parts = local_part.split('-')
-        # For hyphenated, first part is likely the first name
-        first_name = parts[0]
+    sep = next((s for s in ('.', '_', '-') if s in local_part), None)
+    if sep:
+        first_name = local_part.split(sep)[0]
+        if first_name not in COMMON_FIRST_NAMES:
+            # "dr.tiffany" -> Tiffany, "dr.kateimpastato" -> Kate, "dr.smith" -> ''
+            if first_name in TITLE_PREFIXES:
+                parts = local_part.split(sep)
+                after = parts[1] if len(parts) > 1 else ''
+                if after in COMMON_FIRST_NAMES:
+                    return after.capitalize()
+                found = find_name_in_string(after)
+                return found.capitalize() if found else ''
+            # "ap.roosevelt", "ea-aesthetics": initials, not a name
+            if len(first_name) < 3:
+                return ''
+            if first_name in NON_PERSONAL_PREFIXES or first_name in NON_NAME_WORDS:
+                return ''
+            for pattern in BUSINESS_PATTERNS:
+                if re.match(pattern, first_name):
+                    return ''
+            # "hjohnson.od", "cmiller_od": initial + last name
+            if looks_like_initial_plus_surname(first_name):
+                return ''
     else:
+        # "drk", "drb", "drc": title + initial only
+        for prefix in ('dr', 'doc'):
+            if local_part.startswith(prefix) and len(local_part) - len(prefix) <= 2:
+                return ''
+        if local_part in NON_NAME_WORDS:
+            return ''
+        # "ap@", "jm@": initials / department codes
+        if len(local_part) < 3 and local_part not in COMMON_FIRST_NAMES:
+            return ''
         # Pattern 2: Single word - check for business patterns first
         for pattern in BUSINESS_PATTERNS:
             if re.match(pattern, local_part):
@@ -295,7 +351,7 @@ def extract_first_name(email):
         elif find_name_in_string(local_part):
             first_name = find_name_in_string(local_part)
         # Check for single initial + lastname pattern (e.g., kschoales)
-        elif is_single_initial_pattern(local_part):
+        elif is_single_initial_pattern(local_part) or looks_like_initial_plus_surname(local_part):
             return ''
         # If it's short enough and looks like a name, use it
         elif is_likely_first_name(local_part) and len(local_part) <= 8:
